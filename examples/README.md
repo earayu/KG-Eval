@@ -14,7 +14,11 @@ This directory contains examples demonstrating how to use the KG-Eval framework.
 
 1. Install the KG-Eval package:
 ```bash
-cd ..  # Go back to project root
+# If you haven't cloned the repository yet:
+# git clone https://github.com/earayu/KG-Eval.git
+# cd KG-Eval
+
+# Install dependencies
 uv sync
 ```
 

@@ -32,11 +32,15 @@ KG-Eval 是一个专门用于评估 **大语言模型构建知识图谱能力** 
 ### 1. 安装
 
 ```bash
-# 推荐使用 uv
-uv add kg-eval
+# 克隆仓库
+git clone https://github.com/earayu/KG-Eval.git
+cd KG-Eval
 
-# 或使用 pip
-pip install kg-eval
+# 推荐使用 uv 安装
+uv sync
+
+# 或使用 pip 安装
+pip install -e .
 ```
 
 ### 2. 配置环境（可选）
@@ -252,11 +256,7 @@ kg-eval evaluate my_kg.json \
 ### 本地开发
 
 ```bash
-# 克隆仓库
-git clone https://github.com/earayu/KG-Eval.git
-cd KG-Eval
-
-# 安装开发依赖
+# 安装开发依赖（克隆仓库后）
 uv sync --dev
 
 # 运行测试

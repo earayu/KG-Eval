@@ -32,11 +32,15 @@ KG-Eval is a Python framework that provides **multi-dimensional evaluation** of 
 ### 1. Installation
 
 ```bash
-# Using uv (recommended)
-uv add kg-eval
+# Clone the repository
+git clone https://github.com/earayu/KG-Eval.git
+cd KG-Eval
 
-# Using pip
-pip install kg-eval
+# Install with uv (recommended)
+uv sync
+
+# Or install with pip
+pip install -e .
 ```
 
 ### 2. Environment Setup (Optional)
@@ -253,11 +257,7 @@ kg-eval evaluate my_kg.json \
 ### Local Development
 
 ```bash
-# Clone repository
-git clone https://github.com/earayu/KG-Eval.git
-cd KG-Eval
-
-# Install development dependencies
+# Install development dependencies (after cloning)
 uv sync --dev
 
 # Run tests
