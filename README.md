@@ -208,7 +208,7 @@ evaluator = KGEvaluator(llm_referee=referee)
 
 Below is a screenshot of KG-Eval's interactive HTML report, showcasing the comprehensive multi-dimensional analysis:
 
-![KG-Eval Report Screenshot](https://github.com/user-attachments/assets/c7c6f89a-8b5a-4b5a-9f6b-2c3d7a8e9c4f)
+![report.jpeg](report.jpeg)
 
 The report includes:
 - **Header Summary**: Generation timestamp, knowledge graph stats, and LLM referee status

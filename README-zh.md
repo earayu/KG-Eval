@@ -208,7 +208,7 @@ evaluator = KGEvaluator(llm_referee=referee)
 
 以下是 KG-Eval 交互式 HTML 报告的截图，展示了全面的多维度分析：
 
-![KG-Eval Report Screenshot](https://github.com/user-attachments/assets/c7c6f89a-8b5a-4b5a-9f6b-2c3d7a8e9c4f)
+![report.jpeg](report.jpeg)
 
 报告包含：
 - **头部摘要**：生成时间戳、知识图谱统计信息和 LLM 评估器状态
