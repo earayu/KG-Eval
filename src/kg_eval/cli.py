@@ -130,12 +130,30 @@ def evaluate(kg_file: str,
     # Perform evaluation
     click.echo("Starting evaluation...")
     try:
-        results = evaluator.evaluate_and_report(
-            kg=kg,
-            output_path=output,
-            include_dimensions=include_dimensions,
-            report_format=format
-        )
+        if output:
+            # User specified output - use original behavior
+            results = evaluator.evaluate_and_report(
+                kg=kg,
+                output_path=output,
+                include_dimensions=include_dimensions,
+                report_format=format
+            )
+        else:
+            # No output specified - generate default JSON + HTML reports
+            results = evaluator.evaluate(kg, include_dimensions=include_dimensions)
+            
+            # Generate default reports
+            base_name = os.path.splitext(os.path.basename(kg_file))[0]
+            json_output = f"{base_name}_evaluation_report.json"
+            html_output = f"{base_name}_evaluation_report.html"
+            
+            click.echo("📄 Generating JSON report...")
+            evaluator.report_generator.generate_json_report(results, json_output)
+            click.echo(f"JSON report saved to: {json_output}")
+            
+            click.echo("🌐 Generating HTML report...")
+            evaluator.report_generator.generate_html_report(results, html_output)
+            click.echo(f"HTML report saved to: {html_output}")
         
         # Print summary to console
         summary = evaluator.get_evaluation_summary(results)
@@ -161,6 +179,10 @@ def evaluate(kg_file: str,
         
         if output:
             click.echo(f"\nDetailed report saved to: {output}")
+        else:
+            click.echo(f"\nDetailed reports saved to:")
+            click.echo(f"  - {base_name}_evaluation_report.json")
+            click.echo(f"  - {base_name}_evaluation_report.html")
         
         click.echo("Evaluation completed successfully!")
         
@@ -286,43 +308,7 @@ def compare(kg_files: tuple,
         return
 
 
-@cli.command() 
-@click.argument('kg_file', type=click.Path(exists=True))
-@click.option('--output', '-o', type=click.Path(),
-              help='Output path for the radar chart HTML file')
-def radar(kg_file: str, output: Optional[str]):
-    """
-    Generate a radar chart visualization for a knowledge graph.
-    
-    The KG_FILE should be a JSON file containing the knowledge graph data.
-    """
-    click.echo(f"Generating radar chart for: {kg_file}")
-    
-    try:
-        # Load knowledge graph
-        with open(kg_file, 'r', encoding='utf-8') as f:
-            kg_data = json.load(f)
-        
-        kg = KnowledgeGraph(**kg_data)
-        
-        # Evaluate (without LLM referee for basic radar chart)
-        evaluator = KGEvaluator()
-        results = evaluator.evaluate(kg, include_dimensions=['scale_richness', 'structural_integrity', 'efficiency'])
-        
-        # Generate radar chart
-        from .report_generator import ReportGenerator
-        report_gen = ReportGenerator()
-        
-        if output:
-            report_gen.generate_radar_chart(results, output)
-            click.echo(f"Radar chart saved to: {output}")
-        else:
-            chart_html = report_gen.generate_radar_chart(results)
-            click.echo("Radar chart HTML generated (use --output to save)")
-        
-    except Exception as e:
-        click.echo(f"Error generating radar chart: {e}", err=True)
-        return
+
 
 
 def main():

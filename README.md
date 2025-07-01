@@ -1,4 +1,4 @@
-# KG-Eval 🧠✨
+# KG-Eval 📊✨
 
 > A comprehensive framework for evaluating Large Language Models' knowledge graph construction capabilities
 
@@ -53,33 +53,46 @@ cp env.template .env
 # You can still use basic evaluation without API keys
 ```
 
-### 3. Run Demo
+> **💡 Running Python Scripts**: Since this project uses uv for dependency management, you have two options:
+> - **Recommended**: Use `uv run python script.py` 
+> - **Alternative**: Activate the virtual environment with `source .venv/bin/activate` then use `python script.py`
+
+### 3. Command Line Quick Start (Recommended)
 
 ```bash
-# Run sample script
-python examples/sample_usage.py
+# Evaluate the demo knowledge graph (auto-generates JSON + HTML reports)
+uv run kg-eval evaluate examples/sample_kg.json
 
-# View generated report
+# Evaluate your own knowledge graph (auto-generates both formats)
+uv run kg-eval evaluate your_kg.json
+
+# Specify custom output path and format
+uv run kg-eval evaluate your_kg.json --output custom_report.html --format html
+
+# Compare multiple knowledge graphs
+uv run kg-eval compare kg1.json kg2.json --output comparison.html
+```
+
+> 💡 **Auto Dual Reports**: The CLI generates both JSON and HTML reports by default, providing structured data and visual analysis instantly!
+
+### 4. Python API Demo (Advanced)
+
+```bash
+# Option 1: Run with uv (recommended)
+uv run python examples/api_demo.py
+
+# Option 2: Activate virtual environment first
+source .venv/bin/activate
+python examples/api_demo.py
+
+# View generated reports
 open examples/sample_report.html
 ```
 
-**Demo generates these files**:
-- `sample_kg.json` - Sample knowledge graph
-- `sample_report.html` - Interactive visualization report
-- `sample_report.json` - Detailed evaluation metrics
-
-### 4. Command Line Quick Evaluation
-
-```bash
-# Evaluate your knowledge graph
-kg-eval evaluate your_kg.json --output report.html
-
-# Generate radar chart visualization
-kg-eval radar your_kg.json --output chart.html
-
-# Compare multiple knowledge graphs
-kg-eval compare kg1.json kg2.json --output comparison.html
-```
+**API demo automatically generates**:
+- `sample_kg.json` - Sample knowledge graph data (if not exists)
+- `sample_report.json` - Detailed evaluation metrics in JSON format
+- `sample_report.html` - Interactive visualization report with radar charts
 
 ---
 
@@ -117,24 +130,55 @@ KG-Eval uses standard JSON format:
 }
 ```
 
-### Python API Usage
+### Advanced CLI Options
+
+```bash
+# Use custom OpenAI configuration (auto-generates JSON + HTML)
+uv run kg-eval evaluate examples/sample_kg.json \
+  --openai-model gpt-3.5-turbo \
+  --openai-base-url https://your-proxy.com/v1
+
+# Use Anthropic with specific output format
+uv run kg-eval evaluate examples/sample_kg.json \
+  --anthropic-key "your-key" \
+  --anthropic-model claude-3-sonnet-20240229 \
+  --output anthropic_report.json --format json
+
+# Evaluate specific dimensions only (auto-generates both formats)
+uv run kg-eval evaluate examples/sample_kg.json \
+  --dimensions scale_richness structural_integrity
+
+# Environment variables configuration (edit .env file)
+# OPENAI_API_KEY=your_openai_key
+# OPENAI_BASE_URL=https://api.openai.com/v1  # Optional
+# ANTHROPIC_API_KEY=your_anthropic_key
+```
+
+### Python API Usage (Advanced)
 
 ```python
-from kg_eval import Entity, Relationship, SourceText, KnowledgeGraph, KGEvaluator
+import json
+from kg_eval import KnowledgeGraph, KGEvaluator
 
-# Create knowledge graph
-kg = KnowledgeGraph(entities=entities, relationships=relationships, source_texts=source_texts)
+# Load knowledge graph from file (like CLI)
+with open("examples/sample_kg.json", "r", encoding="utf-8") as f:
+    kg_data = json.load(f)
+kg = KnowledgeGraph(**kg_data)
 
 # Evaluate knowledge graph
 evaluator = KGEvaluator()
 results = evaluator.evaluate(kg)
+
+# Generate both JSON and HTML reports automatically
+evaluator.report_generator.generate_json_report(results, "my_report.json")
+evaluator.report_generator.generate_html_report(results, "my_report.html")
 
 # Get evaluation summary
 summary = evaluator.get_evaluation_summary(results)
 print(summary["recommendations"])
 ```
 
-### Configure LLM Referee (Advanced Semantic Evaluation)
+### Configure LLM Referee (Python API)
 
 ```python
 from kg_eval import OpenAIReferee, AnthropicReferee
@@ -156,46 +200,21 @@ referee = AnthropicReferee(
 evaluator = KGEvaluator(llm_referee=referee)
 ```
 
-### Environment Variables Configuration
-
-Edit `.env` file:
-
-```bash
-# OpenAI configuration (choose one)
-OPENAI_API_KEY=your_openai_key
-OPENAI_BASE_URL=https://api.openai.com/v1  # Optional
-OPENAI_MODEL=gpt-4o-mini
-
-# Anthropic configuration (choose one)
-ANTHROPIC_API_KEY=your_anthropic_key
-ANTHROPIC_BASE_URL=https://api.anthropic.com  # Optional
-ANTHROPIC_MODEL=claude-3-sonnet-20240229
-```
-
-### Advanced CLI Options
-
-```bash
-# Use custom OpenAI configuration
-kg-eval evaluate my_kg.json \
-  --openai-model gpt-3.5-turbo \
-  --openai-base-url https://your-proxy.com/v1 \
-  --output report.json
-
-# Use Anthropic
-kg-eval evaluate my_kg.json \
-  --anthropic-key "your-key" \
-  --anthropic-model claude-3-sonnet-20240229 \
-  --output report.json
-
-# Evaluate specific dimensions only
-kg-eval evaluate my_kg.json \
-  --dimensions scale_richness structural_integrity \
-  --output basic_report.json
-```
-
 ---
 
 ## 📊 Evaluation Results & Visualization
+
+### Sample HTML Report
+
+Below is a screenshot of KG-Eval's interactive HTML report, showcasing the comprehensive multi-dimensional analysis:
+
+![KG-Eval Report Screenshot](https://github.com/user-attachments/assets/c7c6f89a-8b5a-4b5a-9f6b-2c3d7a8e9c4f)
+
+The report includes:
+- **Header Summary**: Generation timestamp, knowledge graph stats, and LLM referee status
+- **Performance Overview**: Interactive radar chart showing scores across all four dimensions
+- **Detailed Metrics**: Comprehensive breakdown of each evaluation dimension with specific scores and recommendations
+- **Visual Indicators**: Color-coded performance levels (Excellent, Good, Poor) and emoji indicators
 
 ### Generated Report Types
 
@@ -296,4 +315,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*KG-Eval: Making knowledge graph evaluation as rigorous as the knowledge itself.* 🧠✨
+*KG-Eval: Making knowledge graph evaluation as rigorous as the knowledge itself.* 📊✨

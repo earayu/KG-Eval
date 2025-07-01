@@ -1,4 +1,4 @@
- # KG-Eval 🧠✨
+ # KG-Eval 📊✨
 
 > 评估大语言模型知识图谱构建能力的综合框架
 
@@ -53,33 +53,46 @@ cp env.template .env
 # 没有 API Key 也可以使用基础评估功能
 ```
 
-### 3. 运行 Demo
+> **💡 运行 Python 脚本**: 由于本项目使用 uv 进行依赖管理，你有两种运行方式：
+> - **推荐方式**: 使用 `uv run python 脚本.py` 
+> - **备选方式**: 先用 `source .venv/bin/activate` 激活虚拟环境，然后使用 `python 脚本.py`
+
+### 3. 命令行快速上手（推荐）
 
 ```bash
-# 运行示例脚本
-python examples/sample_usage.py
+# 评估示例知识图谱（自动生成JSON + HTML报告）
+uv run kg-eval evaluate examples/sample_kg.json
+
+# 评估你的知识图谱（自动生成双格式报告）
+uv run kg-eval evaluate your_kg.json
+
+# 指定自定义输出路径和格式
+uv run kg-eval evaluate your_kg.json --output custom_report.html --format html
+
+# 比较多个知识图谱
+uv run kg-eval compare kg1.json kg2.json --output comparison.html
+```
+
+> 💡 **自动双报告**：CLI默认生成JSON和HTML两种报告，立即提供结构化数据和可视化分析！
+
+### 4. Python API 示例（进阶）
+
+```bash
+# 方式一：使用 uv 运行（推荐）
+uv run python examples/api_demo.py
+
+# 方式二：先激活虚拟环境
+source .venv/bin/activate
+python examples/api_demo.py
 
 # 查看生成的报告
 open examples/sample_report.html
 ```
 
-**Demo 生成的文件**：
-- `sample_kg.json` - 示例知识图谱
-- `sample_report.html` - 可视化报告  
-- `sample_report.json` - 详细评估数据
-
-### 4. 命令行快速评估
-
-```bash
-# 评估你的知识图谱
-kg-eval evaluate your_kg.json --output report.html
-
-# 生成雷达图可视化
-kg-eval radar your_kg.json --output chart.html
-
-# 比较多个知识图谱
-kg-eval compare kg1.json kg2.json --output comparison.html
-```
+**API 示例自动生成**：
+- `sample_kg.json` - 示例知识图谱数据（如不存在则创建）
+- `sample_report.json` - JSON格式的详细评估指标
+- `sample_report.html` - 带雷达图的交互式可视化报告
 
 ---
 
@@ -117,24 +130,55 @@ KG-Eval 使用标准 JSON 格式：
 }
 ```
 
-### Python API 使用
+### 高级 CLI 选项
+
+```bash
+# 使用自定义 OpenAI 配置（自动生成JSON + HTML）
+uv run kg-eval evaluate examples/sample_kg.json \
+  --openai-model gpt-3.5-turbo \
+  --openai-base-url https://your-proxy.com/v1
+
+# 使用 Anthropic 并指定输出格式
+uv run kg-eval evaluate examples/sample_kg.json \
+  --anthropic-key "your-key" \
+  --anthropic-model claude-3-sonnet-20240229 \
+  --output anthropic_report.json --format json
+
+# 仅评估特定维度（自动生成双格式）
+uv run kg-eval evaluate examples/sample_kg.json \
+  --dimensions scale_richness structural_integrity
+
+# 环境变量配置（编辑 .env 文件）
+# OPENAI_API_KEY=your_openai_key
+# OPENAI_BASE_URL=https://api.openai.com/v1  # 可选
+# ANTHROPIC_API_KEY=your_anthropic_key
+```
+
+### Python API 使用（进阶）
 
 ```python
-from kg_eval import Entity, Relationship, SourceText, KnowledgeGraph, KGEvaluator
+import json
+from kg_eval import KnowledgeGraph, KGEvaluator
 
-# 创建知识图谱
-kg = KnowledgeGraph(entities=entities, relationships=relationships, source_texts=source_texts)
+# 从文件加载知识图谱（与CLI相同）
+with open("examples/sample_kg.json", "r", encoding="utf-8") as f:
+    kg_data = json.load(f)
+kg = KnowledgeGraph(**kg_data)
 
 # 评估知识图谱
 evaluator = KGEvaluator()
 results = evaluator.evaluate(kg)
+
+# 自动生成JSON和HTML两种格式的报告
+evaluator.report_generator.generate_json_report(results, "my_report.json")
+evaluator.report_generator.generate_html_report(results, "my_report.html")
 
 # 获取评估摘要
 summary = evaluator.get_evaluation_summary(results)
 print(summary["recommendations"])
 ```
 
-### 配置 LLM 评估器（高级语义评估）
+### 配置 LLM 评估器（Python API）
 
 ```python
 from kg_eval import OpenAIReferee, AnthropicReferee
@@ -156,46 +200,21 @@ referee = AnthropicReferee(
 evaluator = KGEvaluator(llm_referee=referee)
 ```
 
-### 环境变量配置
-
-编辑 `.env` 文件：
-
-```bash
-# OpenAI 配置（二选一）
-OPENAI_API_KEY=your_openai_key
-OPENAI_BASE_URL=https://api.openai.com/v1  # 可选
-OPENAI_MODEL=gpt-4o-mini
-
-# Anthropic 配置（二选一）
-ANTHROPIC_API_KEY=your_anthropic_key
-ANTHROPIC_BASE_URL=https://api.anthropic.com  # 可选
-ANTHROPIC_MODEL=claude-3-sonnet-20240229
-```
-
-### 高级 CLI 选项
-
-```bash
-# 使用自定义 OpenAI 配置
-kg-eval evaluate my_kg.json \
-  --openai-model gpt-3.5-turbo \
-  --openai-base-url https://your-proxy.com/v1 \
-  --output report.json
-
-# 使用 Anthropic
-kg-eval evaluate my_kg.json \
-  --anthropic-key "your-key" \
-  --anthropic-model claude-3-sonnet-20240229 \
-  --output report.json
-
-# 仅评估特定维度
-kg-eval evaluate my_kg.json \
-  --dimensions scale_richness structural_integrity \
-  --output basic_report.json
-```
-
 ---
 
 ## 📊 评估结果可视化
+
+### HTML 报告示例
+
+以下是 KG-Eval 交互式 HTML 报告的截图，展示了全面的多维度分析：
+
+![KG-Eval Report Screenshot](https://github.com/user-attachments/assets/c7c6f89a-8b5a-4b5a-9f6b-2c3d7a8e9c4f)
+
+报告包含：
+- **头部摘要**：生成时间戳、知识图谱统计信息和 LLM 评估器状态
+- **性能概览**：显示四个维度得分的交互式雷达图
+- **详细指标**：每个评估维度的全面细分，包含具体得分和建议
+- **视觉指示器**：色彩编码的性能等级（优秀、良好、较差）和表情符号指示器
 
 ### 生成的报告类型
 
@@ -295,4 +314,4 @@ isort src/
 
 ---
 
-*KG-Eval: 让知识图谱评估像知识本身一样严谨。* 🧠✨
+*KG-Eval: 让知识图谱评估像知识本身一样严谨。* 📊✨

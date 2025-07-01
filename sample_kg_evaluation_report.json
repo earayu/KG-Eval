@@ -1,0 +1,170 @@
+{
+  "kg_eval_report": {
+    "generated_at": "2025-07-01T14:22:23.287941",
+    "results": {
+      "evaluation_metadata": {
+        "kg_summary": "KnowledgeGraph(4159 entities, 6916 relationships, 616 source texts)",
+        "llm_referee_available": true,
+        "sample_size": 50,
+        "similarity_threshold": 0.7,
+        "included_dimensions": [
+          "scale_richness",
+          "structural_integrity",
+          "semantic_quality",
+          "efficiency"
+        ]
+      },
+      "scale_richness": {
+        "entity_count": 4159,
+        "relationship_count": 6916,
+        "source_text_count": 616,
+        "entity_property_fill_rate": 1.0,
+        "relationship_property_fill_rate": 1.0,
+        "overall_property_fill_rate": 1.0,
+        "unique_relationship_types": 3862,
+        "relationship_type_distribution": {
+          "军事行动": 711,
+          "军事对抗": 370,
+          "君臣关系": 363,
+          "军事部署": 334,
+          "主从关系": 302,
+          "地点": 216,
+          "军事合作": 210,
+          "忠诚": 182,
+          "上下级关系": 177,
+          "效忠": 159
+        },
+        "relationship_diversity_score": -0.0466
+      },
+      "structural_integrity": {
+        "graph_density": 1.6629,
+        "networkx_density": 0.0004,
+        "largest_connected_component_ratio": 0.699,
+        "singleton_ratio": 0.2746,
+        "connected_components_count": 1189,
+        "average_component_size": 3.4979,
+        "component_size_distribution": {
+          "1": 1142,
+          "2907": 1,
+          "2": 32,
+          "3": 11,
+          "5": 1,
+          "4": 2
+        },
+        "average_degree_centrality": 0.0008,
+        "pagerank_entropy": 11.1094,
+        "centrality_distribution_stats": {
+          "mean": 0.00024,
+          "std": 0.000607,
+          "max": 0.016587,
+          "min": 0.000133
+        },
+        "top_central_entities": [
+          [
+            "黄忠",
+            0.016587
+          ],
+          [
+            "曹操",
+            0.015727
+          ],
+          [
+            "魏延",
+            0.013491
+          ],
+          [
+            "玄德",
+            0.012136
+          ],
+          [
+            "马超",
+            0.00926
+          ]
+        ]
+      },
+      "semantic_quality": {
+        "entity_normalization_score": 0.742,
+        "potential_alias_pairs": [
+          [
+            "《三国演义》第一百十六回",
+            "《三国演义》第一百十一回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百十六回",
+            "《三国演义》第一百十九回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百十六回",
+            "《三国演义》第一百十三回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百三回",
+            "《三国演义》第一百十三回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百十一回",
+            "《三国演义》第一百一回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百十一回",
+            "《三国演义》第一百十九回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百十一回",
+            "《三国演义》第一百十三回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第一百十九回",
+            "《三国演义》第一百十三回",
+            0.9166666666666666
+          ],
+          [
+            "《三国演义》第七十六回",
+            "《三国演义》第七十七回",
+            0.9090909090909091
+          ],
+          [
+            "《三国演义》第七十六回",
+            "《三国演义》第三十六回",
+            0.9090909090909091
+          ]
+        ],
+        "alias_pairs_count": 1073,
+        "factual_precision": 0.92,
+        "factual_precision_details": {
+          "total_evaluated": 50,
+          "correct": 42,
+          "partially_correct": 8,
+          "incorrect": 0
+        },
+        "contextual_relevance": 0.26,
+        "contextual_relevance_details": {
+          "total_evaluated": 50,
+          "core_facts": 13,
+          "marginal_facts": 37
+        }
+      },
+      "efficiency": {
+        "knowledge_density_per_chunk": 17.9789,
+        "total_knowledge_items": 11075,
+        "total_source_chunks": 616,
+        "entities_per_character": 6.220442,
+        "relationships_per_character": 10.343971,
+        "average_entities_per_source": 6.7516,
+        "average_relationships_per_source": 11.2273,
+        "average_source_text_length": 1085.39,
+        "total_text_length": 668602,
+        "productive_source_ratio": 1.0,
+        "productive_sources": 616,
+        "unproductive_sources": 0
+      }
+    }
+  }
+}

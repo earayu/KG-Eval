@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "entity_name": "曹操",
+      "entity_type": "Person",
+      "description": "魏国的建立者，东汉末年著名政治家、军事家"
+    },
+    {
+      "entity_name": "刘备",
+      "entity_type": "Person",
+      "description": "蜀汉的建立者，东汉末年政治家"
+    },
+    {
+      "entity_name": "孙权",
+      "entity_type": "Person",
+      "description": "东吴的建立者，东汉末年政治家"
+    },
+    {
+      "entity_name": "赤壁之战",
+      "entity_type": "Event",
+      "description": "东汉末年的重要战役"
+    },
+    {
+      "entity_name": "魏国",
+      "entity_type": "Kingdom",
+      "description": null
+    },
+    {
+      "entity_name": "蜀汉",
+      "entity_type": "Kingdom",
+      "description": null
+    },
+    {
+      "entity_name": "东吴",
+      "entity_type": "Kingdom",
+      "description": null
+    }
+  ],
+  "relationships": [
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "魏国",
+      "description": "建立了魏国",
+      "keywords": [
+        "创建",
+        "统治"
+      ],
+      "weight": 0.9
+    },
+    {
+      "source_entity_name": "刘备",
+      "target_entity_name": "蜀汉",
+      "description": "建立了蜀汉",
+      "keywords": [
+        "创建",
+        "统治"
+      ],
+      "weight": 0.9
+    },
+    {
+      "source_entity_name": "孙权",
+      "target_entity_name": "东吴",
+      "description": "建立了东吴",
+      "keywords": [
+        "创建",
+        "统治"
+      ],
+      "weight": 0.9
+    },
+    {
+      "source_entity_name": "刘备",
+      "target_entity_name": "曹操",
+      "description": "在赤壁之战中联合孙权对抗曹操",
+      "keywords": [
+        "对抗",
+        "军事"
+      ],
+      "weight": 0.8
+    },
+    {
+      "source_entity_name": "孙权",
+      "target_entity_name": "曹操",
+      "description": "在赤壁之战中联合刘备对抗曹操",
+      "keywords": [
+        "对抗",
+        "军事"
+      ],
+      "weight": 0.8
+    },
+    {
+      "source_entity_name": "赤壁之战",
+      "target_entity_name": "曹操",
+      "description": "曹操在此战役中失败",
+      "keywords": [
+        "战败",
+        "军事"
+      ],
+      "weight": 0.7
+    }
+  ],
+  "source_texts": [
+    {
+      "content": "曹操是东汉末年著名的政治家、军事家，他统一了北方，建立了魏国政权。",
+      "linked_entity_names": [
+        "曹操",
+        "魏国"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "魏国"
+        ]
+      ]
+    },
+    {
+      "content": "刘备建立了蜀汉政权，与曹操、孙权形成三足鼎立的局面。",
+      "linked_entity_names": [
+        "刘备",
+        "蜀汉",
+        "曹操",
+        "孙权"
+      ],
+      "linked_edges": [
+        [
+          "刘备",
+          "蜀汉"
+        ]
+      ]
+    },
+    {
+      "content": "孙权建立东吴，统治江东地区，是三国时期的重要势力。",
+      "linked_entity_names": [
+        "孙权",
+        "东吴"
+      ],
+      "linked_edges": [
+        [
+          "孙权",
+          "东吴"
+        ]
+      ]
+    },
+    {
+      "content": "赤壁之战是三国时期的重要战役，刘备和孙权联合对抗曹操，最终曹操战败。",
+      "linked_entity_names": [
+        "赤壁之战",
+        "刘备",
+        "孙权",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "刘备",
+          "曹操"
+        ],
+        [
+          "孙权",
+          "曹操"
+        ],
+        [
+          "赤壁之战",
+          "曹操"
+        ]
+      ]
+    }
+  ]
+}
