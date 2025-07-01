@@ -1,96 +1,299 @@
-## **KG-Eval: A Framework for Evaluating Large Language Models' Knowledge Graph Construction Capabilities**
+# KG-Eval 🧠✨
 
-### **1. Introduction**
+> A comprehensive framework for evaluating Large Language Models' knowledge graph construction capabilities
 
-**KG-Eval** (Knowledge Graph Evaluation) is a comprehensive framework designed to thoroughly assess the ability of Large Language Models (LLMs) to construct knowledge graphs (KGs) from unstructured text. Traditional evaluation methods, such as merely counting nodes and edges, are far from sufficient to measure the quality, accuracy, and structural integrity of generated knowledge graphs. KG-Eval proposes a multi-dimensional, hierarchical evaluation system to provide a holistic and in-depth assessment solution.
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![uv](https://img.shields.io/badge/packaged%20with-uv-blueviolet)](https://github.com/astral-sh/uv)
 
-This framework's design is independent of underlying databases or specific implementation technologies. It operates on a set of abstract data objects defined by their core properties, including: **`Entities`**, **`Relationships`**, and **`Source Texts`**.
+## 🎯 What is KG-Eval?
 
----
-### **2. Core Data Objects**
+KG-Eval is a Python framework that provides **multi-dimensional evaluation** of knowledge graphs constructed by Large Language Models (LLMs).
 
-KG-Eval's evaluation process requires the following conceptual data objects as input.
+**Traditional evaluation problems**: Only looking at node/edge counts, ignoring quality and structure
+**KG-Eval's solution**: Comprehensive evaluation across four dimensions, similar to RAGAs but focused on knowledge graphs
 
-* **Entity Object**: Represents a node in the knowledge graph.
-    * `entity_name` (string, required): The **unique, canonical, human-readable name** of the entity (e.g., "Cao Cao"). This name serves as the primary key and unique identifier for the entity within the knowledge graph.
-    * `entity_type` (string, optional): The category of the entity (e.g., "Person", "Location").
-    * `description` (string, optional): A text description of the entity.
+> 📖 **For detailed technical design and methodology**, see [Framework Design Document](FRAMEWORK_DESIGN.md)  
+> 🌍 **中文文档**: [README-zh.md](README-zh.md)
 
-* **Relationship Object**: Represents a directed edge between two entities.
-    * `source_entity_name` (string, required): The `entity_name` of the source entity.
-    * `target_entity_name` (string, required): The `entity_name` of the target entity.
-    * `description` (string, required): A text description of the relationship (e.g., "defeated in the Battle of Red Cliffs").
-    * `keywords` (list of strings, optional): A list of keywords or tags summarizing the type of relationship.
-    * `weight` (float, optional): A numerical value representing the confidence or importance of the relationship.
+### Four Evaluation Dimensions
 
-* **Source Text Object**: Represents the original text snippet from which knowledge is extracted.
-    * `content` (string, required): The raw content of the text block.
-    * `linked_entity_names` (list of strings, required): A list of `entity_name`s extracted from this text block.
-    * `linked_edges` (list of tuples, required): A list of relationships extracted from this text block, where each relationship is represented by a tuple of `(source_entity_name, target_entity_name)`, used to establish the connection between the text and the graph structure.
+| Dimension | What It Evaluates | Core Metrics |
+|-----------|-------------------|--------------|
+| 🔢 **Scale & Richness** | Breadth and depth of extracted information | Entity count, relationship diversity, property completeness |
+| 🕸️ **Structural Integrity** | Graph connectivity and topological health | Graph density, connectedness, centrality distribution |
+| ✅ **Semantic Quality** | Accuracy, consistency, and relevance | Entity normalization, factual precision, contextual relevance |
+| ⚡ **Efficiency** | Text-to-knowledge transformation efficiency | Knowledge density, source coverage |
 
 ---
-### **3. Evaluation Dimensions and Metrics**
 
-KG-Eval assesses model performance across four fundamental dimensions.
+## 🚀 5-Minute Quick Start
 
-#### **Dimension One: Generative Scale & Richness**
+### 1. Installation
 
-* **Objective**: Measure the breadth and depth of information extracted by the model.
-* **Metrics**:
-    1.  **Entity/Relationship Count**: The overall size of the knowledge graph.
-    2.  **Property Fill Rate**: The proportion of optional attributes (e.g., `entity_type`, `description`, `keywords`) in `Entity` and `Relationship` objects that are successfully populated. **A higher fill rate indicates richer metadata in the graph.**
-    3.  **Relational Diversity**: The total number of distinct relationship types extracted. This is approximated by clustering or taking unique values from the `Relationship.keywords` field. **More diversity indicates a stronger ability of the model to identify complex relationships.**
+```bash
+# Using uv (recommended)
+uv add kg-eval
 
-#### **Dimension Two: Structural & Topological Integrity**
+# Using pip
+pip install kg-eval
+```
 
-* **Objective**: Analyze the health, connectivity, and structural characteristics of the graph using graph theory principles.
-* **Metrics**:
-    1.  **Graph Density**: Defined as `Total Relationships / Total Entities`, measuring the overall interconnectedness of the graph.
-    2.  **Connectedness Analysis**:
-        * **Largest Connected Component (LCC) Ratio**: The proportion of entities belonging to the Largest Connected Component relative to the total number of entities. The ideal value should be close to 1.0, representing a single, cohesive knowledge network.
-        * **Singleton Ratio**: The proportion of entities without any connections relative to the total number of entities. **A lower value is better.**
-    3.  **Centrality Distribution**:
-        * **Algorithm**: PageRank or Degree Centrality.
-        * **Assessment**: Examine whether the distribution of entity importance (centrality scores) aligns with domain common sense. For specific topics (e.g., *Romance of the Three Kingdoms*), core characters (e.g., "Cao Cao", "Liu Bei") should have the highest centrality scores. **This metric validates whether the graph structure accurately reflects the hierarchy of knowledge importance.**
+### 2. Environment Setup (Optional)
 
-#### **Dimension Three: Semantic Quality & Faithfulness**
+```bash
+# Copy environment configuration template
+cp env.template .env
 
-* **Objective**: Evaluate the "value" of the knowledge, focusing on its accuracy, consistency, and relevance.
-* **Metrics**:
-    1.  **Entity Normalization Score**:
-        * **Principle**: Since `entity_name` is a unique identifier, the model's ability to correctly **normalize** different textual mentions (e.g., "Zhuge Liang", "Kongming", "Sleeping Dragon") to a single, canonical `entity_name` ("Zhuge Liang") is crucial for measuring its intelligence. This metric aims to quantify the degree of "entity fragmentation."
-        * **Algorithm**:
-            1.  Identify pairs of entities with different names that might refer to the same real-world object within the dataset, using string similarity algorithms (e.g., Levenshtein distance) or a predefined alias dictionary. These are called "alias pairs."
-            2.  The score is inversely proportional to the number of identified alias pairs: `Score = 1 - (Number of Identified Alias Pairs / Total Entities)`.
-        * **Interpretation**: **A higher score indicates stronger entity normalization capabilities by the model, resulting in a "cleaner," higher-quality graph.**
-    2.  **Factual Precision (Faithfulness)**:
-        * **Algorithm**: This metric requires an external "referee" LLM.
-            1.  Randomly sample N `Relationship` objects.
-            2.  For each `relationship`, trace back to its corresponding `source_text.content`.
-            3.  Present both the `source text content` and the semantic triplet of the `relationship` (`source_entity_name`, `relationship_description`, `target_entity_name`) to the "referee" LLM.
-            4.  The "referee" determines if the relationship is "correct," "partially correct," or "incorrect/hallucination."
-        * **Interpretation**: Measures the graph's fidelity to the original text and its resistance to hallucination. `Precision = (Number of Correct + 0.5 * Number of Partially Correct) / N`.
-    3.  **Contextual Relevance**:
-        * **Algorithm**: This metric also requires a "referee" LLM.
-            1.  Randomly sample N `Entity` or `Relationship` objects and trace back to their `source_text.content`.
-            2.  Ask the "referee" LLM: "Is the sampled knowledge point a core fact from the source text, or a marginal, trivial piece of information?"
-        * **Interpretation**: This metric goes beyond simple correctness to assess whether the model can identify and prioritize important information, preventing the graph from being diluted by excessive insignificant details.
+# Edit .env file to add your API keys (for advanced semantic evaluation)
+# You can still use basic evaluation without API keys
+```
 
-#### **Dimension Four: End-to-End Efficiency**
+### 3. Run Demo
 
-* **Objective**: Measure the model's efficiency in transforming unstructured text into structured knowledge.
-* **Metric**:
-    1.  **Knowledge Density per Chunk**:
-        * **Calculation**: `(Total Entities + Total Relationships) / Total Source Texts`.
-        * **Interpretation**: How much structured knowledge can be produced from each unit of source text, on average.
+```bash
+# Run sample script
+python examples/sample_usage.py
+
+# View generated report
+open examples/sample_report.html
+```
+
+**Demo generates these files**:
+- `sample_kg.json` - Sample knowledge graph
+- `sample_report.html` - Interactive visualization report
+- `sample_report.json` - Detailed evaluation metrics
+
+### 4. Command Line Quick Evaluation
+
+```bash
+# Evaluate your knowledge graph
+kg-eval evaluate your_kg.json --output report.html
+
+# Generate radar chart visualization
+kg-eval radar your_kg.json --output chart.html
+
+# Compare multiple knowledge graphs
+kg-eval compare kg1.json kg2.json --output comparison.html
+```
 
 ---
-### **4. Final Evaluation and Report**
 
-The final evaluation report will synthesize metrics from all four dimensions to form a comprehensive analysis.
+## 💡 Advanced Usage
 
-* **Scoring**: Normalize the raw values of each metric to a uniform scale (e.g., 0 to 10 points).
-* **Visualization**: **Radar charts** are highly recommended for visually comparing the performance of different LLMs across all key dimensions. The axes of the radar chart can be set as: **Scalability, Richness, Connectivity, Faithfulness, Normalization Capability, Relevance**.
-* **Overall Score**: By calculating a weighted average of the metrics from each dimension, a total **KG-Eval Score** can be derived for quantitative ranking of models. Weights can be adjusted based on the specific application scenario of the knowledge graph (e.g., for high-risk medical knowledge graphs, "Factual Precision" and "Entity Normalization Score" should be given the highest weights).
+### Knowledge Graph Data Format
 
-The **KG-Eval** framework provides a structured, multi-dimensional, and extensible methodology for conducting deep and meaningful evaluations of any LLM's capabilities in knowledge graph construction tasks.
+KG-Eval uses standard JSON format:
+
+```json
+{
+  "entities": [
+    {
+      "entity_name": "Albert Einstein",
+      "entity_type": "Person",
+      "description": "Famous physicist"
+    }
+  ],
+  "relationships": [
+    {
+      "source_entity_name": "Albert Einstein",
+      "target_entity_name": "Theory of Relativity",
+      "description": "developed",
+      "keywords": ["science", "physics"],
+      "weight": 0.9
+    }
+  ],
+  "source_texts": [
+    {
+      "content": "Albert Einstein developed the Theory of Relativity.",
+      "linked_entity_names": ["Albert Einstein", "Theory of Relativity"],
+      "linked_edges": [["Albert Einstein", "Theory of Relativity"]]
+    }
+  ]
+}
+```
+
+### Python API Usage
+
+```python
+from kg_eval import Entity, Relationship, SourceText, KnowledgeGraph, KGEvaluator
+
+# Create knowledge graph
+kg = KnowledgeGraph(entities=entities, relationships=relationships, source_texts=source_texts)
+
+# Evaluate knowledge graph
+evaluator = KGEvaluator()
+results = evaluator.evaluate(kg)
+
+# Get evaluation summary
+summary = evaluator.get_evaluation_summary(results)
+print(summary["recommendations"])
+```
+
+### Configure LLM Referee (Advanced Semantic Evaluation)
+
+```python
+from kg_eval import OpenAIReferee, AnthropicReferee
+
+# OpenAI configuration
+referee = OpenAIReferee(
+    api_key="your-key",
+    model="gpt-4o-mini",
+    base_url="https://api.openai.com/v1"  # Optional: custom API endpoint
+)
+
+# Anthropic configuration
+referee = AnthropicReferee(
+    api_key="your-key", 
+    model="claude-3-sonnet-20240229"
+)
+
+# Use LLM referee
+evaluator = KGEvaluator(llm_referee=referee)
+```
+
+### Environment Variables Configuration
+
+Edit `.env` file:
+
+```bash
+# OpenAI configuration (choose one)
+OPENAI_API_KEY=your_openai_key
+OPENAI_BASE_URL=https://api.openai.com/v1  # Optional
+OPENAI_MODEL=gpt-4o-mini
+
+# Anthropic configuration (choose one)
+ANTHROPIC_API_KEY=your_anthropic_key
+ANTHROPIC_BASE_URL=https://api.anthropic.com  # Optional
+ANTHROPIC_MODEL=claude-3-sonnet-20240229
+```
+
+### Advanced CLI Options
+
+```bash
+# Use custom OpenAI configuration
+kg-eval evaluate my_kg.json \
+  --openai-model gpt-3.5-turbo \
+  --openai-base-url https://your-proxy.com/v1 \
+  --output report.json
+
+# Use Anthropic
+kg-eval evaluate my_kg.json \
+  --anthropic-key "your-key" \
+  --anthropic-model claude-3-sonnet-20240229 \
+  --output report.json
+
+# Evaluate specific dimensions only
+kg-eval evaluate my_kg.json \
+  --dimensions scale_richness structural_integrity \
+  --output basic_report.json
+```
+
+---
+
+## 📊 Evaluation Results & Visualization
+
+### Generated Report Types
+
+- **HTML Reports**: Interactive detailed analysis
+- **JSON Reports**: Structured data for further analysis
+- **Radar Charts**: Multi-dimensional performance overview
+- **Comparison Tables**: Side-by-side KG comparison
+
+### Evaluation Metrics Explained
+
+**Scale & Richness**:
+- Entity count, relationship count
+- Property fill rate
+- Relationship type diversity
+
+**Structural Integrity**:
+- Graph density (using NetworkX analysis)
+- Connected components analysis
+- Centrality distribution
+
+**Semantic Quality** (requires LLM):
+- Entity normalization score
+- Factual precision
+- Contextual relevance
+
+**Efficiency**:
+- Knowledge density per text chunk
+- Source text coverage rate
+
+---
+
+## 📚 Documentation & Resources
+
+### Complete Technical Documentation
+
+- **[Framework Design](FRAMEWORK_DESIGN.md)** - Detailed technical specification and design rationale
+- **[Examples & Tutorials](examples/README.md)** - Complete usage examples and tutorials
+- **[API Reference](docs/api.md)** - Complete API documentation
+- **[中文文档](README-zh.md)** - Chinese documentation
+
+### Real-World Applications
+
+- **LLM Knowledge Extraction Evaluation**: Assess different LLMs' KG construction capabilities
+- **Prompt Engineering Optimization**: Optimize knowledge extraction prompts through multi-dimensional evaluation
+- **Knowledge Graph Quality Monitoring**: Monitor KG quality in production environments
+- **Academic Research**: Standardized evaluation tools for KG construction research
+
+### Supported Custom Configurations
+
+- **API Proxies**: Support proxy access to OpenAI/Anthropic
+- **Azure OpenAI**: Support Azure OpenAI deployments
+- **Self-hosted Models**: Support LocalAI, Ollama, and other local deployments
+- **Enterprise API Gateways**: Support enterprise-grade API management
+
+---
+
+## 🛠️ Developer Guide
+
+### Local Development
+
+```bash
+# Clone repository
+git clone https://github.com/earayu/KG-Eval.git
+cd KG-Eval
+
+# Install development dependencies
+uv sync --dev
+
+# Run tests
+pytest
+
+# Format code
+black src/
+isort src/
+```
+
+### Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+---
+
+## 🤝 Community & Support
+
+- **GitHub Issues**: [Bug reports & feature requests](https://github.com/earayu/KG-Eval/issues)
+- **GitHub Discussions**: [Community discussions](https://github.com/earayu/KG-Eval/discussions)
+- **Email**: earayu@163.com
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Inspired by evaluation frameworks like RAGAs
+- Built with modern Python tools (uv, pydantic, networkx, plotly)
+- Designed for the growing field of LLM-powered knowledge extraction
+
+---
+
+*KG-Eval: Making knowledge graph evaluation as rigorous as the knowledge itself.* 🧠✨

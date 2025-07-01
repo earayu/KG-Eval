@@ -1,5 +1,7 @@
 ### **KG-Eval：大语言模型知识图谱构建能力评估框架**
 
+> 🌍 **English Documentation**: [FRAMEWORK_DESIGN.md](FRAMEWORK_DESIGN.md) | [README.md](README.md)
+
 #### **1. 引言**
 
 **KG-Eval** (Knowledge Graph Evaluation) 是一个旨在全面评估大语言模型（LLM）从非结构化文本中构建知识图谱（KG）能力的综合性框架。传统的评估方法，如仅统计节点和边的数量，远不足以衡量所生成知识图谱的质量、准确性及结构完整性。KG-Eval 提出一个多维度、分层次的评估体系，以提供一个整体性、深度的测评方案。
