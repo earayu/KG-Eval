@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KG-Eval Comparison Report</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header { 
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="25" cy="75" r="1" fill="rgba(255,255,255,0.05)"/><circle cx="75" cy="25" r="1" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+        }
+        
+        .header h1 { 
+            font-size: 3em; 
+            margin-bottom: 10px;
+            font-weight: 300;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .metadata {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .metadata-item {
+            text-align: left;
+        }
+        
+        .metadata-label {
+            font-weight: bold;
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+        
+        .metadata-value {
+            font-size: 1.1em;
+            margin-top: 5px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .chart-container { 
+            text-align: center; 
+            margin: 40px 0; 
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .comparison-charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .chart-section {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .chart-section h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        
+        table { 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        th, td { 
+            border: none;
+            padding: 15px; 
+            text-align: left; 
+        }
+        
+        th { 
+            background: linear-gradient(135deg, #495057 0%, #6c757d 100%);
+            color: white;
+            font-weight: 600;
+        }
+        
+        td {
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        tr:hover {
+            background: #e3f2fd;
+        }
+        
+        .best { 
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%) !important;
+            font-weight: bold;
+            color: #155724;
+        }
+        
+        .worst { 
+            background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%) !important;
+            font-weight: bold;
+            color: #721c24;
+        }
+        
+        .section { 
+            margin: 40px 0; 
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e9ecef;
+        }
+        
+        .section h2 { 
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        
+        .winner-banner {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        }
+        
+        .model-url {
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .header { padding: 20px; }
+            .header h1 { font-size: 2em; }
+            .content { padding: 15px; }
+            .section { margin: 20px 0; padding: 20px; }
+            .comparison-charts { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 KG-Eval Comparison Report</h1>
+            <div class="subtitle">Multi-Model Knowledge Graph Performance Analysis</div>
+            
+            <div class="metadata">
+                <strong>📊 Comparison Summary</strong>
+                <div class="metadata-grid">
+                    <div class="metadata-item">
+                        <div class="metadata-label">Generated</div>
+                        <div class="metadata-value">2025-08-06 12:49:21</div>
+                    </div>
+                    <div class="metadata-item">
+                        <div class="metadata-label">Models Compared</div>
+                        <div class="metadata-value">2</div>
+                    </div>
+                    <div class="metadata-item">
+                        <div class="metadata-label">Knowledge Graphs</div>
+                        <div class="metadata-value"><span class="model-url">gpt-oss-120b</span>, <span class="model-url">gemini-25-flash</span></div>
+                    </div>
+                    <div class="metadata-item">
+                        <div class="metadata-label">LLM Referee</div>
+                        <div class="metadata-value">❌ Not Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            
+        <div class="winner-banner">
+            🏆 Overall Winner: <strong>gpt-oss-120b</strong><br>
+            Won 8 out of 8 metrics
+        </div>
+        
+            
+            <div class="chart-container">
+                <h2 style="margin-bottom: 20px; color: #495057;">📈 Performance Comparison</h2>
+                <div class="comparison-charts">
+            <div class="chart-section">
+                <h3>📊 gpt-oss-120b</h3>
+                
+        <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
+            <div style="display: inline-block; text-align: center;">
+                
+        <div id="radar-chart-d87077f0" class="plotly-graph-div" style="height:600px; width:600px;"></div>
+        <script type="text/javascript">
+            Plotly.newPlot('radar-chart-d87077f0', [{"fill": "toself", "fillcolor": "rgba(0,100,200,0.3)", "line": {"color": "rgb(0,100,200)"}, "name": "KG Evaluation Scores", "r": [10.0, 6.328, 9.861, 10.0], "theta": ["Richness", "Connectivity", "Normalization", "Efficiency"], "type": "scatterpolar"}], {"template": {"data": {"histogram2dcontour": [{"type": "histogram2dcontour", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "choropleth": [{"type": "choropleth", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "histogram2d": [{"type": "histogram2d", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "heatmap": [{"type": "heatmap", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "contourcarpet": [{"type": "contourcarpet", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "contour": [{"type": "contour", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "surface": [{"type": "surface", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "mesh3d": [{"type": "mesh3d", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "scatter": [{"fillpattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}, "type": "scatter"}], "parcoords": [{"type": "parcoords", "line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterpolargl": [{"type": "scatterpolargl", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "bar"}], "scattergeo": [{"type": "scattergeo", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterpolar": [{"type": "scatterpolar", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "histogram": [{"marker": {"pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "histogram"}], "scattergl": [{"type": "scattergl", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatter3d": [{"type": "scatter3d", "line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattermap": [{"type": "scattermap", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattermapbox": [{"type": "scattermapbox", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterternary": [{"type": "scatterternary", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattercarpet": [{"type": "scattercarpet", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "barpolar"}], "pie": [{"automargin": true, "type": "pie"}]}, "layout": {"autotypenumbers": "strict", "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "hovermode": "closest", "hoverlabel": {"align": "left"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"bgcolor": "#E5ECF6", "angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "ternary": {"bgcolor": "#E5ECF6", "aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]]}, "xaxis": {"gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2}, "yaxis": {"gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "geo": {"bgcolor": "white", "landcolor": "#E5ECF6", "subunitcolor": "white", "showland": true, "showlakes": true, "lakecolor": "white"}, "title": {"x": 0.05}, "mapbox": {"style": "light"}}}, "polar": {"radialaxis": {"visible": true, "range": [0, 10]}}, "title": {"text": "KG-Eval Radar Chart", "x": 0.5}, "margin": {"l": 50, "r": 50, "t": 80, "b": 50}, "showlegend": true, "width": 600, "height": 600, "autosize": false}, {responsive: true, displayModeBar: false});
+        </script>
+        
+            </div>
+        </div>
+        
+            </div>
+            
+            <div class="chart-section">
+                <h3>📊 gemini-25-flash</h3>
+                
+        <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
+            <div style="display: inline-block; text-align: center;">
+                
+        <div id="radar-chart-8bc8cb7f" class="plotly-graph-div" style="height:600px; width:600px;"></div>
+        <script type="text/javascript">
+            Plotly.newPlot('radar-chart-8bc8cb7f', [{"fill": "toself", "fillcolor": "rgba(0,100,200,0.3)", "line": {"color": "rgb(0,100,200)"}, "name": "KG Evaluation Scores", "r": [10.0, 6.256, 9.741, 10.0], "theta": ["Richness", "Connectivity", "Normalization", "Efficiency"], "type": "scatterpolar"}], {"template": {"data": {"histogram2dcontour": [{"type": "histogram2dcontour", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "choropleth": [{"type": "choropleth", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "histogram2d": [{"type": "histogram2d", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "heatmap": [{"type": "heatmap", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "contourcarpet": [{"type": "contourcarpet", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "contour": [{"type": "contour", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "surface": [{"type": "surface", "colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}], "mesh3d": [{"type": "mesh3d", "colorbar": {"outlinewidth": 0, "ticks": ""}}], "scatter": [{"fillpattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}, "type": "scatter"}], "parcoords": [{"type": "parcoords", "line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterpolargl": [{"type": "scatterpolargl", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "bar"}], "scattergeo": [{"type": "scattergeo", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterpolar": [{"type": "scatterpolar", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "histogram": [{"marker": {"pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "histogram"}], "scattergl": [{"type": "scattergl", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatter3d": [{"type": "scatter3d", "line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattermap": [{"type": "scattermap", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattermapbox": [{"type": "scattermapbox", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scatterternary": [{"type": "scatterternary", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "scattercarpet": [{"type": "scattercarpet", "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "barpolar"}], "pie": [{"automargin": true, "type": "pie"}]}, "layout": {"autotypenumbers": "strict", "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "hovermode": "closest", "hoverlabel": {"align": "left"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"bgcolor": "#E5ECF6", "angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "ternary": {"bgcolor": "#E5ECF6", "aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]]}, "xaxis": {"gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2}, "yaxis": {"gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "geo": {"bgcolor": "white", "landcolor": "#E5ECF6", "subunitcolor": "white", "showland": true, "showlakes": true, "lakecolor": "white"}, "title": {"x": 0.05}, "mapbox": {"style": "light"}}}, "polar": {"radialaxis": {"visible": true, "range": [0, 10]}}, "title": {"text": "KG-Eval Radar Chart", "x": 0.5}, "margin": {"l": 50, "r": 50, "t": 80, "b": 50}, "showlegend": true, "width": 600, "height": 600, "autosize": false}, {responsive: true, displayModeBar: false});
+        </script>
+        
+            </div>
+        </div>
+        
+            </div>
+            </div>
+            </div>
+            
+            <div class="section">
+                <h2><span class="section-icon">📊</span>Detailed Metrics Comparison</h2>
+                <h2>Metric Comparison</h2>
+<table>
+<tr><th>Metric</th><th>gpt-oss-120b</th><th>gemini-25-flash</th></tr>
+<tr><td><strong>Singleton Ratio</strong></td><td class="worst">0.2823</td><td class="best">0.3516</td></tr>
+<tr><td><strong>Relationship Count</strong></td><td class="best">732</td><td class="worst">657</td></tr>
+<tr><td><strong>Entity Normalization Score</strong></td><td class="best">0.9861</td><td class="worst">0.9741</td></tr>
+<tr><td><strong>Lcc Ratio</strong></td><td class="best">0.6328</td><td class="worst">0.6256</td></tr>
+<tr><td><strong>Entity Count</strong></td><td class="best">719</td><td class="worst">657</td></tr>
+<tr><td><strong>Knowledge Density</strong></td><td class="best">29.0200</td><td class="worst">26.8163</td></tr>
+<tr><td><strong>Property Fill Rate</strong></td><td class="best">1.0000</td><td class="">1.0000</td></tr>
+<tr><td><strong>Graph Density</strong></td><td class="best">1.0181</td><td class="worst">1.0000</td></tr>
+</table>
+
+            </div>
+            
+            
+                <div class="section">
+                    <h2><span class="section-icon">⚡</span>Efficiency</h2>
+                    <table class="data-table"><tr><th>Metric</th><th>gpt-oss-120b</th><th>gemini-25-flash</th></tr><tr><td><strong>Average Entities Per Source</strong></td><td class="best">14.3800</td><td class="worst">13.4082</td></tr><tr><td><strong>Average Relationships Per Source</strong></td><td class="best">14.6400</td><td class="worst">13.4082</td></tr><tr><td><strong>Average Source Text Length</strong></td><td class="worst">1070.2200</td><td class="best">1091.7800</td></tr><tr><td><strong>Entities Per Character</strong></td><td class="best">13.4365</td><td class="worst">12.2811</td></tr><tr><td><strong>Knowledge Density Per Chunk</strong></td><td class="best">29.0200</td><td class="worst">26.8163</td></tr><tr><td><strong>Productive Source Ratio</strong></td><td class="best">1.0000</td><td class="">1.0000</td></tr><tr><td><strong>Productive Sources</strong></td><td class="best">50</td><td class="worst">49</td></tr><tr><td><strong>Relationships Per Character</strong></td><td class="best">13.6794</td><td class="worst">12.2811</td></tr><tr><td><strong>Total Knowledge Items</strong></td><td class="best">1451</td><td class="worst">1314</td></tr><tr><td><strong>Total Source Chunks</strong></td><td class="best">50</td><td class="worst">49</td></tr><tr><td><strong>Total Text Length</strong></td><td class="best">53511</td><td class="worst">53497</td></tr><tr><td><strong>Unproductive Sources</strong></td><td class="best">0</td><td class="">0</td></tr></table>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="section-icon">📏</span>Scale & Richness</h2>
+                    <table class="data-table"><tr><th>Metric</th><th>gpt-oss-120b</th><th>gemini-25-flash</th></tr><tr><td><strong>Entity Count</strong></td><td class="best">719</td><td class="worst">657</td></tr><tr><td><strong>Entity Property Fill Rate</strong></td><td class="best">1.0000</td><td class="">1.0000</td></tr><tr><td><strong>Overall Property Fill Rate</strong></td><td class="best">1.0000</td><td class="">1.0000</td></tr><tr><td><strong>Relationship Count</strong></td><td class="best">732</td><td class="worst">657</td></tr><tr><td><strong>Relationship Diversity Score</strong></td><td class="best">-0.0527</td><td class="worst">-0.0579</td></tr><tr><td><strong>Relationship Property Fill Rate</strong></td><td class="best">1.0000</td><td class="">1.0000</td></tr><tr><td><strong>Relationship Type Distribution</strong></td><td class="">{'8': 39, '9': 32, '冲突': 24, '指挥': 21, '任命': 19, '武器': 19, '7': 19, '权力': 16, '使用': 16, '战斗': 15}</td><td class="">{'军事行动': 49, '地点': 29, '盟友': 28, '冲突': 26, '军事对抗': 24, '效忠': 22, '参与': 21, '主从关系': 18, '敌对': 17, '主从': 17}</td></tr><tr><td><strong>Source Text Count</strong></td><td class="best">50</td><td class="worst">49</td></tr><tr><td><strong>Unique Relationship Types</strong></td><td class="best">799</td><td class="worst">704</td></tr></table>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="section-icon">🧠</span>Semantic Quality</h2>
+                    <table class="data-table"><tr><th>Metric</th><th>gpt-oss-120b</th><th>gemini-25-flash</th></tr><tr><td><strong>Alias Pairs Count</strong></td><td class="worst">10</td><td class="best">17</td></tr><tr><td><strong>Contextual Relevance</strong></td><td class="">None</td><td class="">None</td></tr><tr><td><strong>Contextual Relevance Details</strong></td><td class="">LLM referee not provided</td><td class="">LLM referee not provided</td></tr><tr><td><strong>Entity Normalization Score</strong></td><td class="best">0.9861</td><td class="worst">0.9741</td></tr><tr><td><strong>Factual Precision</strong></td><td class="">None</td><td class="">None</td></tr><tr><td><strong>Factual Precision Details</strong></td><td class="">LLM referee not provided</td><td class="">LLM referee not provided</td></tr><tr><td><strong>Potential Alias Pairs</strong></td><td class="">[('秦三十六年', '秦二十六年', 0.8), ('秦二十八年', '秦二十六年', 0.8), ('铁脊蛇矛', '铁脊矛', 0.75), ('传国玺', '传国玉玺', 0.75), ('方天戟', '方天画戟', 0.75), ('公孙瓒', '公孙瓒军', 0.75), ('骠骑将军', '车骑将军', 0.75), ('安喜县尉', '安喜县', 0.75), ('黄巾起义', '黄巾起', 0.75), ('点军司马', '行军司马', 0.75)]</td><td class="">[('《三国演义》第六回', '《三国演义》第二回', 0.8888888888888888), ('《三国演义》第六回', '《三国演义》第五回', 0.8888888888888888), ('《三国演义》第六回', '《三国演义》第九回', 0.8888888888888888), ('《三国演义》第二回', '《三国演义》第五回', 0.8888888888888888), ('《三国演义》第二回', '《三国演义》第九回', 0.8888888888888888), ('《三国演义》第五回', '《三国演义》第九回', 0.8888888888888888), ('八路诸侯讨董卓', '十八路诸侯讨董卓', 0.875), ('点军司马', '行军司马', 0.75), ('地公将军', '天公将军', 0.75), ('地公将军', '人公将军', 0.75)]</td></tr></table>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="section-icon">🏗️</span>Structural Integrity</h2>
+                    <table class="data-table"><tr><th>Metric</th><th>gpt-oss-120b</th><th>gemini-25-flash</th></tr><tr><td><strong>Average Component Size</strong></td><td class="best">3.0991</td><td class="worst">2.7490</td></tr><tr><td><strong>Average Degree Centrality</strong></td><td class="worst">0.0028</td><td class="best">0.0030</td></tr><tr><td><strong>Centrality Distribution Stats</strong></td><td class="">{'mean': np.float64(0.001391), 'std': np.float64(0.001696), 'max': np.float64(0.02602), 'min': np.float64(0.000871)}</td><td class="">{'mean': np.float64(0.001522), 'std': np.float64(0.002207), 'max': np.float64(0.031872), 'min': np.float64(0.000923)}</td></tr><tr><td><strong>Component Size Distribution</strong></td><td class="">{1: 203, 455: 1, 2: 25, 3: 2, 5: 1}</td><td class="">{1: 231, 411: 1, 2: 6, 3: 1}</td></tr><tr><td><strong>Connected Components Count</strong></td><td class="worst">232</td><td class="best">239</td></tr><tr><td><strong>Graph Density</strong></td><td class="best">1.0181</td><td class="worst">1.0000</td></tr><tr><td><strong>Largest Connected Component Ratio</strong></td><td class="best">0.6328</td><td class="worst">0.6256</td></tr><tr><td><strong>Networkx Density</strong></td><td class="worst">0.0014</td><td class="best">0.0015</td></tr><tr><td><strong>Pagerank Entropy</strong></td><td class="best">9.0476</td><td class="worst">8.7752</td></tr><tr><td><strong>Singleton Ratio</strong></td><td class="worst">0.2823</td><td class="best">0.3516</td></tr><tr><td><strong>Top Central Entities</strong></td><td class="">[('董卓', 0.02602), ('袁绍', 0.018191), ('玄德', 0.015448), ('曹操', 0.014685), ('长安', 0.011792)]</td><td class="">[('董卓', 0.031872), ('袁绍', 0.020004), ('曹操', 0.019839), ('马腾', 0.015552), ('长安', 0.015404)]</td></tr></table>
+                </div>
+                
+        </div>
+    </div>
+</body>
+</html>

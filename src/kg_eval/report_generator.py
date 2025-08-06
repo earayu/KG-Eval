@@ -190,14 +190,28 @@ class ReportGenerator:
                 f.write(full_html)
             print(f"Radar chart saved to: {output_path}")
 
-        # Generate HTML with custom styling for centering
-        chart_html = fig.to_html(include_plotlyjs=True, div_id="radar-chart")
+        # Generate JSON data for chart instead of full HTML
+        import json
+        chart_json = fig.to_json()
+        chart_data = json.loads(chart_json)
+        
+        # Create a unique div ID for each chart
+        import uuid
+        chart_id = f"radar-chart-{str(uuid.uuid4())[:8]}"
+        
+        # Generate just the div and script needed for this chart
+        chart_content = f'''
+        <div id="{chart_id}" class="plotly-graph-div" style="height:600px; width:600px;"></div>
+        <script type="text/javascript">
+            Plotly.newPlot('{chart_id}', {json.dumps(chart_data['data'])}, {json.dumps(chart_data['layout'])}, {{responsive: true, displayModeBar: false}});
+        </script>
+        '''
         
         # Wrap in a centered div with additional styling
         centered_html = f'''
         <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0;">
             <div style="display: inline-block; text-align: center;">
-                {chart_html}
+                {chart_content}
             </div>
         </div>
         '''
@@ -892,6 +906,9 @@ class ReportGenerator:
 
     def _create_comparison_html(self, comparison_results: Dict[str, Any]) -> str:
         """Create HTML content for comparison report."""
+        # Generate comparison radar charts for each KG
+        comparison_charts_html = self._create_comparison_charts(comparison_results)
+        
         html = f"""
 <!DOCTYPE html>
 <html lang="en">
@@ -899,37 +916,276 @@ class ReportGenerator:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KG-Eval Comparison Report</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
-        body {{ font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }}
-        .header {{ background: #f4f4f4; padding: 20px; border-radius: 5px; }}
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+        
+        body {{ 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }}
+        
+        .container {{
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }}
+        
+        .header {{ 
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }}
+        
+        .header::before {{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="25" cy="75" r="1" fill="rgba(255,255,255,0.05)"/><circle cx="75" cy="25" r="1" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+        }}
+        
+        .header h1 {{ 
+            font-size: 3em; 
+            margin-bottom: 10px;
+            font-weight: 300;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }}
+        
+        .header .subtitle {{
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }}
+        
+        .metadata {{
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }}
+        
+        .metadata-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }}
+        
+        .metadata-item {{
+            text-align: left;
+        }}
+        
+        .metadata-label {{
+            font-weight: bold;
+            opacity: 0.8;
+            font-size: 0.9em;
+        }}
+        
+        .metadata-value {{
+            font-size: 1.1em;
+            margin-top: 5px;
+        }}
+        
+        .content {{
+            padding: 30px;
+        }}
+        
         .chart-container {{ 
             text-align: center; 
-            margin: 30px 0; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            flex-direction: column; 
+            margin: 40px 0; 
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            margin: 30px 0;
         }}
-        .chart-container > div {{ 
-            margin: 0 auto; 
-            display: inline-block; 
+        
+        .comparison-charts {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
         }}
-        table {{ border-collapse: collapse; width: 100%; margin: 20px 0; }}
-        th, td {{ border: 1px solid #ddd; padding: 12px; text-align: left; }}
-        th {{ background-color: #f2f2f2; }}
-        .best {{ background-color: #d4edda; }}
-        .worst {{ background-color: #f8d7da; }}
+        
+        .chart-section {{
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }}
+        
+        .chart-section h3 {{
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }}
+        
+        table {{ 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }}
+        
+        th, td {{ 
+            border: none;
+            padding: 15px; 
+            text-align: left; 
+        }}
+        
+        th {{ 
+            background: linear-gradient(135deg, #495057 0%, #6c757d 100%);
+            color: white;
+            font-weight: 600;
+        }}
+        
+        td {{
+            border-bottom: 1px solid #e9ecef;
+        }}
+        
+        tr:nth-child(even) {{
+            background: #f8f9fa;
+        }}
+        
+        tr:hover {{
+            background: #e3f2fd;
+        }}
+        
+        .best {{ 
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%) !important;
+            font-weight: bold;
+            color: #155724;
+        }}
+        
+        .worst {{ 
+            background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%) !important;
+            font-weight: bold;
+            color: #721c24;
+        }}
+        
+        .section {{ 
+            margin: 40px 0; 
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e9ecef;
+        }}
+        
+        .section h2 {{ 
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }}
+        
+        .section-icon {{
+            font-size: 1.2em;
+            margin-right: 10px;
+        }}
+        
+        .winner-banner {{
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        }}
+        
+        .model-url {{
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }}
+        
+        @media (max-width: 768px) {{
+            body {{ padding: 10px; }}
+            .header {{ padding: 20px; }}
+            .header h1 {{ font-size: 2em; }}
+            .content {{ padding: 15px; }}
+            .section {{ margin: 20px 0; padding: 20px; }}
+            .comparison-charts {{ grid-template-columns: 1fr; }}
+        }}
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>KG-Eval Comparison Report</h1>
-        <p><strong>Generated:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
-        <p><strong>Knowledge Graphs:</strong> {', '.join(comparison_results['comparison_metadata']['graph_names'])}</p>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 KG-Eval Comparison Report</h1>
+            <div class="subtitle">Multi-Model Knowledge Graph Performance Analysis</div>
+            
+            <div class="metadata">
+                <strong>📊 Comparison Summary</strong>
+                <div class="metadata-grid">
+                    <div class="metadata-item">
+                        <div class="metadata-label">Generated</div>
+                        <div class="metadata-value">{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</div>
+                    </div>
+                    <div class="metadata-item">
+                        <div class="metadata-label">Models Compared</div>
+                        <div class="metadata-value">{len(comparison_results['comparison_metadata']['graph_names'])}</div>
+                    </div>
+                    <div class="metadata-item">
+                        <div class="metadata-label">Knowledge Graphs</div>
+                        <div class="metadata-value">{', '.join([f'<span class="model-url">{name}</span>' for name in comparison_results['comparison_metadata']['graph_names']])}</div>
+                    </div>
+                    <div class="metadata-item">
+                        <div class="metadata-label">LLM Referee</div>
+                        <div class="metadata-value">{'✅ Available' if comparison_results['comparison_metadata'].get('llm_referee_available', False) else '❌ Not Available'}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            {self._create_winner_section(comparison_results)}
+            
+            <div class="chart-container">
+                <h2 style="margin-bottom: 20px; color: #495057;">📈 Performance Comparison</h2>
+                {comparison_charts_html}
+            </div>
+            
+            <div class="section">
+                <h2><span class="section-icon">📊</span>Detailed Metrics Comparison</h2>
+                {self._create_comparison_table(comparison_results)}
+            </div>
+            
+            {self._create_dimension_comparison_sections(comparison_results)}
+        </div>
     </div>
-
-    {self._create_comparison_table(comparison_results)}
-
 </body>
 </html>
 """
@@ -1041,6 +1297,148 @@ class ReportGenerator:
             metrics["knowledge_density"] = eff.get("knowledge_density_per_chunk", 0.0)
 
         return metrics
+
+    def _create_winner_section(self, comparison_results: Dict[str, Any]) -> str:
+        """Create a winner announcement section."""
+        analysis = comparison_results.get("comparative_analysis", {})
+        summary = analysis.get("summary", {})
+        
+        if "overall_winner" not in summary:
+            return ""
+            
+        winner = summary["overall_winner"]
+        wins_count = summary.get("wins_count", {}).get(winner, 0)
+        total_metrics = summary.get("total_metrics_compared", 0)
+        
+        return f"""
+        <div class="winner-banner">
+            🏆 Overall Winner: <strong>{winner}</strong><br>
+            Won {wins_count} out of {total_metrics} metrics
+        </div>
+        """
+
+    def _create_comparison_charts(self, comparison_results: Dict[str, Any]) -> str:
+        """Create radar charts for each KG in comparison."""
+        individual_results = comparison_results.get("individual_results", {})
+        charts_html = '<div class="comparison-charts">'
+        
+        for kg_name, results in individual_results.items():
+            chart_html = self.generate_radar_chart(results)
+            charts_html += f'''
+            <div class="chart-section">
+                <h3>📊 {kg_name}</h3>
+                {chart_html}
+            </div>
+            '''
+        
+        charts_html += '</div>'
+        return charts_html
+
+    def _create_dimension_comparison_sections(self, comparison_results: Dict[str, Any]) -> str:
+        """Create detailed sections for each evaluation dimension."""
+        individual_results = comparison_results.get("individual_results", {})
+        if not individual_results:
+            return ""
+        
+        # Get all dimensions present across all KGs
+        all_dimensions = set()
+        for results in individual_results.values():
+            all_dimensions.update(results.keys())
+        
+        # Remove metadata from dimensions
+        all_dimensions.discard("evaluation_metadata")
+        
+        sections_html = ""
+        dimension_icons = {
+            "scale_richness": "📏",
+            "structural_integrity": "🏗️", 
+            "semantic_quality": "🧠",
+            "efficiency": "⚡"
+        }
+        
+        dimension_names = {
+            "scale_richness": "Scale & Richness",
+            "structural_integrity": "Structural Integrity",
+            "semantic_quality": "Semantic Quality", 
+            "efficiency": "Efficiency"
+        }
+        
+        for dimension in sorted(all_dimensions):
+            if dimension in dimension_icons:
+                icon = dimension_icons[dimension]
+                name = dimension_names[dimension]
+                
+                sections_html += f'''
+                <div class="section">
+                    <h2><span class="section-icon">{icon}</span>{name}</h2>
+                    {self._create_dimension_comparison_table(individual_results, dimension)}
+                </div>
+                '''
+        
+        return sections_html
+
+    def _create_dimension_comparison_table(self, individual_results: Dict[str, Dict[str, Any]], dimension: str) -> str:
+        """Create a detailed comparison table for a specific dimension."""
+        # Extract metrics for this dimension from all KGs
+        dimension_data = {}
+        for kg_name, results in individual_results.items():
+            if dimension in results:
+                dimension_data[kg_name] = results[dimension]
+        
+        if not dimension_data:
+            return f"<p>No data available for {dimension}</p>"
+        
+        # Get all metrics for this dimension
+        all_metrics = set()
+        for data in dimension_data.values():
+            if isinstance(data, dict):
+                all_metrics.update(data.keys())
+        
+        # Create table
+        html = '<table class="data-table">'
+        html += '<tr><th>Metric</th>'
+        for kg_name in dimension_data.keys():
+            html += f'<th>{kg_name}</th>'
+        html += '</tr>'
+        
+        for metric in sorted(all_metrics):
+            html += f'<tr><td><strong>{metric.replace("_", " ").title()}</strong></td>'
+            
+            # Collect values for this metric across all KGs
+            metric_values = {}
+            for kg_name, data in dimension_data.items():
+                value = data.get(metric, "N/A")
+                metric_values[kg_name] = value
+            
+            # Determine best/worst if values are numeric
+            best_kg = None
+            worst_kg = None
+            if all(isinstance(v, (int, float)) for v in metric_values.values() if v != "N/A"):
+                valid_values = {k: v for k, v in metric_values.items() if v != "N/A"}
+                if valid_values:
+                    best_kg = max(valid_values.items(), key=lambda x: x[1])[0]
+                    worst_kg = min(valid_values.items(), key=lambda x: x[1])[0]
+            
+            # Add table cells
+            for kg_name in dimension_data.keys():
+                value = metric_values[kg_name]
+                css_class = ""
+                if kg_name == best_kg:
+                    css_class = "best"
+                elif kg_name == worst_kg:
+                    css_class = "worst"
+                
+                if isinstance(value, float):
+                    html += f'<td class="{css_class}">{value:.4f}</td>'
+                elif isinstance(value, int):
+                    html += f'<td class="{css_class}">{value}</td>'
+                else:
+                    html += f'<td class="{css_class}">{value}</td>'
+            
+            html += '</tr>'
+        
+        html += '</table>'
+        return html
 
     def _generate_rankings(self, all_metrics: Dict[str, Dict[str, float]]) -> Dict[str, List[str]]:
         """Generate rankings for each metric."""

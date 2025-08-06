@@ -245,13 +245,24 @@ def compare(kg_files: tuple,
             with open(kg_file, 'r', encoding='utf-8') as f:
                 kg_data = json.load(f)
             
+            click.echo(f"JSON loaded for {kg_file}")
             kg = KnowledgeGraph(**kg_data)
+            click.echo(f"KnowledgeGraph created for {kg_file}")
             kgs.append(kg)
+            click.echo(f"Appended to kgs list")
             
-            if not kg_names:
-                kg_names.append(f"KG_{os.path.basename(kg_file)}")
+            # Generate name for this KG if names weren't provided
+            if len(kg_names) <= i:
+                # Use parent directory name to differentiate models
+                parent_dir = os.path.basename(os.path.dirname(kg_file))
+                kg_name = f"{parent_dir}"
+                kg_names.append(kg_name)
+                click.echo(f"Generated name: {kg_name}")
+            else:
+                kg_name = kg_names[i]
+                click.echo(f"Using provided name: {kg_name}")
             
-            click.echo(f"Loaded {kg_names[i]}: {kg}")
+            click.echo(f"Loaded {kg_name}: {kg}")
             
         except Exception as e:
             click.echo(f"Error loading {kg_file}: {e}", err=True)

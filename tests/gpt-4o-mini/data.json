@@ -1,0 +1,5488 @@
+{
+  "entities": [
+    {
+      "entity_name": "刘玄德",
+      "entity_type": "person",
+      "description": "刘玄德是来支援公孙瓒的将领，表现出对公孙瓒的敬重。"
+    },
+    {
+      "entity_name": "长江",
+      "entity_type": "geo",
+      "description": "长江是中国最长的河流，象征着历史的变迁和英雄的兴衰。"
+    },
+    {
+      "entity_name": "张角",
+      "entity_type": "person",
+      "description": "张角是《三国演义》中的重要人物，因获得天书而自称“大贤良师”，并领导起义。<SEP>张角是反叛的首领，指挥着贼众与卢植的军队对抗。<SEP>张角是敌方将领，使用妖术对抗汉军，并在战斗中取得胜利。<SEP>张角自称“天公将军”，领导反叛并号召百姓起义。"
+    },
+    {
+      "entity_name": "七宝刀",
+      "entity_type": "product",
+      "description": "七宝刀是一种装饰华丽且锋利的刀，曹操计划用它刺杀董卓。"
+    },
+    {
+      "entity_name": "中牟县",
+      "entity_type": "geo",
+      "description": "中牟县是曹操被捕的地点，县令识破了他的身份。"
+    },
+    {
+      "entity_name": "董太师",
+      "entity_type": "person",
+      "description": "董太师是小说中的反派角色，权力欲强，残暴无道。"
+    },
+    {
+      "entity_name": "张让",
+      "entity_type": "person",
+      "description": "张让是东汉末年的宦官之一，参与了对何进的阴谋。<SEP>张让是历史人物，参与了对董后的流言蜚语，并在权力斗争中扮演了重要角色。<SEP>张让是宦官之一，参与了权力斗争并试图保护自己。"
+    },
+    {
+      "entity_name": "桃园结义",
+      "entity_type": "event",
+      "description": "桃园结义是刘备、关羽和张飞三人结为兄弟的仪式。"
+    },
+    {
+      "entity_name": "袁隗",
+      "entity_type": "person",
+      "description": "袁隗是袁绍的叔叔，作为太傅对董卓的计划表示支持。"
+    },
+    {
+      "entity_name": "太后",
+      "entity_type": "person",
+      "description": "太后是少帝的母亲，在危机中试图保护自己和儿子的生命。<SEP>太后是汉朝的皇太后，在宫廷动乱中被劫持。"
+    },
+    {
+      "entity_name": "刘焉",
+      "entity_type": "person",
+      "description": "刘焉是太守，支持玄德等人对抗黄巾贼，并给予他们指挥权。<SEP>刘焉是幽州太守，负责应对张角的反叛。"
+    },
+    {
+      "entity_name": "太平要术",
+      "entity_type": "product",
+      "description": "《太平要术》是张角获得的天书，包含了治病和呼风唤雨的法术。"
+    },
+    {
+      "entity_name": "黄巾军",
+      "entity_type": "organization",
+      "description": "黄巾军是张角领导的军队，因其数量众多而对汉军造成威胁。<SEP>黄巾军是张角领导的反叛军，人数众多，势力浩大。"
+    },
+    {
+      "entity_name": "中山大商",
+      "entity_type": "organization",
+      "description": "中山大商是商人，提供马匹和资金支持玄德等人。"
+    },
+    {
+      "entity_name": "黄巾贼",
+      "entity_type": "category",
+      "description": "黄巾贼是故事中的敌对势力，造成了社会动荡，玄德等人为了拯救百姓而战斗。<SEP>黄巾贼是起义军，聚众劫掠良民，给国家带来困扰。"
+    },
+    {
+      "entity_name": "少帝",
+      "entity_type": "person",
+      "description": "少帝是汉朝的皇帝，因董卓的权力斗争而被废除。<SEP>少帝是被董卓弑杀的皇帝，面临着李儒的威逼。"
+    },
+    {
+      "entity_name": "公孙瓒",
+      "entity_type": "person",
+      "description": "公孙瓒是一个历史人物，参与了与袁绍的战争，并在战斗中表现出色。<SEP>公孙瓒是一个将军，参与了与袁绍的战斗，并在战斗中表现出色。<SEP>公孙瓒是三国时期的另一位重要人物，曾与袁绍结盟并参与战争。"
+    },
+    {
+      "entity_name": "温明园",
+      "entity_type": "geo",
+      "description": "温明园是董卓召集百官的地点，涉及重要的政治会议。"
+    },
+    {
+      "entity_name": "韩馥",
+      "entity_type": "person",
+      "description": "韩馥是冀州的牧守，曾向袁绍提供粮草。"
+    },
+    {
+      "entity_name": "青州",
+      "entity_type": "geo",
+      "description": "青州是故事中提到的地方，玄德等人前往救援的目标。"
+    },
+    {
+      "entity_name": "卢植",
+      "entity_type": "person",
+      "description": "卢植是中郎将，与张角作战，负责指挥军队。<SEP>卢植是被囚禁的将领，因未能及时击败张角而受到朝廷的惩罚。"
+    },
+    {
+      "entity_name": "南华老仙",
+      "entity_type": "person",
+      "description": "南华老仙是张角在山中遇到的老人，传授他天书，指导他行善。"
+    },
+    {
+      "entity_name": "长乐宫",
+      "entity_type": "geo",
+      "description": "长乐宫是汉朝的皇宫，许多重要的政治事件在此发生。"
+    },
+    {
+      "entity_name": "张梁",
+      "entity_type": "person",
+      "description": "张梁是张角的另一兄弟，自称“人公将军”，参与反叛。<SEP>张梁是张角的另一弟弟，参与起义，自称“人公将军”。<SEP>张梁是张角的弟弟，参与了与皇甫嵩和朱儁的战斗。"
+    },
+    {
+      "entity_name": "冀州",
+      "entity_type": "geo",
+      "description": "冀州是三国时期的一个重要地区，袁绍在此屯兵。"
+    },
+    {
+      "entity_name": "文丑",
+      "entity_type": "person",
+      "description": "文丑是袁绍的将领，参与了与公孙瓒的战斗。"
+    },
+    {
+      "entity_name": "卫弘",
+      "entity_type": "person",
+      "description": "卫弘是一个忠义之士，愿意出资支持曹操的事业。"
+    },
+    {
+      "entity_name": "王司徒",
+      "entity_type": "person",
+      "description": "王司徒是小说中的重要角色，策划了针对董卓的计谋。"
+    },
+    {
+      "entity_name": "崔毅",
+      "entity_type": "person",
+      "description": "崔毅是隐居的庄主，帮助了逃亡的皇帝和陈留王。"
+    },
+    {
+      "entity_name": "明日",
+      "entity_type": "date",
+      "description": "明日指的是吕布与李肃约定的时间，暗示了即将发生的事件。"
+    },
+    {
+      "entity_name": "迁都",
+      "entity_type": "event",
+      "description": "迁都是董卓的计划，旨在将都城从洛阳迁至长安，以增强其统治地位。"
+    },
+    {
+      "entity_name": "陈留王",
+      "entity_type": "person",
+      "description": "陈留王是汉朝的王子，在宫廷动乱中与皇帝一起逃亡。<SEP>陈留王是王位的候选人，董卓欲废立现帝而立他。<SEP>陈留王是董卓所立的新皇帝，原名袁协，年仅九岁。"
+    },
+    {
+      "entity_name": "凤仪亭",
+      "entity_type": "geo",
+      "description": "凤仪亭是《三国演义》中一个重要的地点，涉及吕布与貂蝉的情感纠葛。<SEP>凤仪亭是吕布与貂蝉私会的地点，象征着他们之间的秘密关系。"
+    },
+    {
+      "entity_name": "永安宫",
+      "entity_type": "geo",
+      "description": "永安宫是少帝及其母后被囚禁的地方，象征着权力的丧失。"
+    },
+    {
+      "entity_name": "马腾",
+      "entity_type": "person",
+      "description": "马腾是西凉的太守，带领军队讨伐李傕和郭汜。<SEP>马腾是马超的盟友，参与追击敌军并获得胜利。"
+    },
+    {
+      "entity_name": "马超",
+      "entity_type": "person",
+      "description": "马超是一个军事将领，以勇猛和战斗技巧著称，在战斗中擒获敌人。<SEP>马超是马腾之子，年轻且英勇，参与战斗。"
+    },
+    {
+      "entity_name": "冲天怒气",
+      "entity_type": "category",
+      "description": "冲天怒气是描述一种强烈情绪的表达，可能与人物的情感状态有关。"
+    },
+    {
+      "entity_name": "关云长",
+      "entity_type": "person",
+      "description": "关云长是刘玄德的战友，参与了对袁绍的战斗。<SEP>关云长是故事中的重要角色，以其青龙宝刀和勇猛的战斗风格著称。"
+    },
+    {
+      "entity_name": "蒯良",
+      "entity_type": "person",
+      "description": "蒯良是刘表的谋士，提出策略以应对孙坚的攻击。"
+    },
+    {
+      "entity_name": "桃园",
+      "entity_type": "geo",
+      "description": "桃园是玄德、关羽和张飞结为兄弟的地点，象征着他们的誓言和团结。"
+    },
+    {
+      "entity_name": "百姓",
+      "entity_type": "category",
+      "description": "百姓是故事中受到战争影响的普通人，他们的命运与曹操的复仇计划紧密相关。"
+    },
+    {
+      "entity_name": "夏侯渊",
+      "entity_type": "person",
+      "description": "夏侯渊是曹操的部将，参与了与敌军的战斗。"
+    },
+    {
+      "entity_name": "陶",
+      "entity_type": "person",
+      "description": "陶是一个重要的角色，他警告皇帝关于国家的危机，并对宦官的行为表示强烈不满。"
+    },
+    {
+      "entity_name": "城中",
+      "entity_type": "geo",
+      "description": "城中是战斗发生的地点，涉及多位军事指挥官和军队的交战。"
+    },
+    {
+      "entity_name": "汉水",
+      "entity_type": "geo",
+      "description": "汉水是孙策回归的地点，承载着他对父亲的思念。"
+    },
+    {
+      "entity_name": "董太后",
+      "entity_type": "person",
+      "description": "董太后是灵帝的母亲，她在宫廷中有很大的影响力，并劝说皇帝立皇子协为太子。<SEP>董太后是皇太后，试图掌握权力并影响朝政。"
+    },
+    {
+      "entity_name": "灵帝",
+      "entity_type": "person",
+      "description": "灵帝是当时的皇帝，他在病重时召集大臣商议后事。"
+    },
+    {
+      "entity_name": "东郡",
+      "entity_type": "geo",
+      "description": "东郡是曹操的统治区域，负责调动军队讨伐贼寇。"
+    },
+    {
+      "entity_name": "曹德",
+      "entity_type": "person",
+      "description": "曹德是曹嵩的儿子，他在故事中被杀，促使曹操采取行动。"
+    },
+    {
+      "entity_name": "三国演义",
+      "entity_type": "event",
+      "description": "《三国演义》是中国古代文学名著，也是中国古典文学中的一部重要历史小说，讲述了三国时期的历史故事和英雄人物。该作品描绘了三国时期的政治和军事斗争，涉及了许多历史事件，包括吕布与诸侯的冲突。作为一部著名的文学作品，《三国演义》不仅展示了历史的复杂性，还刻画了众多英雄人物的形象，成为了中国文学中的经典之作。<SEP>《三国演义》是中国古典文学中的一部历史小说，讲述了三国时期的政治和军事斗争。"
+    },
+    {
+      "entity_name": "鲍信",
+      "entity_type": "person",
+      "description": "鲍信是后军校尉，向袁绍报告董卓的异心，参与了政治斗争。<SEP>鲍信是济北的相，担心孙坚夺功，暗中派弟弟鲍忠出战。"
+    },
+    {
+      "entity_name": "丁原",
+      "entity_type": "person",
+      "description": "丁原是一个将领，因其与吕布的冲突而被杀，代表了权力斗争中的牺牲者。<SEP>丁原是吕布的养父，曾与吕布一起作战。<SEP>丁原是荆州刺史，反对董卓的废立提议，具有一定的威望。"
+    },
+    {
+      "entity_name": "曹洪",
+      "entity_type": "person",
+      "description": "曹洪是曹操的兄弟，武艺精通，参与曹操的军事行动。<SEP>曹洪是曹操的弟弟，勇敢地救了曹操。"
+    },
+    {
+      "entity_name": "伍孚",
+      "entity_type": "person",
+      "description": "伍孚是校尉，因对董卓的残暴感到愤怒，试图刺杀董卓。"
+    },
+    {
+      "entity_name": "皇帝",
+      "entity_type": "UNKNOWN",
+      "description": "陈留王与皇帝在逃亡过程中相互支持，共同面对危机。"
+    },
+    {
+      "entity_name": "李典",
+      "entity_type": "person",
+      "description": "李典是山阳巨鹿人，投靠曹操并成为其帐前吏。<SEP>李典是曹操的将领之一，参与聚集残兵并返回河内。"
+    },
+    {
+      "entity_name": "汉天下",
+      "entity_type": "geo",
+      "description": "汉天下指的是汉朝的统治区域，文中提到的生灵与国家的安危息息相关。"
+    },
+    {
+      "entity_name": "张飞",
+      "entity_type": "person",
+      "description": "张飞是三国时期的著名武将，以勇猛和直率著称，是刘备的结义兄弟。<SEP>张飞是刘备的结义兄弟，性格豪爽，愿意与刘备共同举大事。<SEP>张飞是玄德的结义兄弟，以勇猛和战斗能力闻名，参与了多次战斗。<SEP>张飞是汉朝的名将，以勇猛和战斗技巧闻名，曾与吕布激战。"
+    },
+    {
+      "entity_name": "李儒",
+      "entity_type": "person",
+      "description": "李儒是《三国演义》中的一个角色，担任董卓的谋士，参与策划和劝解。<SEP>李儒是董卓的谋士，劝阻董卓不要轻易杀人，并参与了废立皇帝的阴谋。<SEP>李儒是董卓的谋士，参与了弑帝的阴谋，并对皇帝施加了威胁。"
+    },
+    {
+      "entity_name": "王允",
+      "entity_type": "person",
+      "description": "王允是司徒，参与了关于废立帝王的政治斗争，并在朝廷中具有重要地位。<SEP>王允是司徒，策划将貂蝉献给董卓以实现自己的政治目的。<SEP>王允是朝廷的司徒，策划了一项阴谋以对抗董卓，试图通过貂蝉来实现他的计划。<SEP>王允是朝廷的高官，试图策划反对董卓的阴谋。<SEP>王允是朝廷中的官员，策划了对董卓的讨伐，并在董卓被杀后庆祝。<SEP>王允是朝廷官员，负责处理董卓的事务，最终决定杀死蔡邕。<SEP>王允是朝廷的司徒，因忠诚于国家而拒绝逃跑，最终为此付出了生命。<SEP>王允是汉末的权臣，策划了针对董卓的阴谋，试图恢复汉室的权力。"
+    },
+    {
+      "entity_name": "宴会",
+      "entity_type": "event",
+      "description": "宴会是王允为董卓准备的聚会，期间展示了貂蝉的才艺。<SEP>宴会是董卓设立的聚会，旨在集结公卿并讨论重要的政治决策。"
+    },
+    {
+      "entity_name": "相府",
+      "entity_type": "geo",
+      "description": "相府是董卓的官邸，曹操前往此地企图实施刺杀。<SEP>相府是董卓的居所，貂蝉被送到这里以供董卓享用。"
+    },
+    {
+      "entity_name": "韩遂",
+      "entity_type": "person",
+      "description": "韩遂是并州刺史，与马腾一起引军讨贼。<SEP>韩遂是马腾的盟友，参与追击敌军并在战斗中表现出色。"
+    },
+    {
+      "entity_name": "长安",
+      "entity_type": "geo",
+      "description": "长安是一个重要的城市，故事中涉及到的主要战斗和政治事件发生在这里。<SEP>长安是三国时期的重要城市，李傕和郭汜在此掌权。<SEP>长安是中国历史上的重要城市，曾是多个朝代的都城，李傕和郭汜的目标。<SEP>长安是中国历史上的重要城市，董卓计划将其作为新的都城。<SEP>长安是古代中国的都城，董卓的权力中心。<SEP>长安是董卓的驻地，反映了当时的政治局势。<SEP>长安是朝廷所在地，曹操的捷报被送到这里。<SEP>长安是故事中的重要地理位置，反抗董卓的将领们计划在此进行战斗。"
+    },
+    {
+      "entity_name": "汉室",
+      "entity_type": "category",
+      "description": "汉室是中国历史上的一个重要王朝，经历了多次政治动荡和权力斗争。<SEP>汉室是中国历史上的一个重要王朝，面临着权臣的挑战和内部的动荡。"
+    },
+    {
+      "entity_name": "暴尸事件",
+      "entity_type": "event",
+      "description": "暴尸事件是指董卓被杀后，尸体被暴露在市中，引发了众人的反应。"
+    },
+    {
+      "entity_name": "乐进",
+      "entity_type": "person",
+      "description": "乐进是曹操的将领之一，参与聚集残兵并返回河内。<SEP>乐进是阳平卫国人，投靠曹操并成为其帐前吏。"
+    },
+    {
+      "entity_name": "鲍忠",
+      "entity_type": "person",
+      "description": "鲍忠是鲍信的弟弟，因出战被华雄斩杀。"
+    },
+    {
+      "entity_name": "典韦",
+      "entity_type": "person",
+      "description": "典韦是陈留人，因其勇力过人被曹操重用。"
+    },
+    {
+      "entity_name": "黄巾",
+      "entity_type": "category",
+      "description": "黄巾是一个反抗势力，玄德曾参与剿灭黄巾，表现出军事才能。<SEP>黄巾是反叛势力，造成了社会动荡，朱儁和他的部队正在与之作斗争。"
+    },
+    {
+      "entity_name": "涿郡",
+      "entity_type": "geo",
+      "description": "涿郡是玄德和他的军队的归属地，具有战略意义。"
+    },
+    {
+      "entity_name": "刘虞",
+      "entity_type": "UNKNOWN",
+      "description": "刘备因在战斗中的表现受到刘虞的推荐，显示出两者之间的合作关系。"
+    },
+    {
+      "entity_name": "马弓手",
+      "entity_type": "category",
+      "description": "马弓手是关羽的身份，虽然被低估，但他展现了非凡的勇气和能力。"
+    },
+    {
+      "entity_name": "吕布",
+      "entity_type": "person",
+      "description": "吕布是《三国演义》中的著名武将，以其勇猛和战斗能力而闻名。他的性格复杂，常常被权谋所左右，尤其是在与董卓的关系中表现得尤为明显。吕布因对貂蝉的爱慕而与董卓产生冲突，王允希望通过貂蝉来引导他杀掉董卓。吕布是丁原的义子，后来成为董卓的部下，因其愤怒和嫉妒而对董卓的关系感到不满。在战斗中，吕布表现出色，曾在关键时刻为董卓提供支持，并参与了对董卓的讨伐。他的勇猛和忠诚使他在汉末的权力斗争中成为一个重要的历史人物。<SEP>吕布是一个历史人物，以勇猛著称，参与了与曹操的战斗。<SEP>吕布是一个英勇无敌的将领，以其卓越的战斗能力和战术著称。<SEP>吕布是故事中的反派角色，以其强大的战斗力和战术智慧而闻名。"
+    },
+    {
+      "entity_name": "赵云",
+      "entity_type": "person",
+      "description": "赵云是一个少年将军，因看到袁绍无忠君救民之心而投靠公孙瓒，并在战斗中表现出色。"
+    },
+    {
+      "entity_name": "杀人事件",
+      "entity_type": "event",
+      "description": "杀人事件是曹操为了自保而杀死吕伯奢的事件，反映了他的性格和决策。"
+    },
+    {
+      "entity_name": "张翼德",
+      "entity_type": "person",
+      "description": "张翼德是刘玄德的战友，参与了对袁绍的战斗。<SEP>张翼德，字飞，是三国时期的著名将领，以勇猛和直率著称。"
+    },
+    {
+      "entity_name": "段珪",
+      "entity_type": "person",
+      "description": "段珪是参与谋杀何进的阉官之一，后被追杀。"
+    },
+    {
+      "entity_name": "赵萌",
+      "entity_type": "person",
+      "description": "赵萌是右军校尉，参与了接驾的行动，负责军队的指挥。"
+    },
+    {
+      "entity_name": "西凉军",
+      "entity_type": "organization",
+      "description": "西凉军是马腾和韩遂所率领的军队，前来讨伐李傕和郭汜。"
+    },
+    {
+      "entity_name": "虎贲中郎",
+      "entity_type": "category",
+      "description": "虎贲中郎是古代中国的一种军事职称，李肃担任此职。"
+    },
+    {
+      "entity_name": "义父",
+      "entity_type": "category",
+      "description": "义父是指在古代中国中，非血缘关系但建立了父子关系的称谓，吕布向董卓提出拜为义父。"
+    },
+    {
+      "entity_name": "玄德",
+      "entity_type": "person",
+      "description": "玄德是一个重要的历史人物，受到公孙瓒的尊敬，并在战斗中提供了援助。<SEP>玄德是主要角色之一，参与了与张角的战斗，并与卢植合作。<SEP>玄德是故事中的主要人物之一，结为兄弟并领导军队对抗贼寇。<SEP>玄德是故事中的主要角色，负责指挥军队并处理与其他角色的关系。<SEP>玄德是一个重要角色，担任县尉，表现出仁慈和对民众的关心。<SEP>玄德是朱儁的谋士，提出了攻打西北的策略以应对敌人。<SEP>玄德，字德，是三国时期的重要人物，后成为蜀汉的开国皇帝刘备。"
+    },
+    {
+      "entity_name": "张宝",
+      "entity_type": "person",
+      "description": "张宝是反叛势力的将领，曾与朱儁等人交战。<SEP>张宝是张角的兄弟，自称“地公将军”，参与反叛。<SEP>张宝是张角的另一位弟弟，与张梁一起作战。<SEP>张宝是张角的弟弟，参与起义，自称“地公将军”。"
+    },
+    {
+      "entity_name": "渤海太守",
+      "entity_type": "category",
+      "description": "渤海太守是董卓任命袁绍的官职，旨在安抚袁绍以避免冲突。"
+    },
+    {
+      "entity_name": "九月朔",
+      "entity_type": "date",
+      "description": "九月朔是事件发生的时间，标志着董卓的权力扩张和政治阴谋的开始。"
+    },
+    {
+      "entity_name": "唐妃",
+      "entity_type": "person",
+      "description": "唐妃是少帝的妃子，在弑帝事件中表现出对皇帝的忠诚。"
+    },
+    {
+      "entity_name": "宫廷",
+      "entity_type": "geo",
+      "description": "宫廷是少帝和太后居住的地方，发生了弑帝的事件。"
+    },
+    {
+      "entity_name": "夜晚",
+      "entity_type": "date",
+      "description": "夜晚是曹操和陈宫在成皋投宿的时间，具有情节发展意义。"
+    },
+    {
+      "entity_name": "徐荣",
+      "entity_type": "person",
+      "description": "徐荣是一个追兵，试图追赶曹操，并与夏侯惇交战。<SEP>徐荣是荥阳的太守，参与了对曹操的追击。"
+    },
+    {
+      "entity_name": "传国玺",
+      "entity_type": "product",
+      "description": "传国玺是国家的象征，具有重要的历史和政治意义。"
+    },
+    {
+      "entity_name": "河内",
+      "entity_type": "geo",
+      "description": "河内是曹操和他的将领们返回的地点。"
+    },
+    {
+      "entity_name": "赵弘",
+      "entity_type": "person",
+      "description": "赵弘是敌方将领，试图夺回宛城并与朱儁交战。"
+    },
+    {
+      "entity_name": "吕公",
+      "entity_type": "person",
+      "description": "吕公是一个军事指挥官，负责指挥三十骑并在战斗中杀敌。<SEP>吕公是勇敢的将领，执行蒯良的计策，成功突围并引发混乱。"
+    },
+    {
+      "entity_name": "汉朝",
+      "entity_type": "organization",
+      "description": "汉朝是中国历史上的一个重要朝代，经历了统一与分裂的过程。<SEP>汉朝是中国历史上的一个重要朝代，董卓和吕布的故事发生在这一时期。"
+    },
+    {
+      "entity_name": "毛玠",
+      "entity_type": "person",
+      "description": "毛玠是陈留平邱人，被曹操任用为从事。"
+    },
+    {
+      "entity_name": "曹嵩",
+      "entity_type": "person",
+      "description": "曹嵩是一个角色，他在故事中被杀，导致了曹操的复仇计划。<SEP>曹嵩是曹操的父亲，曾因避难而隐居。"
+    },
+    {
+      "entity_name": "马元义",
+      "entity_type": "person",
+      "description": "马元义是被何进擒拿并斩杀的反叛者。"
+    },
+    {
+      "entity_name": "陶谦",
+      "entity_type": "person",
+      "description": "陶谦是徐州太守，以温厚著称，曾试图与曹操结交。<SEP>陶谦是徐州的太守，他被误认为是曹操父亲被杀的罪魁祸首。"
+    },
+    {
+      "entity_name": "古寺",
+      "entity_type": "geo",
+      "description": "古寺是曹嵩一家在逃亡途中暂时歇宿的地方。"
+    },
+    {
+      "entity_name": "成皋",
+      "entity_type": "geo",
+      "description": "成皋是曹操和陈宫经过的地方，具有重要的地理意义。"
+    },
+    {
+      "entity_name": "孙坚",
+      "entity_type": "person",
+      "description": "孙坚是一个军事指挥官，领导军队进行战斗并最终攻打襄阳。<SEP>孙坚是一个勇猛的将领，参与了与华雄的战斗，并在战斗中表现出色。<SEP>孙坚是一个重要的历史人物，参与了与袁绍的冲突，并在战斗中表现出勇气和决心。<SEP>孙坚是三国时期的将领，勇敢地参与对抗董卓的斗争，并对其提出了强烈的反对。<SEP>孙坚是诸侯之一，负责清理宫殿并设立祭坛。<SEP>孙坚是江东的领袖，小说中已去世，其子孙策继承了他的地位。<SEP>孙坚是三国时期的将领，勇猛善战，愿意为前部先锋。<SEP>孙坚是吴郡富春人，年轻时表现出勇敢，后来成为战斗中的重要角色。<SEP>孙坚是三国时期的著名将领，以勇猛著称，曾与刘表交战。"
+    },
+    {
+      "entity_name": "郭汜",
+      "entity_type": "person",
+      "description": "郭汜是一个历史人物，参与了对洛阳的攻占，并与李傕一起驱赶百姓。<SEP>郭汜是三国时期的将领，与李傕共同掌握权力，参与朝政。<SEP>郭汜是一个将领，与李傕一起对抗吕布，表现出对战斗的积极参与。<SEP>郭汜是反抗董卓的将领之一，与李傕共同策划反抗行动。"
+    },
+    {
+      "entity_name": "韩忠",
+      "entity_type": "person",
+      "description": "韩忠是城中的守将，因断粮而向朱儁投降，但被拒绝。"
+    },
+    {
+      "entity_name": "吕虔",
+      "entity_type": "person",
+      "description": "吕虔是武城人，因其名声被曹操任用。"
+    },
+    {
+      "entity_name": "张济",
+      "entity_type": "person",
+      "description": "张济是反抗董卓的将领之一，参与策划反抗董卓的计划。"
+    },
+    {
+      "entity_name": "郭嘉",
+      "entity_type": "person",
+      "description": "郭嘉是著名的谋士，因其智慧被曹操重用，并推荐其他人才。"
+    },
+    {
+      "entity_name": "满宠",
+      "entity_type": "person",
+      "description": "满宠是山阳昌邑人，因其名声被曹操任用。"
+    },
+    {
+      "entity_name": "双股剑",
+      "entity_type": "product",
+      "description": "双股剑是玄德命令打造的武器，象征着他对战斗的准备。"
+    },
+    {
+      "entity_name": "众人",
+      "entity_type": "person",
+      "description": "众人是指在故事中对曹操的反应和询问的角色，代表了社会的普遍观点。"
+    },
+    {
+      "entity_name": "众诸侯",
+      "entity_type": "UNKNOWN",
+      "description": "众诸侯在洛阳分屯，反映了当时的政治局势。"
+    },
+    {
+      "entity_name": "地公将军",
+      "entity_type": "title",
+      "description": "地公将军是张飞在战斗中使用的称号，象征着其勇猛和威望。"
+    },
+    {
+      "entity_name": "颍川",
+      "entity_type": "geo",
+      "description": "颍川是战斗发生的地点之一，涉及到张角的军队和卢植的军队。"
+    },
+    {
+      "entity_name": "广宗",
+      "entity_type": "geo",
+      "description": "广宗是战斗的另一个地点，张角的军队与卢植的军队在此对峙。"
+    },
+    {
+      "entity_name": "陈宫",
+      "entity_type": "person",
+      "description": "陈宫是曹操的朋友，因感激曹操的忠义而愿意弃官随他而去。<SEP>陈宫是曹操的谋士，曾考虑杀曹操但最终选择离开。<SEP>陈宫是陶谦的支持者，他试图劝说曹操不要杀戮百姓。"
+    },
+    {
+      "entity_name": "张纯",
+      "entity_type": "person",
+      "description": "张纯是反叛的另一位领导者，他因士兵的背叛而被刺杀。"
+    },
+    {
+      "entity_name": "李傕",
+      "entity_type": "person",
+      "description": "李傕是一个历史人物，参与了对洛阳的攻占和对百姓的压迫。<SEP>李傕是三国时期的将领之一，掌握大权，残虐百姓。<SEP>李傕是敌方将领，因敌军失败而愤怒，策划对樊稠的讨伐。<SEP>李傕是董卓的将领，负责传达董卓的命令，并试图说服孙坚结亲。<SEP>李傕是一个将领，参与了对吕布的挑战，并在战斗中表现出强烈的攻击性。<SEP>李傕是反抗董卓的将领之一，策划与董卓报仇。"
+    },
+    {
+      "entity_name": "谯郡",
+      "entity_type": "geo",
+      "description": "谯郡是曹操逃亡的目的地，途中被守关军士捕获。"
+    },
+    {
+      "entity_name": "关羽",
+      "entity_type": "person",
+      "description": "关羽是三国时期著名的武将，以忠义和武力著称，是刘备的结义兄弟。<SEP>关羽是刘备的结义兄弟，原名云长，勇猛且有威望。<SEP>关羽是玄德的结义兄弟，以勇猛著称，参与对抗贼寇的战斗。<SEP>关羽是刘玄德的弟弟，以勇猛著称，在战斗中斩杀华雄，展现了他的英勇和能力。<SEP>关羽是汉朝的著名武将，以忠诚和武艺高强著称，参与对抗吕布的战斗。"
+    },
+    {
+      "entity_name": "乌程侯",
+      "entity_type": "category",
+      "description": "乌程侯是何进因战功而获得的封号。"
+    },
+    {
+      "entity_name": "蒯越",
+      "entity_type": "person",
+      "description": "蒯越是刘表的部下，参与了截击孙坚的行动，表现出对汉室的忠诚。<SEP>蒯越是城中一位军事指挥官，参与了战斗并引兵杀出。"
+    },
+    {
+      "entity_name": "赤兔马",
+      "entity_type": "product",
+      "description": "赤兔马是一匹名马，以其速度和力量著称，是吕布的坐骑。<SEP>赤兔马是吕布的战马，以其速度和力量著称，是战斗中的重要资产。"
+    },
+    {
+      "entity_name": "沮授",
+      "entity_type": "person",
+      "description": "沮授是袁绍的谋士之一，参与冀州的治理。"
+    },
+    {
+      "entity_name": "性命",
+      "entity_type": "UNKNOWN",
+      "description": "献帝的性命是历史讨论的中心，涉及他的统治和历史影响。"
+    },
+    {
+      "entity_name": "刘陶",
+      "entity_type": "person",
+      "description": "刘陶是一个忠诚的官员，他为国家的未来感到担忧，并勇敢地向皇帝谏言。<SEP>刘陶是谏议大夫，勇敢地向皇帝提出国家危机的警告。"
+    },
+    {
+      "entity_name": "何苗",
+      "entity_type": "person",
+      "description": "何苗是历史人物，向何后奏言，劝阻其对宦官的处置，影响了决策。"
+    },
+    {
+      "entity_name": "吕伯奢",
+      "entity_type": "person",
+      "description": "吕伯奢是曹操父亲的结义兄弟，因曹操的到来而准备款待他。"
+    },
+    {
+      "entity_name": "夏侯惇",
+      "entity_type": "person",
+      "description": "夏侯惇是曹操的将领，勇猛地迎战徐荣，保护曹操。<SEP>夏侯惇是曹操的族弟，武艺高强，曾逃避仇敌。<SEP>夏侯惇是曹操的部将，以勇猛著称，参与了与吕布的战斗。"
+    },
+    {
+      "entity_name": "陕西",
+      "entity_type": "geo",
+      "description": "陕西是中国的一个省份，董卓在此统领大军。"
+    },
+    {
+      "entity_name": "杨彪",
+      "entity_type": "person",
+      "description": "杨彪是太尉，参与了接驾的行动，并在朝廷中担任重要职务。"
+    },
+    {
+      "entity_name": "画堂",
+      "entity_type": "geo",
+      "description": "画堂是故事中提到的场所，承载了貂蝉的舞蹈和宴会。"
+    },
+    {
+      "entity_name": "汜水关",
+      "entity_type": "geo",
+      "description": "汜水关是三国时期的重要关口，众诸侯在此集结准备迎敌。"
+    },
+    {
+      "entity_name": "程昱",
+      "entity_type": "person",
+      "description": "程昱是东郡东阿人，因其才华被曹操所重用，并推荐其他贤士。"
+    },
+    {
+      "entity_name": "桓阶",
+      "entity_type": "person",
+      "description": "桓阶是孙策的军吏，愿意作为使者进入城中与刘表谈判。"
+    },
+    {
+      "entity_name": "何进",
+      "entity_type": "person",
+      "description": "何进是一个重要的历史人物，担任司隶校尉，参与了朝廷权力斗争。<SEP>何进是东汉末年的大将军，因其权力斗争而引发了历史事件。<SEP>何进是汉朝的一位重要大臣，因谋反而被杀，导致了宫廷的动乱。<SEP>何进是帝国的大将军，负责调兵擒拿马元义并斩杀他。<SEP>何进是大将军，他因与皇后关系密切而获得权力，并参与宫廷斗争。"
+    },
+    {
+      "entity_name": "荥阳",
+      "entity_type": "geo",
+      "description": "荥阳是一个地名，历史上曾是重要的军事战略地点。<SEP>荥阳是曹操与董卓战斗的地点，标志着重要的军事冲突。"
+    },
+    {
+      "entity_name": "丈八点钢矛",
+      "entity_type": "product",
+      "description": "丈八点钢矛是张飞使用的武器，展现了他的战斗能力。"
+    },
+    {
+      "entity_name": "骑都尉",
+      "entity_type": "organization",
+      "description": "骑都尉是曹操的军衔，负责指挥骑兵部队。"
+    },
+    {
+      "entity_name": "三国时期",
+      "entity_type": "event",
+      "description": "三国时期是中国历史上一个重要的历史阶段，涉及多个政治和军事事件。"
+    },
+    {
+      "entity_name": "江夏",
+      "entity_type": "geo",
+      "description": "江夏是一个地名，提到在这里发生了军事行动。"
+    },
+    {
+      "entity_name": "大将军",
+      "entity_type": "title",
+      "description": "大将军是汉朝的军事职务，文中提到的角色与权力斗争密切相关。"
+    },
+    {
+      "entity_name": "献帝",
+      "entity_type": "person",
+      "description": "献帝是东汉末年的皇帝，面临李傕和郭汜的威胁。<SEP>献帝是当时的皇帝，董卓与其有密切的政治关系。<SEP>献帝是中国历史上的一位皇帝，因其性命和统治时期的复杂性而闻名。<SEP>献帝是当时的皇帝，面临着权臣的威胁和国家的危机。"
+    },
+    {
+      "entity_name": "江东",
+      "entity_type": "geo",
+      "description": "江东是一个地理区域，涉及到袁术与刘表之间的冲突。<SEP>江东是中国历史上的一个地理区域，孙坚的故乡。<SEP>江东是孙坚的势力范围，代表着他的军队和支持者。"
+    },
+    {
+      "entity_name": "传国玉玺",
+      "entity_type": "product",
+      "description": "传国玉玺是象征皇权的物品，在故事中被提及为失踪。"
+    },
+    {
+      "entity_name": "受禅台",
+      "entity_type": "event",
+      "description": "受禅台是一个重要的事件场所，计划用于汉室的权力交接仪式。"
+    },
+    {
+      "entity_name": "平原相",
+      "entity_type": "title",
+      "description": "平原相是刘玄德被推荐的官职，显示了他在政治上的重要性。"
+    },
+    {
+      "entity_name": "刘表",
+      "entity_type": "person",
+      "description": "刘表是三国时期的地方势力领袖，与孙坚有敌对关系。<SEP>刘表是敌军的指挥官，负责指挥军队进入城中并处理战后事务。<SEP>刘表是荆州刺史，汉室宗亲，曾与名士交往，并在战争中扮演重要角色。"
+    },
+    {
+      "entity_name": "阳城",
+      "entity_type": "geo",
+      "description": "阳城是三国时期的一个重要城池，曾被围攻。"
+    },
+    {
+      "entity_name": "安喜县",
+      "entity_type": "geo",
+      "description": "安喜县是玄德被任命为县尉的地方，表现出他对民众的关心。"
+    },
+    {
+      "entity_name": "八路诸侯",
+      "entity_type": "organization",
+      "description": "八路诸侯是由多个地方势力组成的联盟，联合对抗吕布。"
+    },
+    {
+      "entity_name": "冀德",
+      "entity_type": "person",
+      "description": "冀德是故事中的一位英雄角色，手持蛇矛丈八枪，展现出勇猛的战斗能力。"
+    },
+    {
+      "entity_name": "青州兵",
+      "entity_type": "category",
+      "description": "青州兵是曹操招募的精锐部队，参与讨伐黄巾贼。"
+    },
+    {
+      "entity_name": "荀彧",
+      "entity_type": "person",
+      "description": "荀彧是一个历史人物，曾与曹操建立关系，并被任命为行军司马。"
+    },
+    {
+      "entity_name": "刘晔",
+      "entity_type": "person",
+      "description": "刘晔是光武帝的后裔，被曹操聘用以协助治理。"
+    },
+    {
+      "entity_name": "计将安出",
+      "entity_type": "event",
+      "description": "计将安出是指在故事情节中，众人对如何应对曹操的困境进行讨论的事件。"
+    },
+    {
+      "entity_name": "江东军",
+      "entity_type": "organization",
+      "description": "江东军是孙策指挥的军队，参与了与刘表军的战斗。"
+    },
+    {
+      "entity_name": "马日磾",
+      "entity_type": "person",
+      "description": "马日磾是太傅，主张保留蔡邕的才华，认为其对国家有益。"
+    },
+    {
+      "entity_name": "白马",
+      "entity_type": "product",
+      "description": "白马是公孙瓒军队的先锋，因其在战斗中的重要性而被特别挑选。"
+    },
+    {
+      "entity_name": "黄巾起",
+      "entity_type": "event",
+      "description": "黄巾起是一个历史事件，导致了曹操被任命为骑都尉。"
+    },
+    {
+      "entity_name": "天公将军",
+      "entity_type": "title",
+      "description": "天公将军是张角的称号，象征着他的权威和影响力。"
+    },
+    {
+      "entity_name": "何后",
+      "entity_type": "person",
+      "description": "何后是历史人物，作为太后，参与了对宦官的决策，影响了朝廷的权力斗争。"
+    },
+    {
+      "entity_name": "复仇计划",
+      "entity_type": "event",
+      "description": "复仇计划是曹操为了报仇而发动的军事行动，目标是陶谦及其部下。"
+    },
+    {
+      "entity_name": "河间驿庭",
+      "entity_type": "geo",
+      "description": "河间驿庭是一个地名，文中提到的地点，涉及到历史事件的背景。"
+    },
+    {
+      "entity_name": "县令",
+      "entity_type": "UNKNOWN",
+      "description": "县令识破了曹操的身份，并对其进行审问，显示出地方官员的权力。"
+    },
+    {
+      "entity_name": "十常侍",
+      "entity_type": "organization",
+      "description": "十常侍是指汉朝的十位宦官，文中提到他们在权力斗争中的角色。<SEP>十常侍是朝廷中的宦官，他们因贪污和卖官而受到陶的指责。<SEP>十常侍是朝廷中的权臣，因其贪腐和对国家的危害而受到指责。<SEP>十常侍是朝廷中的权臣，因贪腐而导致社会动乱。<SEP>十常侍是汉朝宦官集团，因权力斗争而影响朝政，导致社会动荡。<SEP>十常侍是汉朝的一个权力集团，因其贪腐和专权而引发了宫廷动乱。"
+    },
+    {
+      "entity_name": "汉末",
+      "entity_type": "event",
+      "description": "汉末是指汉朝末期的动荡时期，权臣董卓的崛起导致了国家的混乱。"
+    },
+    {
+      "entity_name": "未知此人",
+      "entity_type": "person",
+      "description": "未知此人是一个未被识别的人物，可能在故事中扮演重要角色。"
+    },
+    {
+      "entity_name": "曹仁",
+      "entity_type": "person",
+      "description": "曹仁是曹操的兄弟，擅长弓马，参与曹操的军事行动。<SEP>曹仁是曹操的将领之一，参与聚集残兵并返回河内。"
+    },
+    {
+      "entity_name": "建章殿",
+      "entity_type": "geo",
+      "description": "建章殿是孙坚设立帐幕的地点，具有重要的历史背景。"
+    },
+    {
+      "entity_name": "皇甫嵩",
+      "entity_type": "person",
+      "description": "皇甫嵩是三国时期的将领，因屡次获胜而被朝廷重用。<SEP>皇甫嵩是指挥官之一，参与了对抗张角的战斗。"
+    },
+    {
+      "entity_name": "盟约",
+      "entity_type": "event",
+      "description": "盟约是众诸侯为共同讨伐董卓而立下的誓言，强调团结和忠诚。"
+    },
+    {
+      "entity_name": "张",
+      "entity_type": "person",
+      "description": "张是朱儁的部下之一，与关一起参与围攻宛城。<SEP>张是玄德的另一位亲密随从，性格刚烈，勇于为民出头。<SEP>张是玄德的另一位伙伴，参与了战斗和与公孙瓒的交流。"
+    },
+    {
+      "entity_name": "黄盖",
+      "entity_type": "person",
+      "description": "黄盖是孙坚的将领之一，参与了与刘表的战斗。<SEP>黄盖是孙坚的部下，负责守住船只并参与战斗。<SEP>黄盖是孙坚的部将之一，参与了战斗并与其他将领一起寻见孙坚。"
+    },
+    {
+      "entity_name": "襄阳",
+      "entity_type": "geo",
+      "description": "襄阳是一个城市，孙坚围攻的目标，黄祖的防守基地。"
+    },
+    {
+      "entity_name": "田丰",
+      "entity_type": "person",
+      "description": "田丰是袁绍的谋士之一，参与冀州的治理。"
+    },
+    {
+      "entity_name": "蔡瑁",
+      "entity_type": "person",
+      "description": "蔡瑁是刘表的将领，参与战斗并最终被击败。<SEP>蔡瑁是刘表的部下，参与了与孙坚的战斗，展现出勇猛的战斗精神。<SEP>蔡瑁是城中一位军事指挥官，参与了战斗并引兵杀出。"
+    },
+    {
+      "entity_name": "徐州",
+      "entity_type": "geo",
+      "description": "徐州是故事发生的地点，曹操和陶谦之间的冲突在这里展开。"
+    },
+    {
+      "entity_name": "樊稠",
+      "entity_type": "person",
+      "description": "樊稠是反抗董卓的将领之一，参与反抗董卓的行动。<SEP>樊稠是敌方将领，因放走韩遂而被李傕斩首。"
+    },
+    {
+      "entity_name": "淳于琼",
+      "entity_type": "person",
+      "description": "淳于琼是左军校尉，参与了接驾的行动，负责军队的指挥。"
+    },
+    {
+      "entity_name": "黄祖",
+      "entity_type": "person",
+      "description": "黄祖是城中一位重要的军事指挥官，参与了与江东军的战斗，并被生擒。<SEP>黄祖是敌对势力的将领，参与了与孙坚的战斗。<SEP>黄祖是敌方指挥官，曾指挥军队与孙坚作战，最终被击败。<SEP>黄祖是董卓的心腹，小说中被提及为重要的角色。"
+    },
+    {
+      "entity_name": "废立之事",
+      "entity_type": "event",
+      "description": "废立之事是指董卓试图废除现帝并立陈留王的政治事件。"
+    },
+    {
+      "entity_name": "江夏八俊",
+      "entity_type": "category",
+      "description": "江夏八俊是刘表的七位朋友的统称，他们在当时被认为是杰出的人物。"
+    },
+    {
+      "entity_name": "祖茂",
+      "entity_type": "person",
+      "description": "祖茂是孙坚的部将，勇敢地跟随孙坚突围，但最终被华雄杀死。"
+    },
+    {
+      "entity_name": "张闿",
+      "entity_type": "person",
+      "description": "张闿是一个角色，他杀了曹嵩全家并抢夺财物，导致了曹操的愤怒。"
+    },
+    {
+      "entity_name": "许攸",
+      "entity_type": "person",
+      "description": "许攸是袁绍的谋士之一，参与冀州的治理。"
+    },
+    {
+      "entity_name": "宛城",
+      "entity_type": "geo",
+      "description": "宛城是战斗的主要地点，朱儁围攻的目标。"
+    },
+    {
+      "entity_name": "星月交辉",
+      "entity_type": "event",
+      "description": "星月交辉是一个自然现象，象征着孙坚的思考和感慨。"
+    },
+    {
+      "entity_name": "关",
+      "entity_type": "geo",
+      "description": "关是战斗发生的地点，孙坚和华雄在此展开激烈的战斗。<SEP>关是朱儁的部下之一，参与了围攻宛城的战斗。<SEP>关是玄德的亲密随从，与玄德共同经历了许多事件，表现出忠诚和勇气。<SEP>关是玄德的忠实伙伴，参与了与公孙瓒的互动。"
+    },
+    {
+      "entity_name": "北邙山",
+      "entity_type": "geo",
+      "description": "北邙山是汉末时期重要的地理位置，皇帝和陈留王在此逃亡。"
+    },
+    {
+      "entity_name": "流萤",
+      "entity_type": "category",
+      "description": "流萤在文中象征着希望和指引，帮助皇帝和陈留王找到逃生的路。"
+    },
+    {
+      "entity_name": "孙策",
+      "entity_type": "person",
+      "description": "孙策是孙坚的儿子，负责处理父亲的丧事并继续统治江东。<SEP>孙策是江东军的指挥官，经历了父亲被杀的悲痛，并寻求和谈。"
+    },
+    {
+      "entity_name": "战斗",
+      "entity_type": "event",
+      "description": "战斗是公孙瓒与袁绍之间的冲突，涉及多位将领和军队。<SEP>战斗是关羽与华雄之间的对抗，关羽最终获胜，斩杀华雄。<SEP>战斗是孙坚与华雄之间的冲突，涉及多位将领和激烈的军事对抗。<SEP>战斗是故事的主要情节，涉及多位角色之间的冲突与对抗。<SEP>战斗是李傕、郭汜与西凉军之间的冲突，涉及多位将领。<SEP>战斗是孙坚与袁绍及刘表之间的冲突，涉及多方势力的对抗。<SEP>战斗是孙坚与黄祖之间的军事冲突，涉及多位将领和策略。<SEP>战斗是指吕公与江东军之间的激烈交战，导致多方人员伤亡。"
+    },
+    {
+      "entity_name": "李蒙",
+      "entity_type": "person",
+      "description": "李蒙是敌方将领，试图追赶马超，但最终被擒获。"
+    },
+    {
+      "entity_name": "李肃",
+      "entity_type": "person",
+      "description": "李肃是吕布的同郡骑都尉，因对董卓的不满而参与了反董卓的计划。<SEP>李肃是董卓的谋士，参与了权力的策划和决策。<SEP>李肃是虎贲中郎将，善于言辞，试图说服吕布投靠董卓。<SEP>李肃是董卓的谋士，提供了关于吉凶的解读，并在董卓被杀时持剑护车。"
+    },
+    {
+      "entity_name": "蔡邕",
+      "entity_type": "person",
+      "description": "蔡邕是侍中，因对董卓的哭泣而被指责，表现出对国家大义的理解和对个人命运的无奈。"
+    },
+    {
+      "entity_name": "幽州",
+      "entity_type": "geo",
+      "description": "幽州是一个地名，刘虞被封为幽州牧，负责征讨反叛者。"
+    },
+    {
+      "entity_name": "六月",
+      "entity_type": "date",
+      "description": "六月是事件发生的时间，涉及董后的暗杀。"
+    },
+    {
+      "entity_name": "逢纪",
+      "entity_type": "person",
+      "description": "逢纪是袁绍的谋士，提出了攻取冀州的策略。"
+    },
+    {
+      "entity_name": "龚景",
+      "entity_type": "person",
+      "description": "龚景是一个军事指挥官，负责指挥军队并进行战斗。"
+    },
+    {
+      "entity_name": "汉史",
+      "entity_type": "category",
+      "description": "汉史是指汉朝的历史，蔡邕希望能为其续写历史以赎罪。"
+    },
+    {
+      "entity_name": "樊城",
+      "entity_type": "geo",
+      "description": "樊城是孙坚和他的军队进攻的目标，涉及到战斗的关键地点。"
+    },
+    {
+      "entity_name": "刘备",
+      "entity_type": "person",
+      "description": "刘备是一个重要的军事指挥官，因在平原的表现而受到封赏。<SEP>刘备是三国时期的政治家和军事领袖，蜀汉的建立者，与关羽和张飞结为兄弟。<SEP>刘备是涿县的英雄，汉室宗亲，志在破贼安民。<SEP>刘备是袁绍的盟友，因与孙坚同为汉室宗派而受到重视。"
+    },
+    {
+      "entity_name": "貂蝉",
+      "entity_type": "person",
+      "description": "貂蝉是《三国演义》中的美人，因其美貌和智慧而被卷入权力斗争。<SEP>貂蝉是一个歌伎，以其美丽和才艺而闻名，曾被献给太师董卓。<SEP>貂蝉是一个美丽的女子，参与了王允的阴谋，试图利用她的魅力来影响吕布和董卓。<SEP>貂蝉是一个美丽的女子，因董卓的宠爱而陷入复杂的权力斗争中。<SEP>貂蝉是王允的歌伎，因其美貌和才艺而受到重视。<SEP>貂蝉是一个著名的美人，传说中与董卓的权力斗争有关。"
+    },
+    {
+      "entity_name": "关公",
+      "entity_type": "person",
+      "description": "关公，名云长，是三国时期的著名武将，以忠义和勇猛著称，后被尊为关帝。"
+    },
+    {
+      "entity_name": "反抗行动",
+      "entity_type": "event",
+      "description": "反抗行动是李傕、郭汜、张济和樊稠联合起来对董卓进行的军事反抗。"
+    },
+    {
+      "entity_name": "程普",
+      "entity_type": "person",
+      "description": "程普是孙坚的部下，曾在战斗中救助孙坚。<SEP>程普是孙坚的部将，参与了战斗并与华雄交战。"
+    },
+    {
+      "entity_name": "督邮",
+      "entity_type": "person",
+      "description": "督邮是负责监督县务的官员，因其贪婪和对民众的压迫而引发冲突。"
+    },
+    {
+      "entity_name": "邹靖",
+      "entity_type": "person",
+      "description": "邹靖是刘焉的校尉，建议刘焉招募义兵应对反叛。<SEP>邹靖是龚景的部下，参与了对抗张角的战斗。"
+    },
+    {
+      "entity_name": "韩当",
+      "entity_type": "person",
+      "description": "韩当是孙坚的将领，参与了与刘表的战斗。<SEP>韩当是孙坚的部将，参与了战斗并与其他将领一起寻见孙坚。"
+    },
+    {
+      "entity_name": "绝处又逢生",
+      "entity_type": "category",
+      "description": "绝处又逢生是一个成语，意指在绝望的情况下又出现了生机，反映了故事的主题。"
+    },
+    {
+      "entity_name": "郿坞",
+      "entity_type": "geo",
+      "description": "郿坞是一个地名，故事中涉及到吕布和李肃的计划地点。<SEP>郿坞是董卓家族的所在地，吕布在此进行讨伐和掠夺。<SEP>郿坞是董卓的居所，故事中提到董卓计划将貂蝉带回此地。"
+    },
+    {
+      "entity_name": "帝",
+      "entity_type": "person",
+      "description": "帝是国家的统治者，起初对陶的警告表示怀疑，认为国家处于和平状态。"
+    },
+    {
+      "entity_name": "长社",
+      "entity_type": "geo",
+      "description": "长社是张角的军队退入的地方，进行防御。"
+    },
+    {
+      "entity_name": "皇子协",
+      "entity_type": "person",
+      "description": "皇子协是灵帝的儿子，受到宠爱，成为太子候选人。<SEP>皇子协被册立为王，成为权力斗争中的关键人物。"
+    },
+    {
+      "entity_name": "寿阳",
+      "entity_type": "geo",
+      "description": "寿阳是曹操与贼军交战的地点。"
+    },
+    {
+      "entity_name": "董卓",
+      "entity_type": "person",
+      "description": "董卓是《三国演义》中的主要反派角色，也是一个历史人物，以其强烈的权力欲和暴虐的性格而著称。他曾在汉朝时期担任权臣，掌握了政权，成为西凉刺史，因其残暴和权谋而受到众人瞩目。董卓以其强大的军事力量和专权行为，试图废立帝王，巩固自己的统治，甚至计划迁都长安。然而，他的统治引发了众多官员的不满和朝廷的动荡，导致国家的混乱。\n\n在三国时期，董卓的权力欲望极强，因迷恋美丽的貂蝉而疏于政务，影响了他的政治决策。他是太师，企图篡位，最终成为王允和貂蝉阴谋的目标。曹操计划联合诸侯讨伐他，显示出他在当时政治局势中的重要性和争议性。董卓的专权行为引发了众人的愤怒和反抗，最终导致了他的覆灭，他被吕布杀死，其被杀引发了一系列的政治动荡和战争。\n\n总的来说，董卓是一个复杂的权臣，其残暴的统治和权力操控在历史上留下了深刻的印记，成为了一个被众人所憎恨的逆贼。<SEP>董卓是朝廷派来的中郎将，负责接替卢植的指挥权。<SEP>董卓，字仲颖，是三国时期的权臣，曾任河东太守，以骄傲和残暴闻名。<SEP>董卓是三国时期的权臣，以专权和残暴著称，是众诸侯共同讨伐的目标。<SEP>董卓是反派角色，指挥大军，企图消灭诸侯联军。<SEP>董卓是故事中的主要反派，因其阴险的行为而受到众人的追捕。"
+    },
+    {
+      "entity_name": "华雄",
+      "entity_type": "person",
+      "description": "华雄是敌方将领，指挥军队与孙坚作战，表现出强大的战斗力。<SEP>华雄是敌方的上将，以强大的战斗力闻名，但最终被关羽斩杀。<SEP>华雄是董卓麾下的将领，以勇猛著称，曾斩杀鲍忠。"
+    },
+    {
+      "entity_name": "虎牢关",
+      "entity_type": "geo",
+      "description": "虎牢关是一个重要的军事关口，成为诸侯迎战吕布的地点。<SEP>虎牢关是故事中的重要地理位置，成为战斗的关键场所。<SEP>虎牢关是董卓驻军的战略要地，距离洛阳五十里，是战斗的关键地点。"
+    },
+    {
+      "entity_name": "于禁",
+      "entity_type": "person",
+      "description": "于禁是泰山巨平人，因其武艺出众被曹操任命为点军司马。"
+    },
+    {
+      "entity_name": "洛阳",
+      "entity_type": "geo",
+      "description": "洛阳是三国时期的东都，董卓认为其气数已衰，计划迁都至长安。<SEP>洛阳是中国历史上的一个重要城市，曾经是多个朝代的都城。<SEP>洛阳是众诸侯分屯的地点，具有战略意义。<SEP>洛阳是故事发生的地点之一，涉及到孙坚和袁绍的军事行动。<SEP>洛阳是三国时期的重要城市，曹操的目标之一。"
+    },
+    {
+      "entity_name": "青龙偃月刀",
+      "entity_type": "product",
+      "description": "青龙偃月刀是关羽使用的武器，以其威力和象征性著称。"
+    },
+    {
+      "entity_name": "磐河",
+      "entity_type": "geo",
+      "description": "磐河是三国时期的一个重要战场，袁绍与公孙瓒在此交战。"
+    },
+    {
+      "entity_name": "王允宗族",
+      "entity_type": "category",
+      "description": "王允的宗族在王允被杀后遭到屠杀，显示了政治斗争的残酷。"
+    },
+    {
+      "entity_name": "岘山",
+      "entity_type": "geo",
+      "description": "岘山是战斗发生的地点，吕公在此设下埋伏。"
+    },
+    {
+      "entity_name": "平原县",
+      "entity_type": "geo",
+      "description": "平原县是刘备被任命为县令的地方。"
+    },
+    {
+      "entity_name": "朱儁",
+      "entity_type": "person",
+      "description": "朱儁是一个军事指挥官，负责围攻宛城，并在战斗中表现出果断的决策能力。<SEP>朱儁是三国时期的将领，参与讨伐贼寇，表现出色。<SEP>朱儁是另一位指挥官，与皇甫嵩一起作战。"
+    },
+    {
+      "entity_name": "县",
+      "entity_type": "geo",
+      "description": "县是故事发生的地点，玄德在此担任县尉，管理地方事务。"
+    },
+    {
+      "entity_name": "何太后",
+      "entity_type": "person",
+      "description": "何太后是何进的母亲，参与了朝廷的权力斗争。"
+    },
+    {
+      "entity_name": "蛇矛丈八枪",
+      "entity_type": "product",
+      "description": "蛇矛丈八枪是冀德使用的武器，展现出其战斗技巧。"
+    },
+    {
+      "entity_name": "朝廷",
+      "entity_type": "organization",
+      "description": "朝廷是中国古代的政治机构，涉及权力斗争和决策。<SEP>朝廷是国家的最高统治机构，涉及权力斗争和政治决策。"
+    },
+    {
+      "entity_name": "陈耽",
+      "entity_type": "person",
+      "description": "陈耽是司徒，他为刘陶辩护，并试图劝说皇帝不要处决刘陶。"
+    },
+    {
+      "entity_name": "蹇硕",
+      "entity_type": "person",
+      "description": "蹇硕是中常侍，因谋害何进而被杀。"
+    },
+    {
+      "entity_name": "张举",
+      "entity_type": "person",
+      "description": "张举是反叛的领导者之一，他在战斗中失败并自杀。"
+    },
+    {
+      "entity_name": "凤凰楼",
+      "entity_type": "geo",
+      "description": "凤凰楼是故事中提到的一个地点，与王允的忠诚和牺牲有关。"
+    },
+    {
+      "entity_name": "河北",
+      "entity_type": "geo",
+      "description": "河北是战争发生的地点之一，袁绍在此迎接公孙瓒的使者。"
+    },
+    {
+      "entity_name": "袁绍",
+      "entity_type": "person",
+      "description": "袁绍是一个权势人物，试图通过书信操控局势，并与孙坚发生冲突。<SEP>袁绍是三国时期的另一位重要将领，参与了对董卓的联合抵抗，并在故事中与孙坚有互动。<SEP>袁绍是三国时期的著名军阀和重要军事将领，以其显赫的家族背景和政治影响力而闻名。他在汉末的动乱中扮演了关键角色，参与了对何进的反抗，并因反对董卓的废立计划而与其对峙，代表了反抗势力。作为中军校尉，袁绍在接驾和对董卓的警惕中具有重要的军事地位。他统治冀州，参与多次战争，并与曹操等人争夺权力，曾与曹操会盟。袁绍与公孙瓒对立，指挥军队与其作战，并在孙坚战败后感到震惊，召集诸侯商议。作为当时的盟主，他负责指挥诸侯军队，面对华雄的威胁感到焦虑。袁绍的军事和政治活动使他成为三国时期的重要人物。<SEP>袁绍是历史人物，参与了对董后的谋划，并与其他人物讨论如何处理宦官问题。<SEP>袁绍是司徒袁逢之子，参与了册立新君和清除宦官的计划。"
+    },
+    {
+      "entity_name": "义兵",
+      "entity_type": "category",
+      "description": "义兵是为国家和正义而起的军队，众诸侯联合组成以讨伐董卓。<SEP>义兵是指为正义事业而自发组织的军队，曹操招募义兵以对抗董卓。"
+    },
+    {
+      "entity_name": "青龙宝刀",
+      "entity_type": "product",
+      "description": "青龙宝刀是关云长的武器，象征着他的勇气和战斗力。"
+    },
+    {
+      "entity_name": "曹操",
+      "entity_type": "person",
+      "description": "曹操是一个历史人物，具有忠义之士的形象，致力于报国并与董卓作斗争。他曾试图刺杀董卓以拯救国家，展现出深厚的政治抱负和军事才能。作为三国时期的重要政治家和军事指挥官，曹操因其智谋和权力而闻名。他是汉末著名的军事和政治领袖，参与了对阉官的讨伐，并策划联合诸侯以对抗吕布。曹操致力于统一中国，试图平息袁绍的愤怒，并支持关羽出战。他在故事中是主要角色之一，面临追兵的威胁，并最终与其他将领聚集残兵。此外，曹操曾担任东郡太守，因被推荐而负责讨伐黄巾贼。他以其智谋和权力斗争而著称，招募多位贤士以增强自己的力量，并因父亲被杀而发起复仇。总的来说，曹操是中国历史上著名的政治家和军事家，具有深远的影响。<SEP>曹操是历史人物，参与了对宦官的讨论，并提出了自己的看法。"
+    }
+  ],
+  "relationships": [
+    {
+      "source_entity_name": "袁绍",
+      "target_entity_name": "袁隗",
+      "description": "袁隗支持袁绍的行为，显示出家族之间的政治联结。",
+      "keywords": [
+        "家族关系",
+        "政治支持"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "丁原",
+      "target_entity_name": "吕布",
+      "description": "吕布因对丁原的不满而杀了丁原，显示了权力斗争的残酷性。<SEP>吕布是丁原的义子，二者之间有着深厚的情谊。",
+      "keywords": [
+        "义子",
+        "亲情",
+        "权力斗争",
+        "背叛"
+      ],
+      "weight": 15
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "灵帝",
+      "description": "灵帝召见何进商议后事，显示出两者之间的权力关系。",
+      "keywords": [
+        "决策",
+        "统治"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘陶",
+      "target_entity_name": "十常侍",
+      "description": "刘陶警告皇帝十常侍的贪腐行为对国家的危害，显示出对国家的关心。",
+      "keywords": [
+        "危机",
+        "忠诚"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "汜水关",
+      "description": "孙坚作为先锋，率军前往汜水关迎敌。",
+      "keywords": [
+        "军事行动"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "董卓",
+      "description": "曹操计划联合诸侯讨伐董卓，显示了他对国家的忠诚。<SEP>曹操试图刺杀董卓以拯救国家，二者之间存在明显的敌对关系。<SEP>董卓的暴行引发了曹操的讨伐行动。",
+      "keywords": [
+        "忠诚",
+        "政治斗争",
+        "政治阴谋",
+        "敌对关系",
+        "讨伐"
+      ],
+      "weight": 27
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "袁绍",
+      "description": "董卓试图杀掉袁绍以消除威胁，但袁绍因李儒的劝阻而逃离。<SEP>袁绍反对董卓的废立计划，代表了对董卓权力的挑战。<SEP>袁绍对董卓的异心保持警惕，并参与了对其计划的讨论。<SEP>董卓通过李儒向袁绍提出和解的建议，影响了战争的局势。",
+      "keywords": [
+        "反抗",
+        "和解",
+        "权力",
+        "权力斗争",
+        "警惕",
+        "阴谋"
+      ],
+      "weight": 33
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "汉室",
+      "description": "吕布的行动旨在扶持汉室，恢复其权力。",
+      "keywords": [
+        "复兴",
+        "忠诚"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "曹洪",
+      "description": "曹洪勇敢地救了曹操，表现出兄弟情义。<SEP>曹洪是曹操的兄弟，参与曹操的军事行动，显示了家族关系。",
+      "keywords": [
+        "兄弟关系",
+        "家族支持",
+        "救援"
+      ],
+      "weight": 19
+    },
+    {
+      "source_entity_name": "帝",
+      "target_entity_name": "陶",
+      "description": "陶向帝警告国家危机，试图引起帝的重视。",
+      "keywords": [
+        "忠诚",
+        "警告"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "战斗",
+      "target_entity_name": "江东军",
+      "description": "江东军参与了与刘表军的战斗，导致了激烈的冲突。",
+      "keywords": [
+        "军事冲突",
+        "战斗参与"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "献帝",
+      "target_entity_name": "郭汜",
+      "description": "郭汜与李傕共同掌握权力，对献帝构成威胁。",
+      "keywords": [
+        "政治影响",
+        "权力关系"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "华雄",
+      "target_entity_name": "祖茂",
+      "description": "祖茂在战斗中跟随孙坚突围，但最终被华雄杀死。",
+      "keywords": [
+        "战斗",
+        "牺牲"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "相府",
+      "description": "曹操前往相府企图刺杀董卓，二者之间的关系紧密相关。",
+      "keywords": [
+        "刺杀地点",
+        "计划实施"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "蒯越",
+      "description": "蒯越作为刘表的部下，参与了截击孙坚的行动，显示出对汉室的支持。",
+      "keywords": [
+        "军事行动",
+        "忠诚"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "反抗行动",
+      "target_entity_name": "张济",
+      "description": "张济参与反抗董卓的计划，与李傕等人共同策划行动。",
+      "keywords": [
+        "军事反抗",
+        "组织策划"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "吕布",
+      "description": "关羽参与了对吕布的围攻，显示了他与张飞的合作。",
+      "keywords": [
+        "合作",
+        "战斗"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "李典",
+      "description": "曹操与李典等将领聚集残兵，共同应对敌人。<SEP>李典投靠曹操并成为其帐前吏，显示了对曹操的忠诚。",
+      "keywords": [
+        "团结",
+        "忠诚追随",
+        "领导"
+      ],
+      "weight": 14
+    },
+    {
+      "source_entity_name": "公孙瓒",
+      "target_entity_name": "袁绍",
+      "description": "公孙瓒与袁绍之间存在敌对关系，双方在战斗中对抗。<SEP>袁绍与公孙瓒之间存在联盟关系，公孙瓒曾派弟弟来与袁绍商议分地。<SEP>袁绍与公孙瓒是对立的豪杰，参与了同一场战争。",
+      "keywords": [
+        "对立",
+        "战争",
+        "战斗",
+        "战略合作",
+        "敌对关系",
+        "联盟"
+      ],
+      "weight": 23
+    },
+    {
+      "source_entity_name": "吕公",
+      "target_entity_name": "蒯良",
+      "description": "吕公执行蒯良的计策，成功突围并引发混乱。",
+      "keywords": [
+        "突围",
+        "策略执行"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张宝",
+      "target_entity_name": "皇甫嵩",
+      "description": "皇甫嵩因屡次获胜而被朝廷重用，张宝则因失败而被追击。",
+      "keywords": [
+        "权力",
+        "胜利"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "长安",
+      "description": "董卓的统治使长安成为混乱的中心。",
+      "keywords": [
+        "混乱",
+        "统治"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "刘表",
+      "target_entity_name": "桓阶",
+      "description": "桓阶作为使者进入城中与刘表谈判，试图促成和谈。",
+      "keywords": [
+        "使者",
+        "和谈"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "刘表",
+      "target_entity_name": "江夏八俊",
+      "description": "江夏八俊是刘表的朋友，显示出刘表在当时的社交网络和影响力。",
+      "keywords": [
+        "影响力",
+        "社交关系"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "玄德",
+      "description": "玄德与关羽结为兄弟，共同誓言同心协力，救困扶危。",
+      "keywords": [
+        "兄弟情谊",
+        "团结"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "少帝",
+      "target_entity_name": "李儒",
+      "description": "李儒通过威逼少帝，迫使其饮下毒酒，导致少帝的死亡。",
+      "keywords": [
+        "弑帝",
+        "权力操控"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "毛玠",
+      "description": "毛玠因其名声被曹操任用，增强了曹操的力量。",
+      "keywords": [
+        "人才推荐",
+        "领导关系"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "杀人事件",
+      "description": "曹操为了自保而杀死吕伯奢，反映了他的决策和性格。",
+      "keywords": [
+        "决策",
+        "生存"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "吕伯奢",
+      "target_entity_name": "曹操",
+      "description": "吕伯奢准备款待曹操，显示了他们之间的亲密关系。",
+      "keywords": [
+        "亲情",
+        "友谊"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "受禅台",
+      "target_entity_name": "王允",
+      "description": "王允计划在受禅台上进行权力交接，以实现对董卓的反击。",
+      "keywords": [
+        "权力交接",
+        "策划"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘焉",
+      "target_entity_name": "玄德",
+      "description": "刘焉支持玄德等人对抗黄巾贼，并给予他们指挥权。",
+      "keywords": [
+        "指挥",
+        "支持"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "朱儁",
+      "target_entity_name": "玄德",
+      "description": "朱儁采纳了玄德的策略，决定撤去东南军马，集中力量攻打西北。",
+      "keywords": [
+        "决策支持",
+        "战略合作"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "蔡邕",
+      "description": "蔡邕因董卓的专权而感到愤怒，表现出对国家的忠诚，最终因哭泣而被杀。",
+      "keywords": [
+        "个人命运",
+        "忠诚与背叛"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "马腾",
+      "target_entity_name": "马超",
+      "description": "马超是马腾的儿子，参与战斗，展现出英勇的表现。",
+      "keywords": [
+        "军事表现",
+        "父子关系"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "关",
+      "target_entity_name": "朱儁",
+      "description": "关是朱儁的部下，参与了围攻宛城的战斗，展现出忠诚。",
+      "keywords": [
+        "战斗参与",
+        "部下关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "伍孚",
+      "target_entity_name": "董卓",
+      "description": "伍孚因对董卓的暴行感到愤怒，试图刺杀董卓。",
+      "keywords": [
+        "反抗",
+        "暴力"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张梁",
+      "target_entity_name": "张角",
+      "description": "张梁是张角的弟弟，参与了张角的起义，支持他的事业。<SEP>张角是张梁的兄长，指挥张梁与敌军作战。",
+      "keywords": [
+        "兄弟关系",
+        "共同目标",
+        "指挥"
+      ],
+      "weight": 14
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "袁绍",
+      "description": "孙坚与袁绍之间存在敌对关系，因袁绍试图通过书信操控局势，导致冲突。<SEP>孙坚与袁绍在对抗董卓的斗争中有合作关系，共同参与了抵抗行动。<SEP>孙坚在战斗后向袁绍报捷，袁绍对此感到震惊。",
+      "keywords": [
+        "合作关系",
+        "报捷",
+        "抵抗斗争",
+        "敌对关系",
+        "权力斗争",
+        "盟友关系"
+      ],
+      "weight": 23
+    },
+    {
+      "source_entity_name": "董太师",
+      "target_entity_name": "长安",
+      "description": "董太师在长安掌握权力，影响了整个朝廷的局势。",
+      "keywords": [
+        "政治影响",
+        "权力中心"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "朱儁",
+      "target_entity_name": "皇甫嵩",
+      "description": "皇甫嵩与朱儁共同指挥军队，抵抗张角的进攻。",
+      "keywords": [
+        "合作关系",
+        "指挥"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "众人",
+      "target_entity_name": "曹操",
+      "description": "曹操的行为引起了众人的惊讶和讨论，反映了他在社会中的影响力。",
+      "keywords": [
+        "权力斗争",
+        "社会反应"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "董卓",
+      "description": "董卓与孙坚之间存在敌对关系，孙坚反对董卓的统治，并拒绝与其结亲。",
+      "keywords": [
+        "敌对关系",
+        "权力斗争"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "华雄",
+      "target_entity_name": "鲍忠",
+      "description": "华雄斩杀鲍忠，显示其勇猛。",
+      "keywords": [
+        "战斗结果"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "十常侍",
+      "target_entity_name": "黄巾",
+      "description": "十常侍的贪腐导致了黄巾的反叛，造成了社会动乱。",
+      "keywords": [
+        "权力腐败",
+        "社会动荡"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "张宝",
+      "target_entity_name": "张角",
+      "description": "张宝是张角的弟弟，参与了张角的起义，支持他的事业。<SEP>张角是张宝的兄长，指挥张宝与敌军作战。",
+      "keywords": [
+        "兄弟关系",
+        "共同目标",
+        "指挥"
+      ],
+      "weight": 14
+    },
+    {
+      "source_entity_name": "战斗",
+      "target_entity_name": "马超",
+      "description": "马超在战斗中表现出色，击败敌将王方。",
+      "keywords": [
+        "战斗表现",
+        "英雄主义"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "平原相",
+      "target_entity_name": "玄德",
+      "description": "玄德被推荐为平原相，显示了他的政治地位和影响力。",
+      "keywords": [
+        "推荐",
+        "政治"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "陈留王",
+      "description": "董卓任命陈留王为新皇帝，以实现自己的政治目的。<SEP>董卓试图废除现帝并立陈留王，显示出对权力的渴望。",
+      "keywords": [
+        "废立计划",
+        "政治任命",
+        "权力操控",
+        "权力欲望"
+      ],
+      "weight": 17
+    },
+    {
+      "source_entity_name": "何太后",
+      "target_entity_name": "董太后",
+      "description": "何太后与董太后之间存在权力争夺，双方互相指责。",
+      "keywords": [
+        "政治冲突",
+        "权力争夺"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "公孙瓒",
+      "target_entity_name": "文丑",
+      "description": "文丑与公孙瓒在磐河交战，文丑试图捕捉公孙瓒。",
+      "keywords": [
+        "战斗",
+        "敌对关系"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "中山大商",
+      "target_entity_name": "玄德",
+      "description": "中山大商提供马匹和资金支持玄德等人，助力他们的计划。",
+      "keywords": [
+        "商业支持",
+        "资源提供"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "刘备",
+      "target_entity_name": "刘虞",
+      "description": "刘备因在战斗中的表现受到刘虞的推荐，显示出两者之间的合作关系。",
+      "keywords": [
+        "军事合作",
+        "推荐"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "太后",
+      "target_entity_name": "少帝",
+      "description": "太后试图保护少帝的生命，面对李儒的威逼。",
+      "keywords": [
+        "保护",
+        "母子关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "太后",
+      "target_entity_name": "段珪",
+      "description": "段珪劫持了太后，导致了皇权的危机。",
+      "keywords": [
+        "政治冲突",
+        "权力劫持"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "张",
+      "target_entity_name": "玄德",
+      "description": "玄德与张同为将军，张为保护玄德而出手打击督邮。",
+      "keywords": [
+        "友谊",
+        "忠诚"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "张角",
+      "target_entity_name": "玄德",
+      "description": "玄德与张角在战斗中相遇，形成直接的敌对关系。",
+      "keywords": [
+        "冲突",
+        "敌对关系"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "何苗",
+      "target_entity_name": "张让",
+      "description": "张让通过流言影响了何苗的奏言，试图维护自己的利益。",
+      "keywords": [
+        "权谋",
+        "流言"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "十常侍",
+      "target_entity_name": "汉朝",
+      "description": "十常侍在汉朝的权力斗争中扮演了重要角色，影响了朝政。",
+      "keywords": [
+        "政治影响",
+        "权力斗争"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张让",
+      "target_entity_name": "董太后",
+      "description": "董太后与张让之间存在权力斗争，张让试图保护自己免受董太后的影响。",
+      "keywords": [
+        "权力斗争",
+        "自保"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "郭嘉",
+      "description": "郭嘉被曹操重用，协助其治理国家，并推荐其他人才。",
+      "keywords": [
+        "人才推荐",
+        "领导关系"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "反抗行动",
+      "target_entity_name": "郭汜",
+      "description": "郭汜参与反抗董卓的计划，与李傕等人共同策划行动。",
+      "keywords": [
+        "军事反抗",
+        "组织策划"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "传国玺",
+      "target_entity_name": "孙坚",
+      "description": "孙坚在清理宫殿时发现了传国玺，具有重要的历史意义。",
+      "keywords": [
+        "历史",
+        "发现"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "古寺",
+      "target_entity_name": "曹嵩",
+      "description": "曹嵩一家在逃亡途中暂时歇宿于古寺。",
+      "keywords": [
+        "地理位置",
+        "避难"
+      ],
+      "weight": 5
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "蔡瑁",
+      "description": "蔡瑁在战斗中与孙坚对抗，表现出勇猛的战斗精神。",
+      "keywords": [
+        "冲突",
+        "战斗"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹嵩",
+      "target_entity_name": "曹操",
+      "description": "曹操因父亲曹嵩被杀而发起复仇，情感上有着深厚的仇恨。",
+      "keywords": [
+        "复仇",
+        "父子关系"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "中牟县",
+      "target_entity_name": "曹操",
+      "description": "曹操在逃亡过程中被捕于中牟县，显示出他逃亡的紧迫性。",
+      "keywords": [
+        "被捕",
+        "逃亡"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "华雄",
+      "description": "关羽在战斗中斩杀华雄，展现了他的勇猛和战斗能力。",
+      "keywords": [
+        "战斗胜利",
+        "英勇"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "安喜县",
+      "target_entity_name": "玄德",
+      "description": "玄德被任命为安喜县的县尉，表现出他对民众的关心和治理能力。",
+      "keywords": [
+        "治理关系",
+        "社会责任"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "冀德",
+      "target_entity_name": "战斗",
+      "description": "冀德参与战斗，展现出其勇猛的战斗能力。",
+      "keywords": [
+        "战斗",
+        "英雄行为"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘晔",
+      "target_entity_name": "曹操",
+      "description": "刘晔因其背景被曹操聘用以协助治理。",
+      "keywords": [
+        "人才推荐",
+        "领导关系"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "朱儁",
+      "target_entity_name": "赵弘",
+      "description": "赵弘与朱儁交战，试图夺回宛城，显示出敌对关系。",
+      "keywords": [
+        "战斗",
+        "敌对关系"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "玄德",
+      "target_entity_name": "青州",
+      "description": "青州是玄德等人前往救援的目标，涉及到战斗和拯救。",
+      "keywords": [
+        "战斗地点",
+        "救援目标"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "长乐宫",
+      "description": "何进在长乐宫内遭遇了张让的阴谋，最终被杀。",
+      "keywords": [
+        "悲剧",
+        "政治阴谋"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "王允",
+      "target_entity_name": "长安",
+      "description": "长安是王允和其他角色进行政治斗争和战斗的主要地点.",
+      "keywords": [
+        "地理位置",
+        "政治中心"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "朱儁",
+      "target_entity_name": "韩忠",
+      "description": "朱儁拒绝了韩忠的投降请求，显示出他对敌人不屈服的态度。",
+      "keywords": [
+        "军事对抗",
+        "投降拒绝"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张宝",
+      "target_entity_name": "朱儁",
+      "description": "朱儁与张宝之间的战斗是为了讨伐贼寇，显示出两者的对立关系。",
+      "keywords": [
+        "对立",
+        "战争"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘玄德",
+      "target_entity_name": "张翼德",
+      "description": "张翼德与刘玄德是战友，共同参与对袁绍的战斗。",
+      "keywords": [
+        "战友关系",
+        "战斗"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "玄德",
+      "target_entity_name": "董卓",
+      "description": "董卓对玄德的轻视反映了权力关系中的不平等。",
+      "keywords": [
+        "权力动态",
+        "轻视"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "张飞",
+      "description": "关羽与张飞是玄德的结义兄弟，三人共同作战。<SEP>张飞与关羽共同参与桃园结义，成为刘备的兄弟。",
+      "keywords": [
+        "兄弟情",
+        "兄弟情谊",
+        "战斗伙伴",
+        "结义"
+      ],
+      "weight": 18
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "河内",
+      "description": "曹操与将领们返回河内，聚集残兵。",
+      "keywords": [
+        "聚集",
+        "返回"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "公孙瓒",
+      "target_entity_name": "刘玄德",
+      "description": "刘玄德带领部队来支援公孙瓒，显示出对他的尊重和友谊。",
+      "keywords": [
+        "友谊",
+        "支援"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张闿",
+      "target_entity_name": "曹嵩",
+      "description": "张闿杀了曹嵩及其全家，直接导致了曹操的复仇行动。",
+      "keywords": [
+        "仇恨",
+        "暴力"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "鲍信",
+      "target_entity_name": "鲍忠",
+      "description": "鲍信担心孙坚夺功，暗中派弟弟鲍忠出战。",
+      "keywords": [
+        "兄弟关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "张翼德",
+      "target_entity_name": "玄德",
+      "description": "玄德劝阻张翼德不要擅自杀董卓，显示出对张翼德的关心和对局势的把控。",
+      "keywords": [
+        "兄弟情",
+        "领导"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "于禁",
+      "target_entity_name": "曹操",
+      "description": "于禁因其武艺出众被曹操任命为点军司马。",
+      "keywords": [
+        "军事任命",
+        "领导关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "徐荣",
+      "target_entity_name": "曹操",
+      "description": "徐荣追击曹操，试图阻止他的逃跑。",
+      "keywords": [
+        "敌对关系",
+        "追击"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "张飞",
+      "description": "张飞与吕布在战斗中直接交锋，展现了两者的武艺和勇气。",
+      "keywords": [
+        "战斗",
+        "英雄对决"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "玄德",
+      "target_entity_name": "督邮",
+      "description": "玄德对督邮的仁慈表现出他对生命的尊重，尽管督邮有罪。",
+      "keywords": [
+        "仁慈",
+        "冲突"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "关云长",
+      "target_entity_name": "刘玄德",
+      "description": "关云长与刘玄德是战友，共同参与对袁绍的战斗。",
+      "keywords": [
+        "战友关系",
+        "战斗"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "张飞",
+      "target_entity_name": "玄德",
+      "description": "玄德与张飞结为兄弟，共同誓言同心协力，救困扶危。",
+      "keywords": [
+        "兄弟情谊",
+        "团结"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "袁绍",
+      "description": "何进与袁绍共同策划册立新君并清除宦官，形成合作关系。<SEP>何进的谋反导致了袁绍的反抗和宫廷的动乱。",
+      "keywords": [
+        "政治联盟",
+        "政治阴谋",
+        "权力合作",
+        "权力斗争"
+      ],
+      "weight": 16
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "袁绍",
+      "description": "袁绍对关羽的勇气表示欣赏，并希望他能战胜华雄。",
+      "keywords": [
+        "战斗期待",
+        "领导支持"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "董卓",
+      "description": "何进召董卓入京，试图利用其力量对抗宦官，但最终导致了悲剧。",
+      "keywords": [
+        "权力游戏",
+        "阴谋"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "李肃",
+      "target_entity_name": "董卓",
+      "description": "李肃作为董卓的谋士，参与了权力的策划和决策，显示了他们的合作关系。<SEP>李肃对董卓的统治感到愤怒，参与了反董卓的计划。<SEP>李肃是董卓的谋士，提供了关于吉凶的解读，影响了董卓的决策。",
+      "keywords": [
+        "不满",
+        "决策影响",
+        "反抗",
+        "合作",
+        "谋士"
+      ],
+      "weight": 21
+    },
+    {
+      "source_entity_name": "李傕",
+      "target_entity_name": "献帝",
+      "description": "李傕在朝廷中掌权，影响献帝的决策和安全。",
+      "keywords": [
+        "政治影响",
+        "权力关系"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "众人",
+      "target_entity_name": "计将安出",
+      "description": "众人对计将安出的讨论显示了他们对曹操局势的关注和参与。",
+      "keywords": [
+        "事件讨论",
+        "社会参与"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "刘备",
+      "description": "刘备与关羽是结义兄弟，彼此忠诚，关系密切。<SEP>刘备与关羽结为兄弟，共同志向破贼安民。",
+      "keywords": [
+        "兄弟情义",
+        "共同目标",
+        "结义"
+      ],
+      "weight": 20
+    },
+    {
+      "source_entity_name": "战斗",
+      "target_entity_name": "洛阳",
+      "description": "战斗发生在洛阳，标志着重要的历史事件。",
+      "keywords": [
+        "历史事件",
+        "地点"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "董卓",
+      "description": "吕布与董卓之间的关系复杂，吕布的行为受到董卓的影响。<SEP>吕布与董卓之间的关系复杂，王允希望通过貂蝉来破坏他们的关系。<SEP>吕布作为董卓的部下，支持董卓并在关键时刻为其提供保护。<SEP>董卓对吕布的重用和赐予荣誉，显示了两者之间的依赖关系。<SEP>董卓希望招揽吕布，以增强自己的权力和军队。<SEP>董卓因发现吕布与貂蝉私会而对吕布产生了愤怒。<SEP>吕布参与了对董卓的讨伐，并最终杀死了他。<SEP>董卓与吕布之间存在父子之分，董卓对吕布有很大的权力影响。",
+      "keywords": [
+        "个人利益",
+        "依赖",
+        "保护",
+        "叛乱",
+        "嫉妒",
+        "家族关系",
+        "影响",
+        "忠诚",
+        "招揽",
+        "权力",
+        "权力关系",
+        "权力斗争"
+      ],
+      "weight": 62
+    },
+    {
+      "source_entity_name": "张",
+      "target_entity_name": "朱儁",
+      "description": "张是朱儁的部下，参与围攻宛城，表现出团队合作。",
+      "keywords": [
+        "战斗参与",
+        "部下关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "战斗",
+      "target_entity_name": "蔡瑁",
+      "description": "蔡瑁参与战斗，但最终被击败。",
+      "keywords": [
+        "失败",
+        "战斗参与"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "李儒",
+      "target_entity_name": "貂蝉",
+      "description": "李儒策划将貂蝉送给吕布，显示了他在权谋中的作用。",
+      "keywords": [
+        "权谋",
+        "牺牲品"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "献帝",
+      "target_entity_name": "董卓",
+      "description": "献帝与董卓之间的关系影响了当时的政治局势。",
+      "keywords": [
+        "政治关系",
+        "权力"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "程昱",
+      "description": "程昱因其才华被曹操重用，并推荐其他贤士。",
+      "keywords": [
+        "人才推荐",
+        "领导关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "少帝",
+      "target_entity_name": "永安宫",
+      "description": "少帝被囚禁在永安宫，象征着他失去的权力和自由。",
+      "keywords": [
+        "囚禁",
+        "权力丧失"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "战斗",
+      "target_entity_name": "荥阳",
+      "description": "荥阳是曹操与董卓战斗的地点，显示出历史上的重要军事冲突。",
+      "keywords": [
+        "军事冲突",
+        "历史事件"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "反抗行动",
+      "target_entity_name": "长安",
+      "description": "反抗行动的目标地点是长安，反抗者计划在此进行战斗。",
+      "keywords": [
+        "地理位置",
+        "战斗计划"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "黄巾贼",
+      "description": "曹操被指派负责讨伐黄巾贼，显示了他的军事责任。",
+      "keywords": [
+        "军事任务",
+        "讨伐"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "王司徒",
+      "target_entity_name": "貂蝉",
+      "description": "王司徒与貂蝉的对话显示了他对国家大事的关注，貂蝉则表现出对王司徒的忠诚。",
+      "keywords": [
+        "国家大事",
+        "忠诚"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "乐进",
+      "target_entity_name": "曹操",
+      "description": "乐进投靠曹操并成为其帐前吏，显示了对曹操的忠诚。<SEP>曹操与乐进等将领聚集残兵，共同应对敌人。",
+      "keywords": [
+        "团结",
+        "忠诚追随",
+        "领导"
+      ],
+      "weight": 14
+    },
+    {
+      "source_entity_name": "反抗行动",
+      "target_entity_name": "樊稠",
+      "description": "樊稠参与反抗董卓的计划，与李傕等人共同策划行动。",
+      "keywords": [
+        "军事反抗",
+        "组织策划"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "王允",
+      "target_entity_name": "袁绍",
+      "description": "袁绍向王允传递密信，计划联合反对董卓。",
+      "keywords": [
+        "政治阴谋",
+        "联合"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "王允",
+      "target_entity_name": "董卓",
+      "description": "王允对董卓的统治感到愤怒，策划了反对董卓的阴谋。<SEP>王允对董卓的统治表示悲痛，并试图策划反抗。<SEP>王允对董卓的计划持谨慎态度，并参与了对废立之事的商议。<SEP>王允试图通过宴请董卓来拉拢他，同时暗中策划对他的阴谋。<SEP>王允通过献上貂蝉来获取董卓的信任和支持，展现了政治操控。<SEP>王允策划了对董卓的讨伐，并在董卓被杀后庆祝。<SEP>董卓的被杀引发了王允的忠诚和牺牲，导致了政治动荡.",
+      "keywords": [
+        "反叛",
+        "反抗",
+        "对抗",
+        "政治斗争",
+        "政治策略",
+        "政治阴谋",
+        "权力",
+        "权力博弈",
+        "权力斗争",
+        "权力游戏",
+        "牺牲"
+      ],
+      "weight": 58
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "貂蝉",
+      "description": "董卓因迷恋貂蝉而疏于政务，导致权力斗争的复杂化。<SEP>貂蝉被王允献给董卓，董卓因其美丽而迷恋她，影响了他的行为。<SEP>董卓计划将貂蝉赐予吕布，显示了他对权力和美色的追求。",
+      "keywords": [
+        "情感纠葛",
+        "权力",
+        "权力斗争",
+        "权力欲",
+        "爱情",
+        "牺牲品"
+      ],
+      "weight": 25
+    },
+    {
+      "source_entity_name": "成皋",
+      "target_entity_name": "杀人事件",
+      "description": "杀人事件发生在成皋，地点与事件密切相关。",
+      "keywords": [
+        "事件",
+        "地点"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "陶谦",
+      "description": "曹操认为陶谦是导致他父亲被杀的罪魁祸首，因此发起对陶谦的攻击。",
+      "keywords": [
+        "复仇",
+        "敌对关系"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "何后",
+      "target_entity_name": "何苗",
+      "description": "何苗向何后奏言，劝阻其对宦官的处置，影响了决策。",
+      "keywords": [
+        "决策影响",
+        "劝说"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "李肃",
+      "description": "李肃因对董卓的不满而支持吕布的计划，成为其盟友。<SEP>李肃试图说服吕布投靠董卓，利用赤兔马作为诱饵。",
+      "keywords": [
+        "反抗",
+        "同盟",
+        "诱惑",
+        "说服"
+      ],
+      "weight": 16
+    },
+    {
+      "source_entity_name": "华雄",
+      "target_entity_name": "董卓",
+      "description": "董卓指挥华雄作战，企图消灭诸侯联军。",
+      "keywords": [
+        "战争指挥",
+        "敌对关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "袁绍",
+      "target_entity_name": "韩馥",
+      "description": "韩馥向袁绍提供粮草，显示了对袁绍的支持。",
+      "keywords": [
+        "支持",
+        "资源提供"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "马元义",
+      "description": "何进调兵擒拿马元义并斩杀他，显示了对反叛的镇压。",
+      "keywords": [
+        "反叛",
+        "镇压"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "朝廷",
+      "target_entity_name": "董卓",
+      "description": "董卓在朝廷中掌握权力，影响政治决策。",
+      "keywords": [
+        "政治",
+        "权力"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "凤仪亭",
+      "target_entity_name": "吕布",
+      "description": "凤仪亭是吕布与貂蝉情感纠葛的重要地点，二人曾在此相遇。",
+      "keywords": [
+        "关键事件",
+        "情感地点"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "赤兔马",
+      "description": "吕布因赤兔马的赠予而感到高兴，显示了两者之间的关系。<SEP>赤兔马是吕布的坐骑，增强了他的战斗能力。",
+      "keywords": [
+        "关系",
+        "战斗能力",
+        "战马",
+        "赠予"
+      ],
+      "weight": 16
+    },
+    {
+      "source_entity_name": "王司徒",
+      "target_entity_name": "董太师",
+      "description": "王司徒策划了针对董太师的计谋，显示了两者之间的对立关系。",
+      "keywords": [
+        "权力斗争",
+        "阴谋"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "鲍信",
+      "description": "鲍信警告袁绍董卓可能有异心，显示出对董卓的警惕。",
+      "keywords": [
+        "政治警觉",
+        "权力威胁"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "性命",
+      "target_entity_name": "献帝",
+      "description": "献帝的性命是历史讨论的中心，涉及他的统治和历史影响。",
+      "keywords": [
+        "历史人物",
+        "统治影响"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "反抗行动",
+      "target_entity_name": "李傕",
+      "description": "李傕是反抗董卓的主要策划者之一，参与组织反抗行动。",
+      "keywords": [
+        "军事反抗",
+        "组织策划"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "虎牢关",
+      "description": "虎牢关是董卓驻军的地点，战略意义重大。",
+      "keywords": [
+        "军事防御",
+        "战略位置"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "李傕",
+      "target_entity_name": "郭汜",
+      "description": "李傕与郭汜共同掌握权力，残虐百姓。<SEP>李傕和郭汜共同驱赶洛阳的百姓，参与了对城市的攻占。<SEP>李傕和郭汜是同盟关系，共同对抗吕布，参与了多次战斗.",
+      "keywords": [
+        "合作",
+        "同盟关系",
+        "战斗",
+        "攻占",
+        "暴政",
+        "权力关系"
+      ],
+      "weight": 24
+    },
+    {
+      "source_entity_name": "刘表",
+      "target_entity_name": "孙策",
+      "description": "孙策因父亲被杀而寻求与刘表的和谈，显示出两者之间的敌对关系。",
+      "keywords": [
+        "和谈",
+        "敌对关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "程普",
+      "description": "程普在战斗中救助了孙坚，显示了对孙坚的忠诚。",
+      "keywords": [
+        "忠诚",
+        "战斗支持"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "荀彧",
+      "description": "荀彧与曹操建立了密切的关系，并被任命为行军司马。",
+      "keywords": [
+        "政治联盟",
+        "领导关系"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "王允",
+      "target_entity_name": "蔡邕",
+      "description": "王允决定杀死蔡邕，尽管马日磾主张保留蔡邕的才华。",
+      "keywords": [
+        "人才保护",
+        "权力决策"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "江东",
+      "description": "孙坚是江东的领袖，其去世对江东的未来产生了重大影响。",
+      "keywords": [
+        "地理影响",
+        "领导"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "青州兵",
+      "description": "曹操招募青州兵以增强军队实力，参与讨伐黄巾贼。",
+      "keywords": [
+        "军队",
+        "招募"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "丁原",
+      "target_entity_name": "董卓",
+      "description": "丁原反对董卓的废立提议，显示出对现帝的支持。",
+      "keywords": [
+        "反对",
+        "忠诚"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "公孙瓒",
+      "target_entity_name": "赵云",
+      "description": "公孙瓒与赵云在战斗中相遇，赵云因公孙瓒的忠诚而投靠他。",
+      "keywords": [
+        "忠诚",
+        "战斗伙伴"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘备",
+      "target_entity_name": "张飞",
+      "description": "刘备与张飞是结义兄弟，彼此忠诚，关系密切。<SEP>刘备与张飞结为兄弟，共同志向破贼安民。",
+      "keywords": [
+        "兄弟情义",
+        "共同目标",
+        "结义"
+      ],
+      "weight": 20
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "蹇硕",
+      "description": "蹇硕因谋害何进而被杀，显示了权力斗争的激烈。",
+      "keywords": [
+        "暗杀",
+        "权力斗争"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "李蒙",
+      "target_entity_name": "马超",
+      "description": "马超在战斗中擒获了李蒙，显示了他的军事才能。",
+      "keywords": [
+        "战斗",
+        "擒获"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "李傕",
+      "description": "吕布与李傕之间存在敌对关系，李傕引军挑战吕布，导致多次战斗.",
+      "keywords": [
+        "战斗",
+        "敌对关系"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "暴尸事件",
+      "target_entity_name": "董卓",
+      "description": "董卓被杀后，尸体暴露在市中，引发了众人的反应。",
+      "keywords": [
+        "死亡",
+        "社会反应"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "朱儁",
+      "target_entity_name": "阳城",
+      "description": "朱儁围攻阳城，显示出其军事行动的目标和策略。",
+      "keywords": [
+        "围攻",
+        "战略"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张举",
+      "target_entity_name": "张纯",
+      "description": "张举和张纯都是反叛的领导者，他们的命运紧密相连。",
+      "keywords": [
+        "反叛",
+        "失败"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "华雄",
+      "target_entity_name": "孙坚",
+      "description": "孙坚与华雄之间展开了激烈的战斗，华雄是孙坚的敌人。",
+      "keywords": [
+        "战斗",
+        "敌对关系"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "刘表",
+      "target_entity_name": "孙坚",
+      "description": "刘表与孙坚之间的关系复杂，刘表试图阻止孙坚的行动，表现出对汉室的忠诚。<SEP>孙坚与刘表之间存在敌对关系，孙坚曾被围困于刘表之中。",
+      "keywords": [
+        "冲突",
+        "忠诚",
+        "战争",
+        "敌对关系"
+      ],
+      "weight": 17
+    },
+    {
+      "source_entity_name": "皇子协",
+      "target_entity_name": "董太后",
+      "description": "皇子协被董太后册立为王，成为权力斗争的关键角色。",
+      "keywords": [
+        "政治影响",
+        "权力册立"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "满宠",
+      "description": "满宠因其名声被曹操任用，增强了曹操的力量。",
+      "keywords": [
+        "人才推荐",
+        "领导关系"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "董太后",
+      "description": "何进因与董太后的关系而获得权力，显示出宫廷中的权力斗争。",
+      "keywords": [
+        "宫廷斗争",
+        "权力"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "董卓",
+      "description": "关羽参与讨伐董卓，反对其专权行为。",
+      "keywords": [
+        "正义之战"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "关云长",
+      "target_entity_name": "冀德",
+      "description": "冀德与关云长在战斗中并肩作战，展现出合作与勇气。",
+      "keywords": [
+        "合作",
+        "英雄"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘备",
+      "target_entity_name": "袁绍",
+      "description": "刘备因与孙坚同为汉室宗派而受到袁绍的重视。",
+      "keywords": [
+        "宗派",
+        "盟友关系"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "皇帝",
+      "target_entity_name": "陈留王",
+      "description": "陈留王与皇帝在逃亡过程中相互支持，共同面对危机。",
+      "keywords": [
+        "兄弟情",
+        "共同逃亡"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "曹嵩",
+      "target_entity_name": "陶谦",
+      "description": "曹嵩因避难而隐居，陶谦出境迎接并款待其家人。",
+      "keywords": [
+        "人际关系",
+        "友好接待"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "西凉军",
+      "target_entity_name": "韩遂",
+      "description": "韩遂与马腾共同指挥西凉军，参与讨贼行动。",
+      "keywords": [
+        "军事指挥",
+        "合作"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "典韦",
+      "target_entity_name": "曹操",
+      "description": "典韦因其勇力过人被曹操重用，增强了曹操的力量。",
+      "keywords": [
+        "军事任命",
+        "领导关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "冀州",
+      "target_entity_name": "袁绍",
+      "description": "袁绍在冀州屯兵，缺少粮草，策划攻取冀州的策略。",
+      "keywords": [
+        "军事行动",
+        "地域控制"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "何进",
+      "target_entity_name": "曹操",
+      "description": "曹操对何进的权力斗争表示担忧，认为外兵的召集可能导致混乱。",
+      "keywords": [
+        "政治策略",
+        "权力斗争"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "襄阳",
+      "target_entity_name": "黄祖",
+      "description": "黄祖在襄阳指挥防守，试图抵挡孙坚的攻击。",
+      "keywords": [
+        "城市",
+        "防守"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "八路诸侯",
+      "target_entity_name": "虎牢关",
+      "description": "八路诸侯在虎牢关集结，准备迎战吕布。",
+      "keywords": [
+        "军事集结",
+        "战斗准备"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "韩遂",
+      "target_entity_name": "马腾",
+      "description": "马腾和韩遂是盟友，共同追击敌军并获得胜利。",
+      "keywords": [
+        "战斗",
+        "盟友"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "襄阳",
+      "description": "孙坚围攻襄阳，目标是攻克这个城市。",
+      "keywords": [
+        "战略",
+        "攻城"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "袁绍",
+      "description": "曹操在讨论中支持袁绍的观点，参与了对宦官的讨论。<SEP>袁绍与曹操共同策划保护何进，但对其决策产生了分歧。<SEP>袁绍和曹操在宫廷动乱中共同参与了对阉官的讨伐。<SEP>袁绍聚集军队与曹操会盟，显示了两者之间的军事关系。",
+      "keywords": [
+        "军事联盟",
+        "合作与分歧",
+        "支持",
+        "政治联盟",
+        "权力斗争",
+        "联合行动"
+      ],
+      "weight": 28
+    },
+    {
+      "source_entity_name": "南华老仙",
+      "target_entity_name": "张角",
+      "description": "张角因遇到南华老仙而获得天书，改变了他的命运。",
+      "keywords": [
+        "启蒙",
+        "师徒关系"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "曹操",
+      "description": "吕布的英勇无敌使得曹操决定联合诸侯共同对抗他。<SEP>曹操与吕布在战斗中相遇，形成敌对关系。",
+      "keywords": [
+        "军事联盟",
+        "对抗",
+        "战斗",
+        "敌对关系"
+      ],
+      "weight": 17
+    },
+    {
+      "source_entity_name": "张角",
+      "target_entity_name": "黄巾军",
+      "description": "张角是黄巾军的领导者，指挥他们进行战斗。<SEP>张角领导黄巾军反叛，号召百姓起义。",
+      "keywords": [
+        "军事指挥",
+        "反叛",
+        "领导",
+        "领导关系"
+      ],
+      "weight": 18
+    },
+    {
+      "source_entity_name": "玄德",
+      "target_entity_name": "黄巾贼",
+      "description": "黄巾贼是玄德等人对抗的敌人，造成了社会动荡。",
+      "keywords": [
+        "战斗",
+        "敌对关系"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "绝处又逢生",
+      "target_entity_name": "计将安出",
+      "description": "绝处又逢生的成语与计将安出的情境相呼应，强调了在困境中寻找解决方案的主题。",
+      "keywords": [
+        "主题联系",
+        "成语"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "关云长",
+      "target_entity_name": "吕布",
+      "description": "关云长与吕布之间存在敌对关系，关云长试图捕捉吕布以消灭威胁。",
+      "keywords": [
+        "敌对",
+        "追捕"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "公孙瓒",
+      "target_entity_name": "玄德",
+      "description": "公孙瓒在战斗中受到玄德的救助，二人建立了相互尊重的关系。",
+      "keywords": [
+        "战斗援助",
+        "相互尊重"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "太平要术",
+      "target_entity_name": "张角",
+      "description": "张角通过学习《太平要术》而获得治病和呼风唤雨的能力。",
+      "keywords": [
+        "知识传承",
+        "能力提升"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "陈宫",
+      "description": "曹操和陈宫因共同的目标而结为朋友，陈宫愿意弃官随曹操而去。<SEP>陈宫曾考虑杀曹操，但最终选择离开，显示了两者之间的复杂关系。<SEP>陈宫试图劝说曹操不要杀戮百姓，显示出他对百姓的关心。",
+      "keywords": [
+        "保护",
+        "劝说",
+        "友谊",
+        "忠义",
+        "谋士与主公关系"
+      ],
+      "weight": 21
+    },
+    {
+      "source_entity_name": "李傕",
+      "target_entity_name": "樊稠",
+      "description": "李傕因樊稠放走韩遂而愤怒，最终斩首樊稠。",
+      "keywords": [
+        "复仇",
+        "权力斗争"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "孙策",
+      "target_entity_name": "黄祖",
+      "description": "孙策为了保护江东，选择了交换黄祖的策略，显示了权谋的复杂性。",
+      "keywords": [
+        "交换",
+        "权谋"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "张",
+      "target_entity_name": "督邮",
+      "description": "张因督邮对民众的压迫而愤怒，主动出手对其进行惩罚。",
+      "keywords": [
+        "保护",
+        "冲突"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "长安",
+      "description": "长安是朝廷所在地，曹操的胜利捷报被送到这里。",
+      "keywords": [
+        "军事胜利",
+        "政治中心"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "卫弘",
+      "target_entity_name": "曹操",
+      "description": "卫弘愿意出资支持曹操，显示了对曹操的忠诚与支持。",
+      "keywords": [
+        "忠义支持"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "迁都",
+      "description": "董卓计划迁都长安，以巩固自己的权力，显示其对国家大计的决策。",
+      "keywords": [
+        "政治决策",
+        "权力策略"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "迁都",
+      "target_entity_name": "长安",
+      "description": "长安是董卓计划迁都的目标城市，反映了其政治意图。",
+      "keywords": [
+        "地理位置",
+        "政治意图"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "朱儁",
+      "description": "孙坚在战斗中表现出勇敢，帮助朱儁攻打敌人。",
+      "keywords": [
+        "合作关系",
+        "战斗参与"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "七宝刀",
+      "target_entity_name": "曹操",
+      "description": "曹操计划使用七宝刀刺杀董卓，刀具在其计划中扮演重要角色。",
+      "keywords": [
+        "刺杀计划",
+        "武器"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "刘陶",
+      "target_entity_name": "陈耽",
+      "description": "刘陶和陈耽在朝廷中互相支持，陈耽为刘陶辩护。",
+      "keywords": [
+        "友谊",
+        "支持"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "董卓",
+      "target_entity_name": "郭汜",
+      "description": "郭汜在董卓的指挥下参与了对洛阳的攻占。",
+      "keywords": [
+        "军事行动",
+        "指挥关系"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "温明园",
+      "target_entity_name": "王允",
+      "description": "王允在温明园参与了关于废立的讨论，地点具有重要性。",
+      "keywords": [
+        "决策地点",
+        "政治会议"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "宴会",
+      "target_entity_name": "董卓",
+      "description": "宴会是董卓用来集结公卿并讨论政治事务的场合，显示了其权力的集中。",
+      "keywords": [
+        "政治集会",
+        "权力展示"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "中牟县",
+      "target_entity_name": "县令",
+      "description": "县令识破了曹操的身份，并对其进行审问，显示出地方官员的权力。",
+      "keywords": [
+        "权力",
+        "识破"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "卢植",
+      "target_entity_name": "玄德",
+      "description": "玄德与卢植合作，共同对抗张角的军队。<SEP>玄德对卢植的遭遇感到震惊，并试图保护他免受朝廷的惩罚。",
+      "keywords": [
+        "保护关系",
+        "合作关系",
+        "忠诚",
+        "战斗"
+      ],
+      "weight": 16
+    },
+    {
+      "source_entity_name": "何后",
+      "target_entity_name": "袁绍",
+      "description": "袁绍向何后提出了关于宦官的建议，试图影响其决策。",
+      "keywords": [
+        "影响",
+        "权力斗争"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "貂蝉",
+      "description": "吕布因貂蝉与董卓的关系而感到愤怒，表现出对她的强烈情感。<SEP>吕布对貂蝉的爱慕使他与董卓产生了激烈的冲突。<SEP>貂蝉被王允许配给吕布，目的是为了利用吕布的力量来对抗董卓。<SEP>吕布在讨伐董卓的过程中与貂蝉的故事相关，貂蝉被视为美人计的一部分。<SEP>吕布对貂蝉有情感纠葛，二人之间的关系复杂，涉及权力与爱情。",
+      "keywords": [
+        "冲突",
+        "嫉妒",
+        "影响力",
+        "情感冲突",
+        "情感纠葛",
+        "权力操控",
+        "权力斗争",
+        "权谋",
+        "爱情",
+        "美人计"
+      ],
+      "weight": 40
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "黄祖",
+      "description": "孙坚与黄祖在樊城展开激烈的战斗，黄祖是孙坚的敌人。<SEP>孙坚是黄祖的对手，指挥军队与其作战，最终导致黄祖的失败。",
+      "keywords": [
+        "军事对抗",
+        "战斗",
+        "指挥",
+        "敌对"
+      ],
+      "weight": 19
+    },
+    {
+      "source_entity_name": "曹仁",
+      "target_entity_name": "曹操",
+      "description": "曹仁是曹操的兄弟，参与曹操的军事行动，显示了家族关系。<SEP>曹操与曹仁等将领聚集残兵，共同应对敌人。",
+      "keywords": [
+        "团结",
+        "家族支持",
+        "领导"
+      ],
+      "weight": 16
+    },
+    {
+      "source_entity_name": "关",
+      "target_entity_name": "玄德",
+      "description": "玄德与关是亲密的朋友和战友，共同经历了许多挑战。",
+      "keywords": [
+        "友谊",
+        "忠诚"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "张翼德",
+      "target_entity_name": "董卓",
+      "description": "张翼德因董卓的骄傲和怠慢而愤怒，表现出对董卓的不满。",
+      "keywords": [
+        "不满",
+        "冲突"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "关公",
+      "target_entity_name": "张翼德",
+      "description": "张翼德与关公是兄弟战友，共同参与战斗，展现出深厚的友情。",
+      "keywords": [
+        "友情",
+        "战友"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "刘备",
+      "target_entity_name": "桃园结义",
+      "description": "桃园结义是刘备、关羽和张飞三人共同发誓协力同心的仪式。",
+      "keywords": [
+        "共同目标",
+        "结义"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "吕虔",
+      "target_entity_name": "曹操",
+      "description": "吕虔因其名声被曹操任用，增强了曹操的力量。",
+      "keywords": [
+        "人才推荐",
+        "领导关系"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "战斗",
+      "target_entity_name": "虎牢关",
+      "description": "虎牢关是战斗的发生地，成为故事情节的关键场所。",
+      "keywords": [
+        "地理位置",
+        "战斗场景"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "华雄",
+      "target_entity_name": "程普",
+      "description": "程普作为孙坚的部将，与华雄交战，试图保护孙坚。",
+      "keywords": [
+        "保护",
+        "战斗"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "曹操",
+      "target_entity_name": "骑都尉",
+      "description": "曹操被任命为骑都尉，负责指挥骑兵部队。",
+      "keywords": [
+        "军事",
+        "职务关系"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "百姓",
+      "target_entity_name": "陶谦",
+      "description": "陶谦为了保护百姓而决定自缚，显示出他对人民的责任感。",
+      "keywords": [
+        "保护",
+        "领导责任"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "黄盖",
+      "target_entity_name": "黄祖",
+      "description": "黄盖在战斗中与黄祖相遇，参与了对抗。",
+      "keywords": [
+        "对抗",
+        "战斗参与"
+      ],
+      "weight": 6
+    },
+    {
+      "source_entity_name": "西凉军",
+      "target_entity_name": "马腾",
+      "description": "马腾是西凉军的指挥官，带领军队讨伐李傕和郭汜。",
+      "keywords": [
+        "军事指挥",
+        "讨伐行动"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "王允",
+      "target_entity_name": "貂蝉",
+      "description": "王允策划利用貂蝉的美貌来影响吕布，以实现对董卓的阴谋。<SEP>王允策划将貂蝉献给董卓，以利用她的美貌来实现自己的政治目的。",
+      "keywords": [
+        "利用",
+        "操控",
+        "权力斗争",
+        "阴谋策划"
+      ],
+      "weight": 17
+    },
+    {
+      "source_entity_name": "张飞",
+      "target_entity_name": "董卓",
+      "description": "张飞参与讨伐董卓，反对其专权行为。<SEP>张飞因救了董卓而感到愤怒，认为董卓对他们不够礼遇。",
+      "keywords": [
+        "忠诚",
+        "愤怒",
+        "正义之战"
+      ],
+      "weight": 15
+    },
+    {
+      "source_entity_name": "吕公",
+      "target_entity_name": "黄祖",
+      "description": "吕公指挥三十骑并杀敌，黄祖作为城中指挥官参与战斗，两者在战斗中有直接的军事关系。",
+      "keywords": [
+        "军事指挥",
+        "战斗参与"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "夏侯惇",
+      "target_entity_name": "徐荣",
+      "description": "徐荣试图追赶曹操，夏侯惇则勇敢地迎战以保护曹操。",
+      "keywords": [
+        "保护",
+        "追击"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "孙坚",
+      "target_entity_name": "建章殿",
+      "description": "孙坚在建章殿设立帐幕，进行祭祀活动。",
+      "keywords": [
+        "地点",
+        "祭祀"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "众诸侯",
+      "target_entity_name": "洛阳",
+      "description": "众诸侯在洛阳分屯，反映了当时的政治局势。",
+      "keywords": [
+        "分屯",
+        "政治"
+      ],
+      "weight": 7
+    },
+    {
+      "source_entity_name": "吕布",
+      "target_entity_name": "王允",
+      "description": "吕布与王允合作策划了针对董卓的阴谋，以恢复汉室的权力。<SEP>吕布与王允合作，共同策划了对董卓的讨伐。<SEP>王允对吕布的赞美和敬重是为了拉拢他，共同对抗董卓。<SEP>王允试图劝说吕布采取更好的策略以保全国家，显示了他对国家的关心.",
+      "keywords": [
+        "反叛",
+        "合作",
+        "国家安全",
+        "政治策略",
+        "权力斗争",
+        "权力联盟"
+      ],
+      "weight": 31
+    },
+    {
+      "source_entity_name": "张让",
+      "target_entity_name": "董卓",
+      "description": "董卓与张让等宦官结盟，共同对抗何进，维护自己的权力。",
+      "keywords": [
+        "权力联盟",
+        "阴谋"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "献帝",
+      "target_entity_name": "王允",
+      "description": "王允为了保护献帝而付出了生命，显示了他的忠诚和牺牲精神.",
+      "keywords": [
+        "忠诚",
+        "牺牲"
+      ],
+      "weight": 10
+    },
+    {
+      "source_entity_name": "盟约",
+      "target_entity_name": "袁绍",
+      "description": "袁绍被推举为盟主，负责组织众诸侯共同讨伐董卓。",
+      "keywords": [
+        "领导角色"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "夏侯惇",
+      "target_entity_name": "曹操",
+      "description": "夏侯惇是曹操的族弟，参与曹操的军事行动，显示了家族关系。<SEP>夏侯惇是曹操的部将，参与了对敌军的战斗。",
+      "keywords": [
+        "军事行动",
+        "家族支持",
+        "指挥关系"
+      ],
+      "weight": 17
+    },
+    {
+      "source_entity_name": "十常侍",
+      "target_entity_name": "陶",
+      "description": "陶指责十常侍的行为导致国家危机，显示出两者之间的对立关系。",
+      "keywords": [
+        "对立",
+        "权力斗争"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "李儒",
+      "target_entity_name": "董卓",
+      "description": "李儒作为董卓的谋士，向董卓提出策略和建议，影响董卓的决策。<SEP>李儒劝阻董卓不要轻易杀人，显示出他在董卓身边的影响力。<SEP>董卓依赖李儒的谋略来实施其残暴的统治。",
+      "keywords": [
+        "劝阻",
+        "权臣",
+        "谋士",
+        "谋士与主公关系"
+      ],
+      "weight": 23
+    },
+    {
+      "source_entity_name": "少帝",
+      "target_entity_name": "董卓",
+      "description": "董卓通过废除少帝来巩固自己的权力，显示出其残暴的统治手段。",
+      "keywords": [
+        "权力斗争",
+        "残暴统治"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "冲天怒气",
+      "target_entity_name": "未知此人",
+      "description": "未知此人与冲天怒气之间的关系可能表明此人正经历强烈的情绪。",
+      "keywords": [
+        "人物情绪",
+        "情感状态"
+      ],
+      "weight": 8
+    },
+    {
+      "source_entity_name": "李傕",
+      "target_entity_name": "董卓",
+      "description": "李傕作为董卓的将领，负责传达董卓的命令，显示出对董卓的忠诚。<SEP>李傕在董卓的指挥下参与了对洛阳的攻占。",
+      "keywords": [
+        "军事指挥",
+        "军事行动",
+        "忠诚",
+        "指挥关系"
+      ],
+      "weight": 15
+    },
+    {
+      "source_entity_name": "关羽",
+      "target_entity_name": "曹操",
+      "description": "曹操支持关羽出战，并为他提供酒水以增强士气。",
+      "keywords": [
+        "士气提升",
+        "支持"
+      ],
+      "weight": 9
+    },
+    {
+      "source_entity_name": "刘焉",
+      "target_entity_name": "张角",
+      "description": "刘焉作为幽州太守，负责应对张角的反叛。",
+      "keywords": [
+        "反叛",
+        "防御"
+      ],
+      "weight": 7
+    }
+  ],
+  "source_texts": [
+    {
+      "content": "冀德，手\n持蛇矛丈八枪。虎须倒竖翻金线，环眼圆睁起电光。酣战未能分胜败，阵前恼起关云长。青\n龙宝刀灿霜雪，鹦鹉战袍飞蛱蝶。马蹄到处鬼神嚎，目前一怒应流血。枭雄玄德掣双锋，抖\n擞天威施勇烈。三人围绕战多时，遮拦架隔无休歇。喊声震动天地翻，杀气迷漫牛斗寒。吕\n布力穷寻走路，遥望家山拍马还。倒拖画杆方天戟，乱散销金五彩幡。顿断绒绦走赤兔，翻\n身飞上虎牢关。”三人直赶吕布到关下，看见关上西风飘动青罗伞盖。张飞大叫：“此必董\n卓！追吕布有甚强处？不如先拿董贼，便是斩草除根！”拍马上关，来擒董卓。正是：擒贼\n定须擒贼首，奇功端的待奇人。未知胜负如何，且听下文分解。",
+      "linked_entity_names": [
+        "关云长",
+        "吕布",
+        "冀德",
+        "战斗",
+        "董卓",
+        "虎牢关",
+        "蛇矛丈八枪",
+        "青龙宝刀"
+      ],
+      "linked_edges": [
+        [
+          "冀德",
+          "战斗"
+        ],
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "关云长",
+          "冀德"
+        ],
+        [
+          "关云长",
+          "吕布"
+        ],
+        [
+          "战斗",
+          "虎牢关"
+        ]
+      ]
+    },
+    {
+      "content": "颍川颍阴人，姓荀，名彧，字文若，荀绲之子也；旧事袁绍，\n今弃绍投操；操与语大悦，曰：“此吾之子房也！”遂以为行军司马。其侄荀攸，字公达，\n海内名士，曾拜黄门侍郎，后弃官归乡，今与其叔同投曹操，操以为行军教授。荀彧曰：\n“某闻兖州有一贤士，今此人不知何在。”操问是谁，彧曰：“乃东郡东阿人，姓程，名\n昱，字仲德。”操曰：“吾亦闻名久矣。”遂遣人于乡中寻问。访得他在山中读书，操拜请\n之。程昱来见，曹操大喜。昱谓荀彧曰：“某孤陋寡闻，不足当公之荐。公之乡人姓郭，名\n嘉，字奉孝，乃当今贤士，何不罗而致之？”彧猛省曰：“吾几忘却！”遂启操徵聘郭嘉到\n兖州，共论天下之事。郭嘉荐光武嫡派子孙，淮南成德人，姓刘，名晔，字子阳。操即聘晔\n至。晔又荐二人：一个是山阳昌邑人，姓满，名宠，字伯宁；一个是武城人，姓吕，名虔，\n字子恪。曹操亦素知这两个名誉，就聘为军中从事。满宠、吕虔共荐一人，乃陈留平邱人，\n姓毛，名玠，字孝先。曹操亦聘为从事。\n\n    又有一将引军数百人，来投曹操：乃泰山巨平人，姓于，名禁，字文则。操见其人弓马\n熟娴，武艺出众，命为点军司马。一日，夏侯惇引一大汉来见，操问何人，惇曰：“此乃陈\n留人，姓典，名韦，勇力过人。旧跟张邈，与帐下人不和，手杀数十人，逃窜山中。惇出射\n猎，见韦逐虎过涧，因收于军中。今特荐之于公。”操曰：“吾观此人容貌魁梧，必有勇\n力。”惇曰：“他曾为友报仇杀人，提头直出闹市，数百人不敢近。只今所使两枝铁戟，重\n八十斤，挟之上马，运使如飞。”操即令韦试之。韦挟戟骤马，往来驰骋。忽见帐下大旗为\n风所吹，岌岌欲倒，众军士挟持不定；韦下马，喝退众军，一手执定旗杆，立于风中，巍然\n不动。操曰：“此古之恶来也！”遂命为帐前都尉，解身上锦袄，及骏马雕鞍赐之。\n\n    自是曹操部下文有谋臣，武有猛将，威镇山东。乃遣泰山太守应劭，往瑯琊郡取父曹\n嵩。嵩自陈留避难，隐居瑯琊；当日接了书信，便与弟曹德及一家老小四十余人，带从者百\n余人，车百余辆，径望兖州而来。道经徐州，太守陶谦，字恭祖，为人温厚纯笃，向欲结纳\n曹操，正无其由；知操父经过，遂出境迎接，再拜致敬，大设筵宴，款待两日。曹嵩要行，\n陶谦亲送出郭，特差都尉张闿，将部兵五百护送。曹嵩率家小行到华、费间，时夏末秋初，\n大雨骤至，只得投一古寺歇宿。寺僧接入。嵩安顿家小，命张闿将军马屯于两廊。众军衣\n装，都被雨打湿，同声嗟怨。张闿唤手下头目于静处商议曰：“我们本是黄巾余党，勉强降\n顺陶谦，未有好处。如今曹家辎重车辆无数，你们欲得富贵不难，只就今夜三更，大家砍将\n入去，把曹嵩一家杀了，取了财物，同往山中落草。此计何如？”众皆应允。是夜风雨未\n息，曹嵩正坐，忽闻四壁喊声大举。曹德提剑出看，就被搠死。曹嵩忙引一妾奔入方丈后，\n欲越墙而走",
+      "linked_entity_names": [
+        "典韦",
+        "毛玠",
+        "曹嵩",
+        "陶谦",
+        "古寺",
+        "吕虔",
+        "郭嘉",
+        "满宠",
+        "程昱",
+        "三国时期",
+        "荀彧",
+        "刘晔",
+        "于禁",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "毛玠"
+        ],
+        [
+          "曹操",
+          "郭嘉"
+        ],
+        [
+          "古寺",
+          "曹嵩"
+        ],
+        [
+          "刘晔",
+          "曹操"
+        ],
+        [
+          "于禁",
+          "曹操"
+        ],
+        [
+          "曹操",
+          "程昱"
+        ],
+        [
+          "曹操",
+          "荀彧"
+        ],
+        [
+          "曹操",
+          "满宠"
+        ],
+        [
+          "曹嵩",
+          "陶谦"
+        ],
+        [
+          "典韦",
+          "曹操"
+        ],
+        [
+          "吕虔",
+          "曹操"
+        ]
+      ]
+    },
+    {
+      "content": "，只就今夜三更，大家砍将\n入去，把曹嵩一家杀了，取了财物，同往山中落草。此计何如？”众皆应允。是夜风雨未\n息，曹嵩正坐，忽闻四壁喊声大举。曹德提剑出看，就被搠死。曹嵩忙引一妾奔入方丈后，\n欲越墙而走；妾肥胖不能出，嵩慌急，与妾躲于厕中，被乱军所杀。应劭死命逃脱，投袁绍\n去了。张闿杀尽曹嵩全家，取了财物，放火烧寺，与五百人逃奔淮南去了。后人有诗曰：\n“曹操奸雄世所夸，曾将吕氏杀全家。如今阖户逢人杀，天理循环报不差。”当下应劭部下\n有逃命的军士，报与曹操。操闻之，哭倒于地。众人救起。操切齿曰：“陶谦纵兵杀吾父，\n此仇不共戴天！吾今悉起大军，洗荡徐州，方雪吾恨！”遂留荀彧、程昱领军三万守鄄城、\n范县、东阿三县，其余尽杀奔徐州来。夏侯惇、于禁、典韦为先锋。操令：但得城池，将城\n中百姓，尽行屠戮，以雪父仇。当有九江太守边让，与陶谦交厚，闻知徐州有难，自引兵五\n千来救。操闻之大怒，使夏侯惇于路截杀之。时陈宫为东郡从事，亦与陶谦交厚；闻曹操起\n兵报仇，欲尽杀百姓，星夜前来见操。操知是为陶谦作说客，欲待不见，又灭不过旧恩，只\n得请入帐中相见。宫曰：“今闻明公以大兵临徐州，报尊父之仇，所到欲尽杀百姓，某因此\n特来进言。陶谦乃仁人君子，非好利忘义之辈；尊父遇害，乃张闿之恶，非谦罪也。且州县\n之民，与明公何仇？杀之不祥。望三思而行。”操怒曰：“公昔弃我而去，今有何面目复来\n相见？陶谦杀吾一家，誓当摘胆剜心，以雪吾恨！公虽为陶谦游说，其如吾不听何！”陈宫\n辞出，叹曰：“吾亦无面目见陶谦也！”遂驰马投陈留太守张邈去了。\n\n    且说操大军所到之处，杀戮人民，发掘坟墓。陶谦在徐州，闻曹操起军报仇，杀戮百\n姓，仰天恸哭曰：“我获罪于天，致使徐州之民，受此大难！”急聚众官商议。曹豹曰：\n“曹兵既至，岂可束手待死！某愿助使君破之。”陶谦只得引兵出迎，远望操军如铺霜涌\n雪，中军竖起白旗二面，大书报仇雪恨四字。军马列成阵势，曹操纵马出阵，身穿缟素，扬\n鞭大骂。陶谦亦出马于门旗下，欠身施礼曰：“谦本欲结好明公，故托张闿护送。不想贼心\n不改，致有此事。实不干陶谦之故。望明公察之。”操大骂曰：“老匹夫！杀吾父，尚敢乱\n言！谁可生擒老贼？”夏侯惇应声而出。陶谦慌走入阵。夏侯惇赶来，曹豹挺枪跃马，前来\n迎敌。两马相交，忽然狂风大作，飞沙走石，两军皆乱，各自收兵。\n\n    陶谦入城，与众计议曰：“曹兵势大难敌，吾当自缚往操营，任其剖割，以救徐州一郡\n百姓之命。”言未绝，一人进前言曰：“府君久镇徐州，人民感恩。今曹兵虽众，未能即破\n我城。府君与百姓坚守勿出；某虽不才，愿施小策，教曹操死无葬身之地！”众人大惊，便\n问计将安出。正是：本为纳交反成怨，那知绝处又逢生。毕竟此人是谁，且听下文分解。",
+      "linked_entity_names": [
+        "百姓",
+        "曹德",
+        "曹嵩",
+        "陶谦",
+        "陈宫",
+        "复仇计划",
+        "徐州",
+        "张闿",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹嵩",
+          "曹操"
+        ],
+        [
+          "张闿",
+          "曹嵩"
+        ],
+        [
+          "曹操",
+          "陶谦"
+        ],
+        [
+          "曹操",
+          "陈宫"
+        ],
+        [
+          "百姓",
+          "陶谦"
+        ]
+      ]
+    },
+    {
+      "content": "策，教曹操死无葬身之地！”众人大惊，便\n问计将安出。正是：本为纳交反成怨，那知绝处又逢生。毕竟此人是谁，且听下文分解。",
+      "linked_entity_names": [
+        "众人",
+        "计将安出",
+        "绝处又逢生",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "众人",
+          "曹操"
+        ],
+        [
+          "众人",
+          "计将安出"
+        ],
+        [
+          "绝处又逢生",
+          "计将安出"
+        ]
+      ]
+    },
+    {
+      "content": "曰：\n“旧日蒙兄保备为平原县令，今闻大军过此，将来奉候，就请兄长入城歇马。”瓒指关、张\n而问曰：“此何人也？”玄德曰：“此关羽、张飞，备结义兄弟也。”瓒曰：“乃同破黄巾\n者乎？”玄德曰：“皆此二人之力。”瓒曰：“今居何职？”玄德答曰：“关羽为马弓手，\n张飞为步弓手。”瓒叹曰：“如此可谓埋没英雄！今董卓作乱，天下诸侯共往诛之。贤弟可\n弃此卑官，一同讨贼，力扶汉室，若何？”玄德曰：“愿往。”张飞曰：“当时若容我杀了\n此贼，免有今日之事。”云长曰：“事已至此，即当收拾前去。”玄德、关、张引数骑跟公\n孙瓒来，曹操接着。众诸侯亦陆续皆至，各自安营下寨，连接二百余里。操乃宰牛杀马，大\n会诸侯，商议进兵之策。太守王匡曰：“今奉大义，必立盟主；众听约束，然后进兵。”操\n曰：“袁本初四世三公，门多故吏，汉朝名相之裔，可为盟主。”绍再三推辞，众皆曰非本\n初不可，绍方应允。次日筑台三层，遍列五方旗帜，上建白旄黄钺，兵符将印，请绍登坛。\n绍整衣佩剑，慨然而上，焚香再拜。其盟曰：“汉室不幸，皇纲失统。贼臣董卓，乘衅纵\n害，祸加至尊，虐流百姓。绍等惧社稷沦丧，纠合义兵，并赴国难。凡我同盟，齐心戮力，\n以致臣节，必无二志。有渝此盟，俾坠其命，无克遗育。皇天后土，祖宗明灵，实皆鉴\n之！”读毕歃血。众因其辞气慷慨，皆涕泗横流。歃血已罢，下坛。众扶绍升帐而坐，两行\n依爵位年齿分列坐定。操行酒数巡，言曰：“今日既立盟主，各听调遣，同扶国家，勿以强\n弱计较。”袁绍曰：“绍虽不才，既承公等推为盟主，有功必赏，有罪必罚。国有常刑，军\n有纪律。各宜遵守，勿得违犯。”众皆曰惟命是听。绍曰：“吾弟袁术总督粮草，应付诸\n营，无使有缺。更须一人为先锋，直抵汜水关挑战。余各据险要，以为接应。”\n\n    长沙太守孙坚出曰：“坚愿为前部。”绍曰：“文台勇烈，可当此任。”坚遂引本部人\n马杀奔汜水关来。守关将士，差流星马往洛阳丞相府告急。董卓自专大权之后，每日饮宴。\n李儒接得告急文书，径来禀卓。卓大惊，急聚众将商议。温侯吕布挺身出曰：“父亲勿虑。\n关外诸侯，布视之如草芥；愿提虎狼之师，尽斩其首，悬于都门。”卓大喜曰：“吾有奉\n先，高枕无忧矣！”言未绝，吕布背后一人高声出曰：“割鸡焉用牛刀？不劳温侯亲往。吾\n斩众诸侯首级，如探囊取物耳！”卓视之，其人身长九尺，虎体狼腰，豹头猿臂；关西人\n也，姓华，名雄。卓闻言大喜，加为骁骑校尉。拨马步军五万，同李肃、胡轸、赵岑星夜赴\n关迎敌。\n\n    众诸侯内有济北相鲍信，寻思孙坚既为前部，怕他夺了头功，暗拨其弟鲍忠，先将马步\n军三千，径抄小路，直到关下搦战。华雄引铁骑五百，飞下关来，大喝：“贼将休走！”鲍\n忠急待退，被华雄手起刀落，斩于马下，生擒将校极多。华雄遣人赍鲍忠首级来相府报捷，\n卓加雄为都督。\n\n    却说孙坚引四将直至关前。那四将？——第一个，右北平土垠人，姓程，名普，字德\n谋，使一条铁脊蛇矛；第二个，姓黄，名盖，字公覆，零陵人也，使铁鞭；第三个，姓",
+      "linked_entity_names": [
+        "鲍信",
+        "张飞",
+        "鲍忠",
+        "孙坚",
+        "关羽",
+        "汜水关",
+        "盟约",
+        "刘备",
+        "董卓",
+        "华雄",
+        "袁绍",
+        "义兵"
+      ],
+      "linked_edges": [
+        [
+          "孙坚",
+          "汜水关"
+        ],
+        [
+          "华雄",
+          "鲍忠"
+        ],
+        [
+          "鲍信",
+          "鲍忠"
+        ],
+        [
+          "关羽",
+          "刘备"
+        ],
+        [
+          "刘备",
+          "张飞"
+        ],
+        [
+          "关羽",
+          "董卓"
+        ],
+        [
+          "张飞",
+          "董卓"
+        ],
+        [
+          "盟约",
+          "袁绍"
+        ]
+      ]
+    },
+    {
+      "content": "雄遣人赍鲍忠首级来相府报捷，\n卓加雄为都督。\n\n    却说孙坚引四将直至关前。那四将？——第一个，右北平土垠人，姓程，名普，字德\n谋，使一条铁脊蛇矛；第二个，姓黄，名盖，字公覆，零陵人也，使铁鞭；第三个，姓韩，\n名当，字义公，辽西令支人也，使一口大刀；第四个，姓祖，名茂，字大荣，吴郡富春人\n也，使双刀。孙坚披烂银铠，裹赤帻，横古锭刀，骑花鬃马，指关上而骂曰：“助恶匹夫，\n何不早降！”华雄副将胡轸引兵五千出关迎战。程普飞马挺矛，直取胡轸。斗不数合，程普\n刺中胡轸咽喉，死于马下。坚挥军直杀至关前，关上矢石如雨。孙坚引兵回至梁东屯住，使\n人于袁绍处报捷，就于袁术处催粮。\n\n    或说术曰：“孙坚乃江东猛虎；若打破洛阳，杀了董卓，正是除狼而得虎也。今不与\n粮，彼军必散。”术听之，不发粮草。孙坚军缺食，军中自乱，细作报上关来。李肃为华雄\n谋曰：“今夜我引一军从小路下关，袭孙坚寨后，将军击其前寨，坚可擒矣。”雄从之，传\n令军士饱餐，乘夜下关。是夜月白风清。到坚寨时，已是半夜，鼓噪直进。坚慌忙披挂上\n马，正遇华雄。两马相交，斗不数合，后面李肃军到，竟天价放起火来。坚军乱窜。众将各\n自混战，止有祖茂跟定孙坚，突围而走。背后华雄追来。坚取箭，连放两箭，皆被华雄躲\n过。再放第三箭时，因用力太猛，拽折了鹊画弓，只得弃弓纵马而奔。祖茂曰：“主公头上\n赤帻射目，为贼所识认。可脱帻与某戴之。”坚就脱帻换茂盔，分两路而走。雄军只望赤帻\n者追赶，坚乃从小路得脱。祖茂被华雄追急，将赤帻挂于人家烧不尽的庭柱上，却入树林潜\n躲。华雄军于月下遥见赤帻，四面围定，不敢近前。用箭射之，方知是计，遂向前取了赤\n帻。祖茂于林后杀出，挥双刀欲劈华雄；雄大喝一声，将祖茂一刀砍于马下。杀至天明，雄\n方引兵上关。\n\n    程普、黄盖、韩当都来寻见孙坚，再收拾军马屯扎。坚为折了祖茂，伤感不已，星夜遣\n人报知袁绍。绍大惊曰：“不想孙文台败于华雄之手！”便聚众诸侯商议。众人都到，只有\n公孙瓒后至，绍请入帐列坐。绍曰：“前日鲍将军之弟不遵调遣，擅自进兵，杀身丧命，折\n了许多军士；今者孙文台又败于华雄：挫动锐气，为之奈何？”诸侯并皆不语。绍举目遍\n视，见公孙瓒背后立着三人，容貌异常，都在那里冷笑。绍问曰：“公孙太守背后何人？”\n瓒呼玄德出曰：“此吾自幼同舍兄弟，平原令刘备是也。”曹操曰：“莫非破黄巾刘玄德\n乎？”瓒曰：“然。”即令刘玄德拜见。瓒将玄德功劳，并其出身，细说一遍。绍曰：“既\n是汉室宗派，取坐来。”命坐。备逊谢。绍曰：“吾非敬汝名爵，吾敬汝是帝室之胄耳。”\n玄德乃坐于末位，关、张叉手侍立于后。忽探子来报：“华雄引铁骑下关，用长竿挑着孙太\n守赤帻，来寨前大骂搦战。”绍曰：“谁敢去战？”袁术背后转出骁将俞涉曰：“小将愿\n往。”绍喜，便著俞涉出马。即时报来：“俞涉与华雄战不三合，被华雄斩了。”众大惊。\n太守韩馥曰：“吾",
+      "linked_entity_names": [
+        "孙坚",
+        "黄盖",
+        "祖茂",
+        "关",
+        "战斗",
+        "刘备",
+        "程普",
+        "韩当",
+        "华雄",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "华雄",
+          "祖茂"
+        ],
+        [
+          "孙坚",
+          "袁绍"
+        ],
+        [
+          "华雄",
+          "孙坚"
+        ],
+        [
+          "刘备",
+          "袁绍"
+        ],
+        [
+          "华雄",
+          "程普"
+        ]
+      ]
+    },
+    {
+      "content": "骑下关，用长竿挑着孙太\n守赤帻，来寨前大骂搦战。”绍曰：“谁敢去战？”袁术背后转出骁将俞涉曰：“小将愿\n往。”绍喜，便著俞涉出马。即时报来：“俞涉与华雄战不三合，被华雄斩了。”众大惊。\n太守韩馥曰：“吾有上将潘凤，可斩华雄。”绍急令出战。潘凤手提大斧上马。去不多时，\n飞马来报：“潘凤又被华雄斩了。”众皆失色。绍曰：“可惜吾上将颜良、文丑未至！得一\n人在此，何惧华雄！”言未毕，阶下一人大呼出曰：“小将愿往斩华雄头，献于帐下！”众\n视之，见其人身长九尺，髯长二尺，丹凤眼，卧蚕眉，面如重枣，声如巨钟，立于帐前。绍\n问何人。公孙瓒曰：“此刘玄德之弟关羽也。”绍问现居何职。瓒曰：“跟随刘玄德充马弓\n手。”帐上袁术大喝曰：“汝欺吾众诸侯无大将耶？量一弓手，安敢乱言！与我打出！”曹\n操急止之曰：“公路息怒。此人既出大言，必有勇略；试教出马，如其不胜，责之未迟。”\n袁绍曰：“使一弓手出战，必被华雄所笑。”操曰：“此人仪表不俗，华雄安知他是弓\n手？”关公曰：“如不胜，请斩某头。”操教酾热酒一杯，与关公饮了上马。关公曰：“酒\n且斟下，某去便来。”出帐提刀，飞身上马。众诸侯听得关外鼓声大振，喊声大举，如天摧\n地塌，岳撼山崩，众皆失惊。正欲探听，鸾铃响处，马到中军，云长提华雄之头，掷于地\n上。其酒尚温。后人有诗赞之曰：“威镇乾坤第一功，辕门画鼓响冬冬。云长停盏施英勇，\n酒尚温时斩华雄。”曹操大喜。只见玄德背后转出张飞，高声大叫：“俺哥哥斩了华雄，不\n就这里杀入关去，活拿董卓，更待何时！”袁术大怒，喝曰：“俺大臣尚自谦让，量一县令\n手下小卒，安敢在此耀武扬威！都与赶出帐去！”曹操曰：“得功者赏，何计贵贱乎？”袁\n术曰：“既然公等只重一县令，我当告退。”操曰：“岂可因一言而误大事耶？”命公孙瓒\n且带玄德、关、张回寨。众官皆散。曹操暗使人赍牛酒抚慰三人。却说华雄手下败军，报上\n关来。李肃慌忙写告急文书，申闻董卓。卓急聚李儒、吕布等商议。儒曰：“今失了上将华\n雄，贼势浩大。袁绍为盟主，绍叔袁隗，现为太傅；倘或里应外合，深为不便，可先除之。\n请丞相亲领大军，分拨剿捕。”卓然其说，唤李催、郭汜领兵五百，围住太傅袁隗家，不分\n老幼，尽皆诛绝，先将袁隗首级去关前号令。\n\n    卓遂起兵二十万，分为两路而来：一路先令李傕、郭汜引兵五万，把住汜水关，不要厮\n杀；卓自将十五万，同李儒、吕布、樊稠、张济等守虎牢关。这关离洛阳五十里。军马到\n关，卓令吕布领三万军，去关前扎住大寨。卓自在关上屯住。\n\n    流星马探听得，报入袁绍大寨里来。绍聚众商议。操曰：“董卓屯兵虎牢，截俺诸侯中\n路，今可勒兵一半迎敌。”绍乃分王匡、乔瑁、鲍信、袁遗、孙融、张杨、陶谦、公孙瓒八\n路诸侯，往虎牢关迎敌。操引军往来救应。八路诸侯，各自起兵。河内太守王匡，引兵先\n到。吕布带铁骑三千，飞奔来迎。王匡将军马列成阵势，勒马门旗下看时，见吕布出阵",
+      "linked_entity_names": [
+        "马弓手",
+        "关羽",
+        "战斗",
+        "董卓",
+        "华雄",
+        "虎牢关",
+        "袁绍",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "关羽",
+          "华雄"
+        ],
+        [
+          "关羽",
+          "袁绍"
+        ],
+        [
+          "华雄",
+          "董卓"
+        ],
+        [
+          "董卓",
+          "虎牢关"
+        ],
+        [
+          "关羽",
+          "曹操"
+        ]
+      ]
+    },
+    {
+      "content": "鲍信、袁遗、孙融、张杨、陶谦、公孙瓒八\n路诸侯，往虎牢关迎敌。操引军往来救应。八路诸侯，各自起兵。河内太守王匡，引兵先\n到。吕布带铁骑三千，飞奔来迎。王匡将军马列成阵势，勒马门旗下看时，见吕布出阵：头\n戴三叉束发紫金冠，体挂西川红锦百花袍，身披兽面吞头连环铠，腰系勒甲玲珑狮蛮带；弓\n箭随身，手持画戟，坐下嘶风赤兔马：果然是“人中吕布，马中赤兔”！王匡回头问曰：\n“谁敢出战？”后面一将，纵马挺枪而出。匡视之，乃河内名将方悦。两马相交，无五合，\n被吕布一戟刺于马下，挺戟直冲过来。匡军大败，四散奔走。布东西冲杀，如入无人之境。\n幸得乔瑁、袁遗两军皆至，来救王匡，吕布方退。三路诸侯，各折了些人马，退三十里下\n寨。随后五路军马都至，一处商议，言吕布英雄，无人可敌。\n\n    正虑间，小校报来：“吕布搦战。”八路诸侯，一齐上马。军分八队，布在高冈。遥望\n吕布一簇军马，绣旗招飐，先来冲阵。上党太守张杨部将穆顺，出马挺枪迎战，被吕布手起\n一戟，刺于马下。众大惊。北海太守孔融部将武安国，使铁锤飞马而出。吕布挥戟拍马来\n迎。战到十余合，一戟砍断安国手腕，弃锤于地而走。八路军兵齐出，救了武安国。吕布退\n回去了。众诸侯回寨商议。曹操曰：“吕布英勇无敌，可会十八路诸侯，共议良策。若擒了\n吕布，董卓易诛耳。”\n\n    正议间，吕布复引兵搦战。八路诸侯齐出。公孙瓒挥槊亲战吕布。战不数合，瓒败走。\n吕布纵赤兔马赶来。那马日行千里，飞走如风。看看赶上，布举画戟望瓒后心便刺。傍边一\n将，圆睁环眼，倒竖虎须，挺丈八蛇矛，飞马大叫：“三姓家奴休走！燕人张飞在此！”吕\n布见了，弃了公孙瓒，便战张飞。飞抖擞精神，酣战吕布。连斗五十余合，不分胜负。云长\n见了，把马一拍，舞八十二斤青龙偃月刀，来夹攻吕布。三匹马丁字儿厮杀。战到三十合，\n战不倒吕布。刘玄德掣双股剑，骤黄鬃马，刺斜里也来助战。这三个围住吕布。转灯儿般厮\n杀。八路人马，都看得呆了。吕布架隔遮拦不定，看着玄德面上，虚刺一戟，玄德急闪。吕\n布荡开阵角，倒拖画戟，飞马便回。三个那里肯舍，拍马赶来。八路军兵，喊声大震，一齐\n掩杀。吕布军马望关上奔走；玄德、关、张随后赶来。古人曾有篇言语，单道着玄德、关、\n张三战吕布：“汉朝天数当桓灵，炎炎红日将西倾。奸臣董卓废少帝，刘协懦弱魂梦惊。曹\n操传檄告天下，诸侯奋怒皆兴兵。议立袁绍作盟主，誓扶王室定太平。温侯吕布世无比，雄\n才四海夸英伟。护躯银铠砌龙鳞，束发金冠簪雉尾。参差宝带兽平吞，错落锦袍飞凤起。龙\n驹跳踏起天风，画戟荧煌射秋水。出关搦战谁敢当？诸侯胆裂心惶惶。踊出燕人张冀德，手\n持蛇矛丈八枪。虎须倒竖翻金线，环眼圆睁起电光。酣战未能分胜败，阵前恼起关云长。青\n龙宝刀灿霜雪，鹦鹉战袍飞蛱蝶。马蹄到处鬼神嚎，目前一怒应流血。枭雄玄德掣双锋，�",
+      "linked_entity_names": [
+        "三国演义",
+        "张飞",
+        "吕布",
+        "关羽",
+        "赤兔马",
+        "八路诸侯",
+        "虎牢关",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "关羽",
+          "吕布"
+        ],
+        [
+          "吕布",
+          "张飞"
+        ],
+        [
+          "吕布",
+          "赤兔马"
+        ],
+        [
+          "八路诸侯",
+          "虎牢关"
+        ],
+        [
+          "吕布",
+          "曹操"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第七回    袁绍磐河战公孙　孙坚跨江击刘表\n\n却说孙坚被刘表围住，亏得程普、黄盖、韩当三将死救得脱，折兵大半，夺路引兵回江\n东。自此孙坚与刘表结怨。\n\n    且说袁绍屯兵河内，缺少粮草。冀州牧韩馥，遣人送粮以资军用。谋士逢纪说绍曰：\n“大丈夫纵横天下，何待人送粮为食！冀州乃钱粮广盛之地，将军何不取之？”绍曰：“未\n有良策。”纪曰：“可暗使人驰书与公孙瓒，令进兵取冀州，约以夹攻，瓒必兴兵。韩馥无\n谋之辈，必请将军领州事；就中取事，唾手可得。”绍大喜，即发书到瓒处。瓒得书，见说\n共攻冀州，平分其地，大喜，即日兴兵。\n\n    绍却使人密报韩馥。馥慌聚荀谌、辛评二谋士商议。谌曰：“公孙瓒将燕、代之众，长\n驱而来，其锋不可当。兼有刘备、关、张助之，难以抵敌。今袁本初智勇过人，手下名将极\n广，将军可请彼同治州事，彼必厚待将军，无患公孙瓒矣。”韩馥即差别驾关纯去请袁绍。\n长史耿武谏曰：“袁绍孤客穷军，仰我鼻息，譬如婴儿在股掌之上，绝其乳哺，立可饿死。\n奈何欲以州事委之？此引虎入羊群也。”馥曰：“吾乃袁氏之故吏，才能又不如本初。古者\n择贤者而让之，诸君何嫉妒耶？”耿武叹曰：“冀州休矣！”于是弃职而去者三十余人。独\n耿武与关纯伏于城外，以待袁绍。\n\n    数日后，绍引兵至。耿武、关纯拔刀而出，欲刺杀绍。绍将颜良立斩耿武，文丑砍死关\n纯。绍入冀州，以馥为奋威将军，以田丰、沮授、许攸、逢纪分掌州事，尽夺韩馥之权。馥\n懊悔无及，遂弃下家小，匹马往投陈留太守张邈去了。\n\n    却说公孙瓒知袁绍已据冀州，遣弟公孙越来见绍，欲分其地。绍曰：“可请汝兄自来，\n吾有商议。”越辞归。行不到五十里，道旁闪出一彪军马，口称：“我乃董丞相家将也！”\n乱箭射死公孙越。从人逃回见公孙瓒，报越已死。瓒大怒曰：“袁绍诱我起兵攻韩馥，他却\n就里取事；今又诈董卓兵射死吾弟，此冤如何不报！”尽起本部兵，杀奔冀州来。\n\n    绍知瓒兵至，亦领军出。二军会于磐河之上：绍军于磐河桥东，瓒军于桥西。瓒立马桥\n上，大呼曰：“背义之徒，何敢卖我！”绍亦策马至桥边，指瓒曰：“韩馥无才，愿让冀州\n于吾，与尔何干？”瓒曰：“昔日以汝为忠义，推为盟主；今之所为，真狼心狗行之徒，有\n何面目立于世间！”袁绍大怒曰：“谁可擒之？”言未毕，文丑策马挺枪，直杀上桥。公孙\n瓒就桥边与文丑交锋。战不到十余合，瓒抵挡不住，败阵而走。文丑乘势追赶。瓒走入阵\n中，文丑飞马径入中军，往来冲突。瓒手下健将四员，一齐迎战；被文丑一枪，刺一将下\n马，三将俱走。文丑直赶公孙瓒出阵后，瓒望山谷而逃。文丑骤马厉声大叫：“快下马受\n降！”瓒弓箭尽落，头盔堕地；披发纵马，奔转山坡；其马前失，瓒翻身落于坡下。文丑急\n捻枪来刺。忽见草坡左侧转出个少年将军，飞马挺枪，直取文丑，公孙瓒扒上坡去，看那少\n年：生得身",
+      "linked_entity_names": [
+        "公孙瓒",
+        "韩馥",
+        "冀州",
+        "文丑",
+        "三国演义",
+        "孙坚",
+        "沮授",
+        "刘表",
+        "黄盖",
+        "田丰",
+        "许攸",
+        "逢纪",
+        "程普",
+        "韩当",
+        "磐河",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "公孙瓒",
+          "袁绍"
+        ],
+        [
+          "公孙瓒",
+          "文丑"
+        ],
+        [
+          "袁绍",
+          "韩馥"
+        ],
+        [
+          "孙坚",
+          "程普"
+        ],
+        [
+          "刘表",
+          "孙坚"
+        ],
+        [
+          "冀州",
+          "袁绍"
+        ]
+      ]
+    },
+    {
+      "content": "叫：“快下马受\n降！”瓒弓箭尽落，头盔堕地；披发纵马，奔转山坡；其马前失，瓒翻身落于坡下。文丑急\n捻枪来刺。忽见草坡左侧转出个少年将军，飞马挺枪，直取文丑，公孙瓒扒上坡去，看那少\n年：生得身长八尺，浓眉大眼，阔面重颐，威风凛凛，与文丑大战五六十合，胜负未分。瓒\n部下救军到，文丑拨回马去了。那少年也不追赶。瓒忙下土坡，问那少年姓名。那少年欠身\n答曰：“某乃常山真定人也，姓赵，名云，字子龙。本袁绍辖下之人。因见绍无忠君救民之\n心，故特弃彼而投麾下，不期于此处相见。”瓒大喜，遂同归寨，整顿甲兵。次日，瓒将军\n马分作左右两队，势如羽翼。马五千余匹，大半皆是白马。因公孙瓒曾与羌人战，尽选白马\n为先锋，号为白马将军；羌人但见白马便走，因此白马极多。袁绍令颜良、文丑为先锋，各\n引弓弩手一千，亦分作左右两队；令在左者射公孙瓒右军，在右者射公孙瓒左军。再令麴义\n引八百弓手，步兵一万五千，列于阵中。袁绍自引马步军数万，于后接应。公孙瓒初得赵\n云，不知心腹，令其另领一军在后。遣大将严纲为先锋。瓒自领中军，立马桥上，傍竖大红\n圈金线帅字旗于马前。从辰时擂鼓，直到巳时，绍军不进。麴义令弓手皆伏于遮箭牌下，只\n听炮响发箭。严纲鼓噪呐喊，直取麴义。义军见严纲兵来，都伏而不动；直到来得至近，一\n声炮响，八百弓弩手一齐俱发。纲急待回，被麴义拍马舞刀，斩于马下，瓒军大败。左右两\n军，欲来救应，都被颜良、文丑引弓弩手射住。绍军并进，直杀到界桥边。麴义马到，先斩\n执旗将，把绣旗砍倒。公孙瓒见砍倒绣旗，回马下桥而走。麴义引军直冲到后军，正撞着赵\n云，挺枪跃马，直取麴义。战不数合，一枪刺麴义于马下。赵云一骑马飞入绍军，左冲右\n突，如入无人之境。公孙瓒引军杀回，绍军大败。\n\n    却说袁绍先使探马看时，回报麴义斩将搴旗，追赶败兵；因此不作准备，与田丰引着帐\n下持戟军士数百人，弓箭手数十骑，乘马出观，呵呵大笑曰：“公孙瓒无能之辈！”正说之\n间，忽见赵云冲到面前。弓箭手急待射时，云连刺数人，众军皆走。后面瓒军团团围裹上\n来。田丰慌对绍曰：“主公且于空墙中躲避！”绍以兜鍪扑地，大呼曰：“大丈夫愿临阵斗\n死，岂可入墙而望活乎！”众军士齐心死战，赵云冲突不入，绍兵大队掩至，颜良亦引军来\n到，两路并杀。赵云保公孙瓒杀透重围，回到界桥。绍驱兵大进，复赶过桥，落水死者，不\n计其数。\n\n    袁绍当先赶来，不到五里，只听得山背后喊声大起，闪出一彪人马，为首三员大将，乃\n是刘玄德、关云长、张翼德。因在平原探知公孙瓒与袁绍相争，特来助战。当下三匹马，三\n般兵器，飞奔前来，直取袁绍。绍惊得魂飞天外，手中宝刀坠于马下，忙拨马而逃，众人死\n救过桥。公孙瓒亦收军归寨。玄德、关、张动问毕，瓒曰：“若非玄德远来救我，几乎狼\n狈。”教与赵云相见。玄德甚相敬爱，便有不舍之心。\n\n    却说袁绍输了一",
+      "linked_entity_names": [
+        "刘玄德",
+        "公孙瓒",
+        "关云长",
+        "赵云",
+        "张翼德",
+        "白马",
+        "战斗",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "公孙瓒",
+          "袁绍"
+        ],
+        [
+          "刘玄德",
+          "张翼德"
+        ],
+        [
+          "公孙瓒",
+          "刘玄德"
+        ],
+        [
+          "关云长",
+          "刘玄德"
+        ],
+        [
+          "公孙瓒",
+          "赵云"
+        ]
+      ]
+    },
+    {
+      "content": "得魂飞天外，手中宝刀坠于马下，忙拨马而逃，众人死\n救过桥。公孙瓒亦收军归寨。玄德、关、张动问毕，瓒曰：“若非玄德远来救我，几乎狼\n狈。”教与赵云相见。玄德甚相敬爱，便有不舍之心。\n\n    却说袁绍输了一阵，坚守不出。两军相拒月余，有人来长安报知董卓。李儒对卓曰：\n“袁绍与公孙瓒，亦当今豪杰。现在磐河厮杀，宜假天子之诏，差人往和解之。二人感德，\n必顺太师矣。”卓曰：“善。”次日便使太傅马日磾、太仆赵岐，赍诏前去。二人来至河\n北，绍出迎于百里之外，再拜奉诏。次日，二人至瓒营宣谕，瓒乃遣使致书于绍，互相讲\n和。二人自回京复命。瓒即日班师，又表荐刘玄德为平原相。玄德与赵云分别，执手垂泪，\n不忍相离。云叹曰：“某曩日误认公孙瓒为英雄；今观所为，亦袁绍等辈耳！”玄德曰：\n“公且屈身事之，相见有日。”洒泪而别。\n\n    却说袁术在南阳，闻袁绍新得冀州，遣使来求马千匹。绍不与，术怒。自此兄弟不睦。\n又遣使往荆州，问刘表借粮二十万，表亦不与。术恨之，密遣人遗书于孙坚，使伐刘表。其\n书略曰：“前者刘表截路，乃吾兄本初之谋也。今本初又与表私议欲袭江东。公可速兴兵伐\n刘表，吾为公取本初，二仇可报。公取荆州，吾取冀州，切勿误也！”坚得书曰：“叵耐刘\n表昔日断吾归路，今不乘时报恨，更待何年！”聚帐下程普、黄盖、韩当等商议。程普曰：\n“袁术多诈，未可准信。”坚曰：“吾自欲报仇，岂望袁术之助乎？”便差黄盖先来江边安\n排战船，多装军器粮草，大船装载战马，克日兴师。江中细作探知，来报刘表。表大惊，急\n聚文武将士商议。蒯良曰：“不必忧虑。可令黄祖部领江夏之兵为前驱，主公率荆襄之众为\n援。孙坚跨江涉湖而来，安能用武乎？”表然之，令黄祖设备，随后便起大军。却说孙坚有\n四子，皆吴夫人所生：长子名策，字伯符；次子名权，字仲谋；三子名翊，字叔弼；四子名\n匡，字季佐。吴夫人之妹，即为孙坚次妻，亦生一子一女：子名朗，字早安；女名仁。坚又\n过房俞氏一子，名韶，字公礼。坚有一弟，名静，字幼台。坚临行，静引诸子列拜于马前而\n谏曰：“今董卓专权，天子懦弱，海内大乱，各霸一方；江东方稍宁，以一小恨而起重兵，\n非所宜也。愿兄详之。”坚曰：“弟勿多言。吾将纵横天下，有仇岂可不报！”长子孙策\n曰：“如父亲必欲往，儿愿随行。”坚许之，遂与策登舟，杀奔樊城。\n\n    黄祖伏弓弩手于江边，见船傍岸，乱箭俱发。坚令诸军不可轻动，只伏于船中来往诱\n之；一连三日，船数十次傍岸。黄祖军只顾放箭，箭已放尽。坚却拔船上所得之箭，约十数\n万。当日正值顺风，坚令军士一齐放箭。岸上支吾不住，只得退走。坚军登岸，程普、黄盖\n分兵两路，直取黄祖营寨。背后韩当驱兵大进。三面夹攻，黄祖大败，弃却樊城，走入邓\n城。坚令黄盖守住船只，亲自统兵追袭。黄祖引军出迎，布阵于野。坚列成阵势，出马于门\n旗之下。孙策也全副披挂，挺枪立马于父侧。黄祖引二将出马，一个是江夏张",
+      "linked_entity_names": [
+        "公孙瓒",
+        "玄德",
+        "江东",
+        "平原相",
+        "张",
+        "黄祖",
+        "关",
+        "樊城",
+        "董卓",
+        "河北",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "董卓",
+          "袁绍"
+        ],
+        [
+          "公孙瓒",
+          "袁绍"
+        ],
+        [
+          "平原相",
+          "玄德"
+        ],
+        [
+          "公孙瓒",
+          "玄德"
+        ],
+        [
+          "孙坚",
+          "黄祖"
+        ]
+      ]
+    },
+    {
+      "content": "当驱兵大进。三面夹攻，黄祖大败，弃却樊城，走入邓\n城。坚令黄盖守住船只，亲自统兵追袭。黄祖引军出迎，布阵于野。坚列成阵势，出马于门\n旗之下。孙策也全副披挂，挺枪立马于父侧。黄祖引二将出马，一个是江夏张虎，一个是襄\n阳陈生。黄祖扬鞭大骂：“江东鼠贼，安敢侵犯汉室宗亲境界！”便令张虎搦战。坚阵内韩\n当出迎。两骑相交，战二十余合，陈主见张虎力怯，飞马来助。孙策望见，按住手中枪，扯\n弓搭箭，正射中陈生面门，应弦落马。张虎见陈生坠地，吃了一惊，措手不及，被韩当一\n刀，削去半个脑袋。程普纵马直来阵前捉黄祖。黄祖弃却头盔、战马，杂于步军内逃命。孙\n坚掩杀败军，直到汉水，命黄盖将船只进泊汉江。\n\n    黄祖聚败军，来见刘表，备言坚势不可当。表慌请蒯良商议。良曰：“目今新败，兵无\n战心；只可深沟高垒，以避其锋；却潜令人求教于袁绍，此围自可解也。”蔡瑁曰：“子柔\n之言，直拙计也。兵临城下，将至壕边，岂可束手待毙！某虽不才，愿请军出城，以决一\n战。”刘表许之。蔡瑁引军万余，出襄阳城外，于岘山布阵。孙坚将得胜之兵，长驱大进。\n蔡瑁出马。坚曰：“此人是刘表后妻之兄也，谁与吾擒之？”程普挺铁脊矛出马，与蔡瑁交\n战。不到数合，蔡瑁败走。坚驱大军，杀得尸横遍野。蔡瑁逃入襄阳。蒯良言瑁不听良策，\n以致大败，按军法当斩。刘表以新娶其妹，不肯加刑。\n\n    却说孙坚分兵四面，围住襄阳攻打。忽一日，狂风骤起，将中军帅字旗竿吹折。韩当\n曰：“此非吉兆，可暂班师。”坚曰：“吾屡战屡胜，取襄阳只在旦夕；岂可因风折旗竿，\n遽尔罢兵！”遂不听韩当之言，攻城愈急。蒯良谓刘表曰：“某夜观天象，见一将星欲坠。\n以分野度之，当应在孙坚。主公可速致书袁绍，求其相助。”刘表写书，问谁敢突围而出。\n健将吕公，应声愿往。蒯良曰：“汝既敢去，可听吾计：与汝军马五百，多带能射者冲出阵\n去，即奔岘山。他必引军来赶，汝分一百人上山，寻石子准备；一百人执弓弩伏于林中。但\n有追兵到时，不可径走；可盘旋曲折，引到埋伏之处，矢石俱发。若能取胜，放起连珠号\n炮，城中便出接应。如无追兵，不可放炮，趱程而去。今夜月不甚明，黄昏便可出城。”\n\n    吕公领了计策，拴束军马。黄昏时分，密开东门，引兵出城。孙坚在帐中，忽闻喊声，\n急上马引三十余骑，出营来看。军士报说：“有一彪人马杀将出来，望岘山而去。”坚不会\n诸将，只引三十余骑赶来。吕公已于山林丛杂去处，上下埋伏。坚马快，单骑独来，前军不\n远。坚大叫：“休走！”吕公勒回马来战孙坚。交马只一合，吕公便走，闪入山路去。坚随\n后赶入，却不见了吕公。坚方欲上山，忽然一声锣响，山上石子乱下，林中乱箭齐发。坚体\n中石、箭，脑浆迸流，人马皆死于岘山之内；寿止三十七岁。\n\n    吕公截住三十骑，并皆杀尽，放起连珠号炮。城中黄祖、蒯越、蔡瑁分头引兵杀出，江\n东诸军大乱。黄盖听得喊声震天，引水军杀来，正迎着黄祖。战不两合，生擒黄祖",
+      "linked_entity_names": [
+        "蒯良",
+        "吕公",
+        "孙坚",
+        "江东",
+        "黄盖",
+        "襄阳",
+        "蔡瑁",
+        "黄祖",
+        "战斗",
+        "岘山"
+      ],
+      "linked_edges": [
+        [
+          "吕公",
+          "蒯良"
+        ],
+        [
+          "战斗",
+          "蔡瑁"
+        ],
+        [
+          "襄阳",
+          "黄祖"
+        ],
+        [
+          "孙坚",
+          "襄阳"
+        ],
+        [
+          "孙坚",
+          "黄祖"
+        ],
+        [
+          "黄盖",
+          "黄祖"
+        ]
+      ]
+    },
+    {
+      "content": "浆迸流，人马皆死于岘山之内；寿止三十七岁。\n\n    吕公截住三十骑，并皆杀尽，放起连珠号炮。城中黄祖、蒯越、蔡瑁分头引兵杀出，江\n东诸军大乱。黄盖听得喊声震天，引水军杀来，正迎着黄祖。战不两合，生擒黄祖。程普保\n着孙策，急待寻路，正遇吕公。程普纵马向前，战不到数合，一矛刺吕公于马下。两军大\n战，杀到天明，各自收车。\n\n    刘表军自入城。孙策回到汉水，方知父亲被乱箭射死，尸首已被刘表军士扛抬入城去\n了，放声大哭。众军俱号泣。策曰：“父尸在彼，安得回乡！”黄盖曰：“今活捉黄祖在\n此，得一人入城讲和，将黄祖去换主公尸首。”言未毕，军吏桓阶出曰：“某与刘表有旧，\n愿入城为使。”策许之。桓阶入城见刘表，具说其事。表曰：“文台尸首、吾已用棺木盛贮\n在此。可速放回黄祖，两家各罢兵，再休侵犯。”桓阶拜谢欲行，阶下蒯良出曰：“不可！\n不可！吾有一言，今江东诸军片甲不回。请先斩桓阶，然后用计。”正是：追敌孙坚方殒\n命，求和桓阶又遭殃。未知桓阶性命如何，且听下文分解。",
+      "linked_entity_names": [
+        "城中",
+        "汉水",
+        "吕公",
+        "蒯越",
+        "桓阶",
+        "刘表",
+        "江东军",
+        "蔡瑁",
+        "黄祖",
+        "孙策",
+        "战斗"
+      ],
+      "linked_edges": [
+        [
+          "战斗",
+          "江东军"
+        ],
+        [
+          "刘表",
+          "桓阶"
+        ],
+        [
+          "刘表",
+          "孙策"
+        ],
+        [
+          "吕公",
+          "黄祖"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第一回    宴桃园豪杰三结义　斩黄巾英雄首立功\n\n滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。\n    　　青山依旧在，几度夕阳红。\n    　　白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。\n        古今多少事，都付笑谈中。\n　　　　　　　　　　　　　　　　　　——调寄《临江仙》\n\n    话说天下大势，分久必合，合久必分。周末七国分争，并入于秦。及秦灭之后，楚、汉\n分争，又并入于汉。汉朝自高祖斩白蛇而起义，一统天下，后来光武中兴，传至献帝，遂分\n为三国。推其致乱之由，殆始于桓、灵二帝。桓帝禁锢善类，崇信宦官。及桓帝崩，灵帝即\n位，大将军窦武、太傅陈蕃共相辅佐。时有宦官曹节等弄权，窦武、陈蕃谋诛之，机事不\n密，反为所害，中涓自此愈横。\n\n    建宁二年四月望日，帝御温德殿。方升座，殿角狂风骤起。只见一条大青蛇，从梁上飞\n将下来，蟠于椅上。帝惊倒，左右急救入宫，百官俱奔避。须臾，蛇不见了。忽然大雷大\n雨，加以冰雹，落到半夜方止，坏却房屋无数。建宁四年二月，洛阳地震；又海水泛溢，沿\n海居民，尽被大浪卷入海中。光和元年，雌鸡化雄。六月朔，黑气十余丈，飞入温德殿中。\n秋七月，有虹现于玉堂；五原山岸，尽皆崩裂。种种不祥，非止一端。帝下诏问群臣以灾异\n之由，议郎蔡邕上疏，以为蜺堕鸡化，乃妇寺干政之所致，言颇切直。帝览奏叹息，因起更\n衣。曹节在后窃视，悉宣告左右；遂以他事陷邕于罪，放归田里。后张让、赵忠、封谞、段\n珪、曹节、侯览、蹇硕、程旷、夏恽、郭胜十人朋比为奸，号为“十常侍”。帝尊信张让，\n呼为“阿父”。朝政日非，以致天下人心思乱，盗贼蜂起。\n\n    时巨鹿郡有兄弟三人，一名张角，一名张宝，一名张梁。那张角本是个不第秀才，因入\n山采药，遇一老人，碧眼童颜，手执藜杖，唤角至一洞中，以天书三卷授之，曰：“此名\n《太平要术》，汝得之，当代天宣化，普救世人；若萌异心，必获恶报。”角拜问姓名。老\n人曰：“吾乃南华老仙也。”言讫，化阵清风而去。角得此书，晓夜攻习，能呼风唤雨，号\n为“太平道人”。中平元年正月内，疫气流行，张角散施符水，为人治病，自称“大贤良\n师”。角有徒弟五百余人，云游四方，皆能书符念咒。次后徒众日多，角乃立三十六方，大\n方万余人，小方六七千，各立渠帅，称为将军；讹言：“苍天已死，黄天当立；岁在甲子，\n天下大吉。”令人各以白土书“甲子”二字于家中大门上。青、幽、徐、冀、荆、扬、兖、\n豫八州之人，家家侍奉大贤良师张角名字。角遣其党马元义，暗赍金帛，结交中涓封谞，以\n为内应。角与二弟商议曰：“至难得者，民心也。今民心已顺，若不乘势取天下，诚为可\n惜。”遂一面私造黄旗，约期举事；一面使弟子唐周，驰书报封谞。唐周乃径赴省中告变。\n帝召大将军何进调兵擒马元义，斩之；次收封谞等一干人下狱。张角闻知事露，星夜举兵，\n自称“天公将军”，张宝称“地公将军”，张梁称“人公将军”。申言于众曰：“今汉运将\n终，大圣人出。汝等皆宜顺天从正，以乐太平",
+      "linked_entity_names": [
+        "长江",
+        "张角",
+        "太平要术",
+        "南华老仙",
+        "张梁",
+        "三国演义",
+        "张宝",
+        "汉朝",
+        "十常侍"
+      ],
+      "linked_edges": [
+        [
+          "张梁",
+          "张角"
+        ],
+        [
+          "张宝",
+          "张角"
+        ],
+        [
+          "十常侍",
+          "汉朝"
+        ],
+        [
+          "南华老仙",
+          "张角"
+        ],
+        [
+          "太平要术",
+          "张角"
+        ]
+      ]
+    },
+    {
+      "content": "帝召大将军何进调兵擒马元义，斩之；次收封谞等一干人下狱。张角闻知事露，星夜举兵，\n自称“天公将军”，张宝称“地公将军”，张梁称“人公将军”。申言于众曰：“今汉运将\n终，大圣人出。汝等皆宜顺天从正，以乐太平。”四方百姓，裹黄巾从张角反者四五十万。\n贼势浩大，官军望风而靡。何进奏帝火速降诏，令各处备御，讨贼立功。一面遣中郎将卢\n植、皇甫嵩、朱儁，各引精兵、分三路讨之。\n\n    且说张角一军，前犯幽州界分。幽州太守刘焉，乃江夏竟陵人氏，汉鲁恭王之后也。当\n时闻得贼兵将至，召校尉邹靖计议。靖曰：“贼兵众，我兵寡，明公宜作速招军应敌。”刘\n焉然其说，随即出榜招募义兵。\n\n    榜文行到涿县，引出涿县中一个英雄。那人不甚好读书；性宽和，寡言语，喜怒不形于\n色；素有大志，专好结交天下豪杰；生得身长七尺五寸，两耳垂肩，双手过膝，目能自顾其\n耳，面如冠玉，唇若涂脂；中山靖王刘胜之后，汉景帝阁下玄孙，姓刘名备，字玄德。昔刘\n胜之子刘贞，汉武时封涿鹿亭侯，后坐酎金失侯，因此遗这一枝在涿县。玄德祖刘雄，父刘\n弘。弘曾举孝廉，亦尝作吏，早丧。玄德幼孤，事母至孝；家贫，贩屦织席为业。家住本县\n楼桑村。其家之东南，有一大桑树，高五丈余，遥望之，童童如车盖。相者云：“此家必出\n贵人。”玄德幼时，与乡中小儿戏于树下，曰：“我为天子，当乘此车盖。”叔父刘元起奇\n其言，曰：“此儿非常人也！”因见玄德家贫，常资给之。年十五岁，母使游学，尝师事郑\n玄、卢植，与公孙瓒等为友。\n\n    及刘焉发榜招军时，玄德年已二十八岁矣。当日见了榜文，慨然长叹。随后一人厉声言\n曰：“大丈夫不与国家出力，何故长叹？”玄德回视其人，身长八尺，豹头环眼，燕颔虎\n须，声若巨雷，势如奔马。玄德见他形貌异常，问其姓名。其人曰：“某姓张名飞，字翼\n德。世居涿郡，颇有庄田，卖酒屠猪，专好结交天下豪杰。恰才见公看榜而叹，故此相\n问。”玄德曰：“我本汉室宗亲，姓刘，名备。今闻黄巾倡乱，有志欲破贼安民，恨力不\n能，故长叹耳。”飞曰：“吾颇有资财，当招募乡勇，与公同举大事，如何。”玄德甚喜，\n遂与同入村店中饮酒。\n\n    正饮间，见一大汉，推着一辆车子，到店门首歇了，入店坐下，便唤酒保：“快斟酒来\n吃，我待赶入城去投军。”玄德看其人：身长九尺，髯长二尺；面如重枣，唇若涂脂；丹凤\n眼，卧蚕眉，相貌堂堂，威风凛凛。玄德就邀他同坐，叩其姓名。其人曰：“吾姓关名羽，\n字长生，后改云长，河东解良人也。因本处势豪倚势凌人，被吾杀了，逃难江湖，五六年\n矣。今闻此处招军破贼，特来应募。”玄德遂以己志告之，云长大喜。同到张飞庄上，共议\n大事。飞曰：“吾庄后有一桃园，花开正盛；明日当于园中祭告天地，我三人结为兄弟，协\n力同心，然后可图大事。”玄德、云长齐声应曰：“如此甚好。”\n\n    次日，于桃园中，备下乌牛白马祭礼等项，三人焚香再拜而说誓曰：“念刘备、关羽、\n张飞，虽然异姓，既结为兄弟，则同心协力，救困扶危；上报",
+      "linked_entity_names": [
+        "张角",
+        "桃园结义",
+        "刘焉",
+        "黄巾军",
+        "张梁",
+        "张飞",
+        "张宝",
+        "马元义",
+        "关羽",
+        "何进",
+        "刘备",
+        "邹靖"
+      ],
+      "linked_edges": [
+        [
+          "关羽",
+          "张飞"
+        ],
+        [
+          "关羽",
+          "刘备"
+        ],
+        [
+          "何进",
+          "马元义"
+        ],
+        [
+          "刘备",
+          "张飞"
+        ],
+        [
+          "张角",
+          "黄巾军"
+        ],
+        [
+          "刘备",
+          "桃园结义"
+        ],
+        [
+          "刘焉",
+          "张角"
+        ]
+      ]
+    },
+    {
+      "content": "祭告天地，我三人结为兄弟，协\n力同心，然后可图大事。”玄德、云长齐声应曰：“如此甚好。”\n\n    次日，于桃园中，备下乌牛白马祭礼等项，三人焚香再拜而说誓曰：“念刘备、关羽、\n张飞，虽然异姓，既结为兄弟，则同心协力，救困扶危；上报国家，下安黎庶。不求同年同\n月同日生，只愿同年同月同日死。皇天后土，实鉴此心，背义忘恩，天人共戮！”誓毕，拜\n玄德为兄，关羽次之，张飞为弟。祭罢天地，复宰牛设酒，聚乡中勇士，得三百余人，就桃\n园中痛饮一醉。来日收拾军器，但恨无马匹可乘。正思虑间，人报有两个客人，引一伙伴\n当，赶一群马，投庄上来。玄德曰：“此天佑我也！”三人出庄迎接。原来二客乃中山大\n商：一名张世平，一名苏双，每年往北贩马，近因寇发而回。玄德请二人到庄，置酒管待，\n诉说欲讨贼安民之意。二客大喜，愿将良马五十匹相送；又赠金银五百两，镔铁一千斤，以\n资器用。\n\n    玄德谢别二客，便命良匠打造双股剑。云长造青龙偃月刀，又名“冷艳锯”，重八十二\n斤。张飞造丈八点钢矛。各置全身铠甲。共聚乡勇五百余人，来见邹靖。邹靖引见太守刘\n焉。三人参见毕，各通姓名。玄德说起宗派，刘焉大喜，遂认玄德为侄。不数日，人报黄巾\n贼将程远志统兵五万来犯涿郡。刘焉令邹靖引玄德等三人，统兵五百，前去破敌。玄德等欣\n然领军前进，直至大兴山下，与贼相见。贼众皆披发，以黄巾抹额。当下两军相对，玄德出\n马，左有云长，右有翼德，扬鞭大骂：“反国逆贼，何不早降！”程远志大怒，遣副将邓茂\n出战。张飞挺丈八蛇矛直出，手起处，刺中邓茂心窝，翻身落马。程远志见折了邓茂，拍马\n舞刀，直取张飞。云长舞动大刀，纵马飞迎。程远志见了，早吃一惊，措手不及，被云长刀\n起处，挥为两段。后人有诗赞二人曰：英雄露颖在今朝，一试矛兮一试刀。初出便将威力\n展，三分好把姓名标。\n\n    众贼见程远志被斩，皆倒戈而走。玄德挥军追赶，投降者不计其数，大胜而回。刘焉亲\n自迎接，赏劳军士。次日，接得青州太守龚景牒文，言黄巾贼围城将陷，乞赐救援。刘焉与\n玄德商议。玄德曰：“备愿往救之。”刘焉令邹靖将兵五千，同玄德、关、张，投青州来。\n贼众见救军至，分兵混战。玄德兵寡不胜，退三十里下寨。\n\n    玄德谓关、张曰：“贼众我寡；必出奇兵，方可取胜。”乃分关公引一千军伏山左，张\n飞引一千军伏山右，鸣金为号，齐出接应。次日，玄德与邹靖引军鼓噪而进。贼众迎战，玄\n德引军便退。贼众乘势追赶，方过山岭，玄德军中一齐鸣金，左右两军齐出，玄德摩军回身\n复杀。三路夹攻，贼众大溃。直赶至青州城下，太守龚景亦率民兵出城助战。贼势大败，剿\n戮极多，遂解青州之围。后人有诗赞玄德曰：运筹决算有神功，二虎还须逊一龙。初出便能\n垂伟绩，自应分鼎在孤穷。\n\n    龚景犒军毕，邹靖欲回。玄德曰：“近闻中郎将卢植与贼首张角战于广宗，备昔曾师事\n卢植，欲往助之。”于是邹靖引军自回，玄德与关、张",
+      "linked_entity_names": [
+        "刘焉",
+        "中山大商",
+        "黄巾贼",
+        "青州",
+        "桃园",
+        "张飞",
+        "玄德",
+        "双股剑",
+        "关羽",
+        "丈八点钢矛",
+        "青龙偃月刀"
+      ],
+      "linked_edges": [
+        [
+          "关羽",
+          "玄德"
+        ],
+        [
+          "刘焉",
+          "玄德"
+        ],
+        [
+          "中山大商",
+          "玄德"
+        ],
+        [
+          "玄德",
+          "青州"
+        ],
+        [
+          "关羽",
+          "张飞"
+        ],
+        [
+          "张飞",
+          "玄德"
+        ],
+        [
+          "玄德",
+          "黄巾贼"
+        ]
+      ]
+    },
+    {
+      "content": "筹决算有神功，二虎还须逊一龙。初出便能\n垂伟绩，自应分鼎在孤穷。\n\n    龚景犒军毕，邹靖欲回。玄德曰：“近闻中郎将卢植与贼首张角战于广宗，备昔曾师事\n卢植，欲往助之。”于是邹靖引军自回，玄德与关、张引本部五百人投广宗来。至卢植军\n中，入帐施礼，具道来意。卢植大喜，留在帐前听调。\n\n    时张角贼众十五万，植兵五万，相拒于广宗，未见胜负。植谓玄德曰：“我今围贼在\n此，贼弟张梁、张宝在颍川，与皇甫嵩、朱儁对垒。汝可引本部人马，我更助汝一千官军，\n前去颍川打探消息，约期剿捕。”玄德领命，引军星夜投颍川来。\n\n    时皇甫嵩、朱儁领军拒贼，贼战不利，退入长社，依草结营。嵩与儁计曰：“贼依草结\n营，当用火攻之。”遂令军士，每人束草一把，暗地埋伏。其夜大风忽起。二更以后，一齐\n纵火，嵩与儁各引兵攻击贼寨，火焰张天，贼众惊慌，马不及鞍，人不及甲，四散奔走。\n\n    杀到天明，张梁、张宝引败残军士，夺路而走。忽见一彪军马，尽打红旗，当头来到，\n截住去路。为首闪出一将，身长七尺，细眼长髯，官拜骑都尉，沛国谯郡人也，姓曹名操字\n孟德。操父曹嵩，本姓夏侯氏，因为中常侍曹腾之养子，故冒姓曹。曹嵩生操，小字阿瞒，\n一名吉利。操幼时，好游猎，喜歌舞，有权谋，多机变。操有叔父，见操游荡无度，尝怒\n之，言于曹嵩。嵩责操。操忽心生一计，见叔父来，诈倒于地，作中风之状。叔父惊告嵩，\n嵩急视之。操故无恙。嵩曰：“叔言汝中风，今已愈乎？”操曰：“儿自来无此病；因失爱\n于叔父，故见罔耳。”嵩信其言。后叔父但言操过，嵩并不听。因此，操得恣意放荡。时人\n有桥玄者，谓操曰：“天下将乱，非命世之才不能济。能安之者，其在君乎？”南阳何顒见\n操，言：“汉室将亡，安天下者，必此人也。”汝南许劭，有知人之名。操往见之，问曰：\n“我何如人？”劭不答。又问，劭曰：“子治世之能臣，乱世之奸雄也。”操闻言大喜。年\n二十，举孝廉，为郎，除洛阳北部尉。初到任，即设五色棒十余条于县之四门，有犯禁者，\n不避豪贵，皆责之。中常侍蹇硕之叔，提刀夜行，操巡夜拿住，就棒责之。由是，内外莫敢\n犯者，威名颇震。后为顿丘令，因黄巾起，拜为骑都尉，引马步军五千，前来颍川助战。正\n值张梁、张宝败走，曹操拦住，大杀一阵，斩首万余级，夺得旗幡、金鼓、马匹极多。张\n梁、张宝死战得脱。操见过皇甫嵩、朱儁，随即引兵追袭张梁、张宝去了。\n\n    却说玄德引关、张来颍川，听得喊杀之声，又望见火光烛天，急引兵来时，贼已败散。\n玄德见皇甫嵩、朱儁，具道卢植之意。嵩曰：“张梁、张宝势穷力乏，必投广宗去依张角。\n玄德可即星夜往助。”玄德领命，遂引兵复回。到得半路，只见一簇军马，护送一辆槛车，\n车中之囚，乃卢植也。玄德大惊，滚鞍下马，问其缘故。植曰：“我围张角，将次可破；因\n角用妖术，未能即胜。朝廷差黄门左丰前来体探，问我索取贿",
+      "linked_entity_names": [
+        "张角",
+        "卢植",
+        "张梁",
+        "玄德",
+        "张宝",
+        "颍川",
+        "广宗",
+        "骑都尉",
+        "黄巾起",
+        "皇甫嵩",
+        "龚景",
+        "邹靖",
+        "长社",
+        "朱儁"
+      ],
+      "linked_edges": [
+        [
+          "张梁",
+          "张角"
+        ],
+        [
+          "朱儁",
+          "皇甫嵩"
+        ],
+        [
+          "张宝",
+          "张角"
+        ],
+        [
+          "卢植",
+          "玄德"
+        ],
+        [
+          "曹操",
+          "骑都尉"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第二回    张翼德怒鞭督邮　何国舅谋诛宦竖\n\n且说董卓字仲颖，陇西临洮人也，官拜河东太守，自来骄傲。当日怠慢了玄德，张飞性\n发，便欲杀之。玄德与关公急止之曰；“他是朝廷命官，岂可擅杀？”飞曰：“若不杀这\n厮，反要在他部下听令，其实不甘！二兄要便住在此，我自投别处去也！”玄德曰：“我三\n人义同生死，岂可相离？不若都投别处去便了。”飞曰：“若如此，稍解吾恨。”\n\n    于是三人连夜引军来投朱儁。儁待之甚厚，合兵一处，进讨张宝。是时曹操自跟皇甫嵩\n讨张梁，大战于曲阳。这里朱儁进攻张宝。张宝引贼众八九万，屯于山后。儁令玄德为其先\n锋，与贼对敌。张宝遣副将高升出马搦战，玄德使张飞击之。飞纵马挺矛，与升交战，不数\n合，刺升落马。玄德麾军直冲过去。张宝就马上披发仗剑，作起妖法。只见风雷大作，一股\n黑气从天而降，黑气中似有无限人马杀来。玄德连忙回军，军中大乱。败阵而归，与朱儁计\n议。儁曰：“彼用妖术，我来日可宰猪羊狗血，令军士伏于山头；候贼赶来，从高坡上泼\n之，其法可解。”玄德听令，拨关公、张飞各引军一千，伏于山后高冈之上，盛猪羊狗血并\n秽物准备。次日，张宝摇旗擂鼓，引军搦战，玄德出迎。交锋之际，张宝作法，风雷大作，\n飞砂走石，黑气漫天，滚滚人马，自天而下。玄德拨马便走，张宝驱兵赶来。将过山头，\n关、张伏军放起号炮，秽物齐泼。但见空中纸人草马，纷纷坠地；风雷顿息，砂石不飞。\n\n    张宝见解了法，急欲退军。左关公，右张飞，两军都出，背后玄德、朱儁一齐赶上，贼\n兵大败。玄德望见“地公将军”旗号，飞马赶来，张宝落荒而走。玄德发箭，中其左臂。张\n宝带箭逃脱，走入阳城，坚守不出。\n\n    朱儁引兵围住阳城攻打，一面差人打探皇甫嵩消息。探子回报，具说：“皇甫嵩大获胜\n捷，朝廷以董卓屡败，命嵩代之。嵩到时，张角已死；张梁统其众，与我军相拒，被皇甫嵩\n连胜七阵，斩张梁于曲阳。发张角之棺，戮尸枭首，送往京师。余众俱降。朝廷加皇甫嵩为\n车骑将军，领冀州牧。皇甫嵩又表奏卢植有功无罪，朝廷复卢植原官。曹操亦以有功，除济\n南相，即日将班师赴任。”朱儁听说，催促军马，悉力攻打阳城。贼势危急，贼将严政刺杀\n张宝，献首投降。朱儁遂平数郡，上表献捷。时又黄巾余党三人：赵弘、韩忠、孙仲，聚众\n数万，望风烧劫，称与张角报仇。朝廷命朱儁即以得胜之师讨之。儁奉诏，率军前进。时贼\n据宛城，儁引兵攻之，赵弘遣韩忠出战。儁遣玄德、关、张攻城西南角。韩忠尽率精锐之\n众，来西南角抵敌。朱儁自纵铁骑二千，径取东北角。贼恐失城，急弃西南面回。玄德从背\n后掩杀，贼众大败，奔入宛城。朱儁分兵四面围定。城中断粮，韩忠使人出城投降。儁不\n许。玄德曰：“昔高祖之得天下，盖为能招降纳顺；公何拒韩忠耶？”儁曰：“彼一时，此\n一时也。昔秦项之际，天下大乱，民无定主，故招降赏附，以劝",
+      "linked_entity_names": [
+        "三国演义",
+        "张翼德",
+        "玄德",
+        "张宝",
+        "地公将军",
+        "阳城",
+        "皇甫嵩",
+        "关公",
+        "董卓",
+        "朱儁"
+      ],
+      "linked_edges": [
+        [
+          "张宝",
+          "皇甫嵩"
+        ],
+        [
+          "张宝",
+          "朱儁"
+        ],
+        [
+          "张翼德",
+          "玄德"
+        ],
+        [
+          "朱儁",
+          "阳城"
+        ],
+        [
+          "张翼德",
+          "董卓"
+        ],
+        [
+          "关公",
+          "张翼德"
+        ]
+      ]
+    },
+    {
+      "content": "，奔入宛城。朱儁分兵四面围定。城中断粮，韩忠使人出城投降。儁不\n许。玄德曰：“昔高祖之得天下，盖为能招降纳顺；公何拒韩忠耶？”儁曰：“彼一时，此\n一时也。昔秦项之际，天下大乱，民无定主，故招降赏附，以劝来耳。今海内一统，惟黄巾\n造反；若容其降，无以劝善。使贼得利恣意劫掠，失利便投降：此长寇之志，非良策也。”\n玄德曰：“不容寇降是矣。今四面围如铁桶，贼乞降不得，必然死战。万人一心，尚不可\n当，况城中有数万死命之人乎？不若撤去东南，独攻西北。贼必弃城而走，无心恋战，可即\n擒也。”儁然之，随撤东南二面军马，一齐攻打西北。韩忠果引军弃城而奔。儁与玄德、\n关、张率三军掩杀，射死韩忠，余皆四散奔走。正追赶间，赵弘、孙仲引贼众到，与儁交\n战。儁见弘势大，引军暂退。弘乘势复夺宛城。儁离十里下寨。方欲攻打，忽见正东一彪人\n马到来。为首一将，生得广额阔面，虎体熊腰；吴郡富春人也，姓孙，名坚，字文台，乃孙\n武子之后。年十七岁时，与父至钱塘，见海贼十余人，劫取商人财物，于岸上分赃。坚谓父\n曰：“此贼可擒也。”遂奋力提刀上岸，扬声大叫，东西指挥，如唤人状。贼以为官兵至，\n尽弃财物奔走。坚赶上，杀一贼。由是郡县知名，荐为校尉。后会稽妖贼许昌造反，自称\n“阳明皇帝”，聚众数万；坚与郡司马招募勇士千余人，会合州郡破之，斩许昌并其子许\n韶。刺史臧旻上表奏其功，除坚为盐渎丞，又除盱眙丞、下邳丞。今见黄巾寇起，聚集乡中\n少年及诸商旅，并淮泗精兵一千五百余人，前来接应。\n\n    朱儁大喜，便令坚攻打南门，玄德打北门，朱儁打西门，留东门与贼走。孙坚首先登\n城，斩贼二十余人，贼众奔溃。赵弘飞马突槊，直取孙坚。坚从城上飞身夺弘槊，刺弘下\n马；却骑弘马，飞身往来杀贼。孙仲引贼突出北门，正迎玄德，无心恋战，只待奔逃。玄德\n张弓一箭，正中孙仲，翻身落马。朱儁大军随后掩杀，斩首数万级，降者不可胜计。南阳一\n路，十数郡皆平。儁班师回京，诏封为车骑将军，河南尹。儁表奏孙坚、刘备等功。坚有人\n情，除别郡司马上任去了。惟玄德听候日久，不得除授，三人郁郁不乐，上街闲行，正值郎\n中张钧车到。玄德见之，自陈功绩。钧大惊，随入朝见帝曰：“昔黄巾造反，其原皆由十常\n侍卖官鬻爵，非亲不用，非仇不诛，以致天下大乱。今宜斩十常侍，悬首南郊，遣使者布告\n天下，有功者重加赏赐，则四海自清平也。”十常侍奏帝曰：“张钧欺主。”帝令武士逐出\n张钧。十常侍共议：“此必破黄巾有功者，不得除授，故生怨言。权且教省家铨注微名，待\n后却再理会未晚。”因此玄德除授定州中山府安喜县尉，克日赴任。\n\n    玄德将兵散回乡里，止带亲随二十余人，与关、张来安喜县中到任。署县事一月，与民\n秋毫无犯，民皆感化。到任之后，与关、张食则同桌，寝则同床。如玄德在稠人广坐，关、\n张侍立，终日不倦。到县未及四月，朝",
+      "linked_entity_names": [
+        "黄巾",
+        "玄德",
+        "赵弘",
+        "孙坚",
+        "韩忠",
+        "安喜县",
+        "十常侍",
+        "张",
+        "宛城",
+        "关",
+        "朱儁"
+      ],
+      "linked_edges": [
+        [
+          "朱儁",
+          "玄德"
+        ],
+        [
+          "关",
+          "朱儁"
+        ],
+        [
+          "十常侍",
+          "黄巾"
+        ],
+        [
+          "安喜县",
+          "玄德"
+        ],
+        [
+          "朱儁",
+          "赵弘"
+        ],
+        [
+          "朱儁",
+          "韩忠"
+        ],
+        [
+          "张",
+          "朱儁"
+        ],
+        [
+          "孙坚",
+          "朱儁"
+        ]
+      ]
+    },
+    {
+      "content": "日赴任。\n\n    玄德将兵散回乡里，止带亲随二十余人，与关、张来安喜县中到任。署县事一月，与民\n秋毫无犯，民皆感化。到任之后，与关、张食则同桌，寝则同床。如玄德在稠人广坐，关、\n张侍立，终日不倦。到县未及四月，朝廷降诏，凡有军功为长吏者当沙汰。玄德疑在遣中。\n适督邮行部至县，玄德出郭迎接，见督邮施礼。督邮坐于马上，惟微以鞭指回答。关、张二\n公俱怒。及到馆驿，督邮南面高坐，玄德侍立阶下。良久，督邮问曰：“刘县尉是何出\n身？”玄德曰：“备乃中山靖王之后；自涿郡剿戮黄巾，大小三十余战，颇有微功，因得除\n今职。”督邮大喝曰：“汝诈称皇亲，虚报功绩！目今朝廷降诏，正要沙汰这等滥官污\n吏！”玄德喏喏连声而退。归到县中，与县吏商议。吏曰：“督邮作威，无非要贿赂耳。”\n玄德曰：“我与民秋毫无犯，那得财物与他？”次日，督邮先提县吏去，勒令指称县尉害\n民。玄德几番自往求免，俱被门役阻住，不肯放参。\n\n    却说张飞饮了数杯闷酒，乘马从馆驿前过，见五六十个老人，皆在门前痛哭。飞问其\n故，众老人答曰：“督邮逼勒县吏，欲害刘公；我等皆来苦告，不得放入，反遭把门人赶\n打！”张飞大怒，睁圆环眼，咬碎钢牙，滚鞍下马，径入馆驿，把门人那里阻挡得住，直奔\n后堂，见督邮正坐厅上，将县吏绑倒在地。飞大喝：“害民贼！认得我么？”督邮未及开\n言，早被张飞揪住头发，扯出馆驿，直到县前马桩上缚住；攀下柳条，去督邮两腿上着力鞭\n打，一连打折柳条十数枝。玄德正纳闷间，听得县前喧闹，问左右，答曰：“张将军绑一人\n在县前痛打。”玄德忙去观之，见绑缚者乃督邮也。玄德惊问其故。飞曰：“此等害民贼，\n不打死等甚！”督邮告曰：“玄德公救我性命！”玄德终是仁慈的人，急喝张飞住手。傍边\n转过关公来，曰：“兄长建许多大功，仅得县尉，今反被督邮侮辱。吾思枳棘丛中，非栖鸾\n凤之所；不如杀督邮，弃官归乡，别图远大之计。”玄德乃取印绶，挂于督邮之颈，责之\n曰：据汝害民，本当杀却；今姑饶汝命。吾缴还印绶，从此去矣。”督邮归告定州太守，太\n守申文省府，差人捕捉。玄德、关、张三人往代州投刘恢。恢见玄德乃汉室宗亲，留匿在家\n不题。\n\n    却说十常侍既握重权，互相商议：但有不从己者，诛之。赵忠、张让差人问破黄巾将士\n索金帛，不从者奏罢职。皇甫嵩、朱儁皆不肯与，赵忠等俱奏罢其官。帝又封赵忠等为车骑\n将军，张让等十三人皆封列侯。朝政愈坏，人民嗟怨。于是长沙贼区星作乱；渔阳张举、张\n纯反：举称天子，纯称大将军。表章雪片告急，十常侍皆藏匿不奏。\n\n    一日，帝在后园与十常侍饮宴，谏议大夫刘陶，径到帝前大恸。帝问其故。陶曰：“天\n下危在旦夕，陛下尚自与阉宦共饮耶！”帝曰：“国家承平，有何危急？”陶曰：“四方盗\n贼并起，侵掠州郡。其祸皆由十常侍卖官害民，欺君罔上。朝廷正人皆去，祸在目前矣！”\n十常侍皆免冠跪",
+      "linked_entity_names": [
+        "黄巾",
+        "玄德",
+        "刘陶",
+        "十常侍",
+        "张",
+        "关",
+        "督邮",
+        "县"
+      ],
+      "linked_edges": [
+        [
+          "刘陶",
+          "十常侍"
+        ],
+        [
+          "张",
+          "玄德"
+        ],
+        [
+          "玄德",
+          "督邮"
+        ],
+        [
+          "张",
+          "督邮"
+        ],
+        [
+          "关",
+          "玄德"
+        ]
+      ]
+    },
+    {
+      "content": "。陶曰：“天\n下危在旦夕，陛下尚自与阉宦共饮耶！”帝曰：“国家承平，有何危急？”陶曰：“四方盗\n贼并起，侵掠州郡。其祸皆由十常侍卖官害民，欺君罔上。朝廷正人皆去，祸在目前矣！”\n十常侍皆免冠跪伏于帝前曰：“大臣不相容，臣等不能活矣！愿乞性命归田里，尽将家产以\n助军资。”言罢痛哭。帝怒谓陶曰：“汝家亦有近侍之人，何独不容朕耶？”呼武士推出斩\n之。刘陶大呼：“臣死不惜！可怜汉室天下，四百余年，到此一旦休矣！”\n\n    武士拥陶出，方欲行刑，一大臣喝住曰：“勿得下手，待我谏去。”众视之，乃司徒陈\n耽，径入宫中来谏帝曰：“刘谏议得何罪而受诛？”帝曰：“毁谤近臣，冒渎朕躬。”耽\n曰：“天下人民，欲食十常侍之肉，陛下敬之如父母，身无寸功，皆封列侯；况封谞等结连\n黄巾，欲为内乱：陛下今不自省，社稷立见崩摧矣！”帝曰：“封谞作乱，其事不明。十常\n侍中，岂无一二忠臣？”陈耽以头撞阶而谏。帝怒，命牵出，与刘陶皆下狱。是夜，十常侍\n即于狱中谋杀之；假帝诏以孙坚为长沙太守，讨区星，不五十日，报捷，江夏平，诏封坚为\n乌程侯。\n\n    封刘虞为幽州牧，领兵往渔阳征张举、张纯。代州刘恢以书荐玄德见虞。虞大喜，令玄\n德为都尉，引兵直抵贼巢，与贼大战数日，挫动锐气。张纯专一凶暴，士卒心变，帐下头目\n刺杀张纯，将头纳献，率众来降。张举见势败，亦自缢死。渔阳尽平。刘虞表奏刘备大功，\n朝廷赦免鞭督邮之罪，除下密丞，迁高堂尉。公孙瓒又表陈玄德前功，荐为别部司马，守平\n原县令。玄德在平原，颇有钱粮军马，重整旧日气象。刘虞平寇有功，封太尉。中平六年夏\n四月，灵帝病笃，召大将军何进入宫，商议后事。那何进起身屠家；因妹入宫为贵人，生皇\n子辩，遂立为皇后。进由是得权重任。帝又宠幸王美人，生皇子协。何后嫉妒，鸩杀王美\n人。皇子协养于董太后宫中。董太后乃灵帝之母，解渎亭侯刘苌之妻也。初因桓帝无子，迎\n立解渎亭侯之子，是为灵帝。灵帝入继大统，遂迎养母氏于宫中，尊为太后。董太后尝劝帝\n立皇子协为太子。帝亦偏爱协，欲立之。当时病笃，中常侍蹇硕奏曰：“若欲立协，必先诛\n何进，以绝后患。”帝然其说，因宣进入宫。进至宫门，司马潘隐谓进曰：“不可入宫。蹇\n硕欲谋杀公。”进大惊，急归私宅，召诸大臣，欲尽诛宦官。座上一人挺身出曰：“宦官之\n势，起自冲、质之时；朝廷滋蔓极广，安能尽诛？倘机不密，必有灭族之祸：请细详之。”\n进视之，乃典军校尉曹操也。进叱曰：“汝小辈安知朝廷大事！”正踌躇间，潘隐至，言：\n“帝已崩。今赛硕与十常侍商议，秘不发丧，矫诏宣何国舅入宫，欲绝后患，册立皇子协为\n帝。”说未了，使命至，宣进速入，以定后事。操曰：“今日之计，先宜正君位，然后图\n贼。”进曰：“谁敢与吾正君讨贼？”一人挺身出曰：“愿借精兵五千，斩关入内，册立新\n君，尽诛阉竖",
+      "linked_entity_names": [
+        "陶",
+        "董太后",
+        "灵帝",
+        "刘虞",
+        "张纯",
+        "乌程侯",
+        "刘陶",
+        "何进",
+        "江夏",
+        "十常侍",
+        "幽州",
+        "刘备",
+        "帝",
+        "皇子协",
+        "平原县",
+        "陈耽",
+        "张举"
+      ],
+      "linked_edges": [
+        [
+          "何进",
+          "灵帝"
+        ],
+        [
+          "帝",
+          "陶"
+        ],
+        [
+          "刘备",
+          "刘虞"
+        ],
+        [
+          "张举",
+          "张纯"
+        ],
+        [
+          "何进",
+          "董太后"
+        ],
+        [
+          "刘陶",
+          "陈耽"
+        ],
+        [
+          "十常侍",
+          "陶"
+        ]
+      ]
+    },
+    {
+      "content": "国舅入宫，欲绝后患，册立皇子协为\n帝。”说未了，使命至，宣进速入，以定后事。操曰：“今日之计，先宜正君位，然后图\n贼。”进曰：“谁敢与吾正君讨贼？”一人挺身出曰：“愿借精兵五千，斩关入内，册立新\n君，尽诛阉竖，扫清朝廷，以安天下！”进视之，乃司徒袁逢之子，袁隗之侄：名绍，字本\n初，现为司隶校尉。何进大喜，遂点御林军五千。绍全身披挂。何进引何顒、荀攸、郑泰等\n大臣三十余员，相继而入，就灵帝柩前，扶立太子辩即皇帝位。\n\n    百官呼拜已毕，袁绍入宫收蹇硕。硕慌走入御园，花阴下为中常侍郭胜所杀。硕所领禁\n军，尽皆投顺。绍谓何进曰：“中官结党。今日可乘势尽诛之。”张让等知事急，慌入告何\n后曰：“始初设谋陷害大将军者，止赛硕一人，并不干臣等事。今大将军听袁绍之言，欲尽\n诛臣等，乞娘娘怜悯！”何太后曰：“汝等勿忧，我当保汝。”传旨宣何进入。太后密谓\n曰：“我与汝出身寒微，非张让等，焉能享此富贵？今蹇硕不仁，既已伏诛，汝何听信人\n言，欲尽诛宦官耶？”何进听罢，出谓众官曰：“蹇硕设谋害我，可族灭其家。其余不必妄\n加残害。”袁绍曰：“若不斩草除根，必为丧身之本。”进曰：“吾意已决，汝勿多言。”\n众官皆退。次日，太后命何进参录尚书事，其余皆封官职。董太后宣张让等入宫商议曰：\n“何进之妹，始初我抬举他。今日他孩儿即皇帝位，内外臣僚，皆其心腹：威权太重，我将\n如何？”让奏曰：“娘娘可临朝，垂帘听政；封皇子协为王；加国舅董重大官，掌握军权；\n重用臣等：大事可图矣。”董太后大喜。次日设朝，董太后降旨，封皇子协为陈留王，董重\n为骠骑将军，张让等共预朝政。何太后见董太后专权，于宫中设一宴，请董太后赴席。酒至\n半酣，何太后起身捧杯再拜曰：“我等皆妇人也，参预朝政，非其所宜。昔吕后因握重权，\n宗族千口皆被戮。今我等宜深居九重；朝廷大事，任大臣元老自行商议，此国家之幸也。愿\n垂听焉。”董后大怒曰：“汝鸩死王美人，设心嫉妒。今倚汝子为君，与汝兄何进之势，辄\n敢乱言！吾敕骠骑断汝兄首，如反掌耳！”何后亦怒曰：“吾以好言相劝，何反怒耶？”董\n后曰：“汝家屠沽小辈，有何见识！”两宫互相争竞，张让等各劝归宫。何后连夜召何进入\n宫，告以前事。何进出，召三公共议。来早设朝，使廷臣奏董太后原系藩妃，不宜久居宫\n中，合仍迁于河间安置，限日下即出国门。一面遣人起送董后；一面点禁军围骠骑将军董重\n府宅，追索印绶。董重知事急，自刎于后堂。家人举哀，军士方散。张让、段珪见董后一枝\n已废，遂皆以金珠玩好结构何进弟何苗并其母舞阳君，令早晚入何太后处，善言遮蔽：因此\n十常侍又得近幸。\n\n    六月，何进暗使人鸩杀董后于河间驿庭，举柩回京，葬于文陵。进托病不出。司隶校尉\n袁绍入见进曰：“张让、段珪等流言于外，言公鸩杀董后，欲谋大事。乘此时不诛阉宦，后\n必为大祸。昔窦武欲诛内竖，机谋不密，反",
+      "linked_entity_names": [
+        "张让",
+        "董太后",
+        "何进",
+        "六月",
+        "皇子协",
+        "何太后",
+        "朝廷",
+        "蹇硕",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "何太后",
+          "董太后"
+        ],
+        [
+          "张让",
+          "董太后"
+        ],
+        [
+          "何进",
+          "袁绍"
+        ],
+        [
+          "何进",
+          "蹇硕"
+        ],
+        [
+          "皇子协",
+          "董太后"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第五回    发矫诏诸镇应曹公　破关兵三英战吕布\n\n却说陈宫临欲下手杀曹操，忽转念曰：“我为国家跟他到此，杀之不义。不若弃而他\n往。”插剑上马，不等天明，自投东郡去了。操觉，不见陈宫，寻思：“此人见我说了这两\n句，疑我不仁，弃我而去；吾当急行，不可久留。”遂连夜到陈留，寻见父亲，备说前事；\n欲散家资，招募义兵。父言：“资少恐不成事。此间有孝廉卫弘，疏财仗义，其家巨富；若\n得相助，事可图矣。”操置酒张筵，拜请卫弘到家，告曰：“今汉室无主，董卓专权，欺君\n害民，天下切齿。操欲力扶社稷，恨力不足。公乃忠义之士，敢求相助！”卫弘曰：“吾有\n是心久矣，恨未遇英雄耳。既孟德有大志，愿将家资相助。”操大喜；于是先发矫诏，驰报\n各道，然后招集义兵，竖起招兵白旗一面，上书“忠义”二字。不数日间，应募之士，如雨\n骈集。\n\n    一日，有一个阳平卫国人，姓乐，名进，字文谦，来投曹操。又有一个山阳巨鹿人，姓\n李，名典，字曼成，也来投曹操。操皆留为帐前吏。又有沛国谯人夏侯惇，字元让，乃夏侯\n婴之后；自小习枪棒；年十四从师学武，有人辱骂其师，惇杀之，逃于外方；闻知曹操起\n兵，与其族弟夏侯渊两个，各引壮士千人来会。此二人本操之弟兄：操父曹嵩原是夏侯氏之\n子，过房与曹家，因此是同族。不数日，曹氏兄弟曹仁、曹洪各引兵千余来助。曹仁字子\n孝，曹洪字子廉：二人弓马熟娴，武艺精通。操大喜，于村中调练军马。卫弘尽出家财，置\n办衣甲旗幡。四方送粮食者，不计其数。\n\n    时袁绍得操矫诏，乃聚麾下文武，引兵三万，离渤海来与曹操会盟。操作檄文以达诸\n郡。檄文曰：“操等谨以大义布告天下：董卓欺天罔地，灭国弑君；秽乱宫禁，残害生灵；\n狼戾不仁，罪恶充积！今奉天子密诏，大集义兵，誓欲扫清华夏，剿戮群凶。望兴义师，共\n泄公愤；扶持王室，拯救黎民。檄文到日，可速奉行！”操发檄文去后，各镇诸侯皆起兵相\n应：第一镇，后将军南阳太守袁术。第二镇，冀州刺史韩馥。第三镇，豫州刺史孔伷。第四\n镇，兖州刺史刘岱。第五镇，河内郡太守王匡。第六镇，陈留太守张邈。第七镇，东郡太守\n乔瑁。第八镇，山阳太守袁遗。第九镇，济北相鲍信。第十镇，北海太守孔融。第十一镇，\n广陵太守张超。第十二镇，徐州刺史陶谦。第十三镇，西凉太守马腾。第十四镇，北平太守\n公孙瓒。第十五镇，上党太守张杨。第十六镇，乌程侯长沙太守孙坚。第十七镇，祁乡侯渤\n海太守袁绍。诸路军马，多少不等，有三万者，有一二万者，各领文官武将，投洛阳来。\n\n    且说北平太守公孙瓒，统领精兵一万五千，路经德州平原县。正行之间，遥见桑树丛\n中，一面黄旗，数骑来迎。瓒视之，乃刘玄德也。瓒问曰：“贤弟何故在此？”玄德曰：\n“旧日蒙兄保备为平原县令，今闻大军过此，将来奉候，就请兄长入城歇马。”瓒指关、张\n而问曰：“此何人也？”玄德曰：“此关羽、张飞，备结义兄弟也。”瓒曰：“乃同破黄巾\n者乎？”玄德曰：“皆此二人之力。”瓒曰：“今居",
+      "linked_entity_names": [
+        "卫弘",
+        "三国演义",
+        "曹洪",
+        "李典",
+        "乐进",
+        "陈宫",
+        "夏侯惇",
+        "曹仁",
+        "洛阳",
+        "袁绍",
+        "义兵",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "曹洪"
+        ],
+        [
+          "曹操",
+          "李典"
+        ],
+        [
+          "乐进",
+          "曹操"
+        ],
+        [
+          "曹操",
+          "袁绍"
+        ],
+        [
+          "曹操",
+          "陈宫"
+        ],
+        [
+          "卫弘",
+          "曹操"
+        ],
+        [
+          "曹仁",
+          "曹操"
+        ],
+        [
+          "夏侯惇",
+          "曹操"
+        ]
+      ]
+    },
+    {
+      "content": "玄德领命，遂引兵复回。到得半路，只见一簇军马，护送一辆槛车，\n车中之囚，乃卢植也。玄德大惊，滚鞍下马，问其缘故。植曰：“我围张角，将次可破；因\n角用妖术，未能即胜。朝廷差黄门左丰前来体探，问我索取贿赂。我答曰：‘军粮尚缺，安\n有余钱奉承天使？’左丰挟恨，回奏朝廷，说我高垒不战，惰慢军心；因此朝廷震怒，遣中\n郎将董卓来代将我兵，取我回京问罪。”张飞听罢，大怒，要斩护送军人，以救卢植。玄德\n急止之曰：“朝廷自有公论，汝岂可造次？”军士簇拥卢植去了。关公曰：“卢中郎已被\n逮，别人领兵，我等去无所依，不如且回涿郡。”玄德从其言，遂引军北行。行无二日，忽\n闻山后喊声大震。玄德引关、张纵马上高冈望之，见汉军大败，后面漫山塞野，黄巾盖地而\n来，旗上大书“天公将军”。玄德曰：“此张角也！可速战！”三人飞马引军而出。张角正\n杀败董卓，乘势赴来，忽遇三人冲杀，角军大乱，败走五十余里。\n\n    三人救了董卓回寨。卓问三人现居何职。玄德曰：“白身。”卓甚轻之，不为礼。玄德\n出，张飞大怒曰：“我等亲赴血战，救了这厮，他却如此无礼。若不杀之，难消我气！”便\n要提刀入帐来杀董卓。正是：人情势利古犹今，谁识英雄是白身？安得快人如翼德，尽诛世\n上负心人！毕竟董卓性命如何，且听下文分解。",
+      "linked_entity_names": [
+        "张角",
+        "黄巾军",
+        "卢植",
+        "涿郡",
+        "玄德",
+        "天公将军",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "张角",
+          "玄德"
+        ],
+        [
+          "玄德",
+          "董卓"
+        ],
+        [
+          "张角",
+          "黄巾军"
+        ],
+        [
+          "卢植",
+          "玄德"
+        ],
+        [
+          "张飞",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第三回    议温明董卓叱丁原　馈金珠李肃说吕布\n\n且说曹操当日对何进曰：“宦官之祸，古今皆有；但世主不当假之权宠，使至于此。若\n欲治罪，当除元恶，但付一狱吏足矣，何必纷纷召外兵乎？欲尽诛之，事必宣露。吾料其必\n败也。”何进怒曰：“孟德亦怀私意耶？”操退曰：“乱天下者，必进也。”进乃暗差使\n命，赍密诏星夜往各镇去。\n\n    却说前将军、鳌乡侯、西凉刺史董卓，先为破黄巾无功，朝议将治其罪，因贿赂十常侍\n幸免；后又结托朝贵，遂任显官，统西州大军二十万，常有不臣之心。是时得诏大喜，点起\n军马，陆续便行；使其婿中郎将牛辅；守住陕西，自己却带李傕、郭汜、张济、樊稠等提兵\n望洛阳进发。\n\n    卓婿谋士李儒曰：“今虽奉诏，中间多有暗味。何不差人上表，名正言顺，大事可\n图。”卓大喜，遂上表。其略曰：“窃闻天下所以乱逆不止者，皆由黄门常侍张让等侮慢天\n常之故。臣闻扬汤止沸，不如去薪；溃痈虽痛，胜于养毒。臣敢鸣钟鼓入洛阳，请除让等。\n社稷幸甚！天下幸甚！”何进得表，出示大臣。侍御史郑泰谏曰：“董卓乃豺狼也，引入京\n城，必食人矣。”进曰：“汝多疑，不足谋大事。”卢植亦谏曰：“植素知董卓为人，面善\n心狠；一入禁庭，必生祸患。不如止之勿来，免致生乱。”进不听，郑泰、卢植皆弃官而\n去。朝廷大臣，去者大半。进使人迎董卓于渑池，卓按兵不动。\n\n    张让等知外兵到，共议曰：“此何进之谋也；我等不先下手，皆灭族矣。”乃先伏刀斧\n手五十人于长乐宫嘉德门内，入告何太后曰：“今大将军矫诏召外兵至京师，欲灭臣等，望\n娘娘垂怜赐救。”太后曰：“汝等可诣大将军府谢罪。”让曰：“若到相府，骨肉齑粉矣。\n望娘娘宣大将军入宫谕止之。如其不从，臣等只就娘娘前请死。”太后乃降诏宣进。\n\n    进得诏便行。主簿陈琳谏曰：“太后此诏，必是十常侍之谋，切不可去。去必有祸。”\n进曰：“太后诏我，有何祸事？”袁绍曰：“今谋已泄，事已露，将军尚欲入宫耶？”曹操\n曰：“先召十常侍出，然后可入。”进笑曰：“此小儿之见也。吾掌天下之权，十常侍敢待\n如何？”绍曰：“公必欲去，我等引甲士护从，以防不测。”于是袁绍、曹操各选精兵五\n百，命袁绍之弟袁术领之。袁术全身披挂，引兵布列青琐门外。绍与操带剑护送何进至长乐\n宫前。黄门传懿旨云：“太后特宣大将军，余人不许辄入。”将袁绍、曹操等都阻住宫门\n外。\n\n    何进昂然直入。至嘉德殿门，张让、段珪迎出，左右围住，进大惊。让厉声责进曰：\n“董后何罪，妄以鸩死？国母丧葬，托疾不出！汝本屠沽小辈，我等荐之天子，以致荣贵；\n不思报效，欲相谋害，汝言我等甚浊，其清者是谁？”进慌急，欲寻出路，宫门尽闭，伏甲\n齐出，将何进砍为两段。后人有诗叹之曰；“汉室倾危天数终，无谋何进作三公。几番不听\n忠臣谏，难免宫中受剑锋。”\n\n    让等既杀何进，袁绍久不见进出，乃于宫门外大叫曰：“请将军上车！”让等将何进首\n级从墙上掷出，宣谕曰：“何",
+      "linked_entity_names": [
+        "张让",
+        "长乐宫",
+        "三国演义",
+        "陕西",
+        "何进",
+        "董卓",
+        "袁绍",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "何进",
+          "长乐宫"
+        ],
+        [
+          "何进",
+          "董卓"
+        ],
+        [
+          "何进",
+          "曹操"
+        ],
+        [
+          "曹操",
+          "袁绍"
+        ],
+        [
+          "张让",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "两段。后人有诗叹之曰；“汉室倾危天数终，无谋何进作三公。几番不听\n忠臣谏，难免宫中受剑锋。”\n\n    让等既杀何进，袁绍久不见进出，乃于宫门外大叫曰：“请将军上车！”让等将何进首\n级从墙上掷出，宣谕曰：“何进谋反，已伏诛矣！其余胁从，尽皆赦宥。”袁绍厉声大叫：\n“阉官谋杀大臣！诛恶党者前来助战！”何进部将吴匡，便于青琐门外放起火来。袁术引兵\n突入宫庭，但见阉官，不论大小，尽皆杀之。袁绍、曹操斩关入内。赵忠、程旷、夏恽、郭\n胜四个被赶至翠花楼前，剁为肉泥。宫中火焰冲天。张让、段珪、曹节、侯览将太后及太子\n并陈留王劫去内省，从后道走北宫。时卢植弃官未去，见宫中事变，擐甲持戈，立于阁下。\n遥见段珪拥逼何后过来，植大呼曰：“段珪逆贼，安敢劫太后！”段珪回身便走。太后从窗\n中跳出，植急救得免。吴匡杀入内庭，见何苗亦提剑出。匡大呼曰：“何苗同谋害兄，当共\n杀之！”众人俱曰：“愿斩谋兄之贼！”苗欲走，四面围定。砍为齑粉。绍复令军士分头来\n杀十常侍家属，不分大小，尽皆诛绝，多有无须者误被杀死。曹操一面救灭宫中之火，请何\n太后权摄大事，遣兵追袭张让等，寻觅少帝。\n\n    且说张让、段珪劫拥少帝及陈留王，冒烟突火，连夜奔走至北邙山。约二更时分，后面\n喊声大举，人马赶至；当前河南中部掾吏闵贡，大呼“逆贼休走！”张让见事急，遂投河而\n死。帝与陈留王未知虚实，不敢高声，伏于河边乱草之内。军马四散去赶，不知帝之所在。\n帝与王伏至四更，露水又下，腹中饥馁，相挤而哭；又怕人知觉，吞声草莽之中。陈留王\n曰：“此间不可久恋，须别寻活路。”于是二人以衣相结，爬上岸边。满地荆棘，黑暗之\n中，不见行路。正无奈何，忽有流萤千百成群，光芒照耀，只在帝前飞转。陈留王曰：“此\n天助我兄弟也！”遂随萤火而行，渐渐见路。行至五更，足痛不能行，山冈边见一草堆，帝\n与王卧于草堆之畔。草堆前面是一所庄院。庄主是夜梦两红日坠于庄后，惊觉，披衣出户，\n四下观望，见庄后草堆上红光冲天，慌忙往视，却是二人卧于草畔。庄主问曰：“二少年谁\n家之子？”帝不敢应。陈留王指帝曰：“此是当今皇帝，遭十常侍之乱，逃难到此。吾乃皇\n弟陈留王也。”庄主大惊，再拜曰：“臣先朝司徒崔烈之弟崔毅也。因见十常侍卖官嫉贤，\n故隐于此。”遂扶帝入庄，跪进酒食。却说闵贡赶上段珪，拿住问：“天子何在？”珪言：\n“已在半路相失，不知何往。”贡遂杀段珪，悬头于马项下，分兵四散寻觅；自己却独乘一\n马。随路追寻，偶至崔毅庄，毅见首级，问之，贡说详细，崔毅引贡见帝，君臣痛哭。贡\n曰：“国不可一日无君，请陛下还都。”崔毅庄上止有瘦马一匹，备与帝乘。贡与陈留王共\n乘一马。离庄而行，不到三里，司徒王允，太尉杨彪、左军校尉淳于琼、右军校尉赵萌、后\n军校尉鲍信、中军校尉袁绍，一行人众，数百人马，接着车驾。君臣皆哭。先使人将段珪首\n级往京师号令",
+      "linked_entity_names": [
+        "太后",
+        "崔毅",
+        "陈留王",
+        "皇帝",
+        "汉室",
+        "段珪",
+        "何进",
+        "十常侍",
+        "北邙山",
+        "流萤",
+        "袁绍",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "太后",
+          "段珪"
+        ],
+        [
+          "何进",
+          "袁绍"
+        ],
+        [
+          "皇帝",
+          "陈留王"
+        ],
+        [
+          "曹操",
+          "袁绍"
+        ]
+      ]
+    },
+    {
+      "content": "留王共\n乘一马。离庄而行，不到三里，司徒王允，太尉杨彪、左军校尉淳于琼、右军校尉赵萌、后\n军校尉鲍信、中军校尉袁绍，一行人众，数百人马，接着车驾。君臣皆哭。先使人将段珪首\n级往京师号令，另换好马与帝及陈留王骑坐，簇帝还京。先是洛阳小儿谣曰：“帝非帝，王\n非王，千乘万骑走北邙。”至此果应其谶。\n\n    车驾行不到数里，忽见旌旗蔽日，尘土遮天，一枝人马到来。百官失色，帝亦大惊。袁\n绍骤马出问：“何人？”绣旗影里，一将飞出，厉声问：“天子何在？”帝战栗不能言。陈\n留王勒马向前，叱曰：“来者何人？”卓曰：“西凉刺史董卓也。”陈留王曰：“汝来保驾\n耶，汝来劫驾耶？”卓应曰：“特来保驾。”陈留王曰：“既来保驾，天子在此，何不下\n马？”卓大惊，慌忙下马，拜于道左。陈留王以言抚慰董卓，自初至终，并无失语。卓暗奇\n之，已怀废立之意。是日还宫，见何太后，俱各痛哭。检点宫中，不见了传国玉玺。\n\n    董卓屯兵城外，每日带铁甲马军入城，横行街市，百姓惶惶不安。卓出入宫庭，略无忌\n惮。后军校尉鲍信，来见袁绍，言董卓必有异心，可速除之。绍曰：“朝廷新定，未可轻\n动。”鲍信见王允，亦言其事。允曰：“且容商议。”信自引本部军兵，投泰山去了。董卓\n招诱何进兄弟部下之兵，尽归掌握。私谓李儒曰：“吾欲废帝立陈留王，何如？”李儒曰：\n“今朝廷无主，不就此时行事，迟则有变矣。来日于温明园中，召集百官，谕以废立；有不\n从者斩之，则威权之行，正在今日。”卓喜。次日大排筵会，遍请公卿。公卿皆惧董卓，谁\n敢不到。卓待百官到了，然后徐徐到园门下马，带剑入席。酒行数巡，卓教停酒止乐，乃厉\n声曰：“吾有一言，众官静听。”众皆侧耳。卓曰：“天子为万民之主，无威仪不可以奉宗\n庙社稷。今上懦弱，不若陈留王聪明好学，可承大位。吾欲废帝，立陈留王，诸大臣以为何\n如？”诸官听罢，不敢出声。\n\n    座上一人推案直出，立于筵前，大呼：“不可！不可！汝是何人，敢发大语？天子乃先\n帝嫡子，初无过失，何得妄议废立！汝欲为篡逆耶？”卓视之，乃荆州刺史丁原也。卓怒叱\n曰：“顺我者生，逆我者死！”遂掣佩剑欲斩丁原。时李儒见丁原背后一人，生得器宇轩\n昂，威风凛凛，手执方天画戟，怒目而视。李儒急进曰：“今日饮宴之处，不可谈国政；来\n日向都堂公论未迟。”众人皆劝丁原上马而去。\n\n    卓问百官曰：“吾所言，合公道否？”卢植曰：“明公差矣。昔太甲不明，伊尹放之于\n桐宫；昌邑王登位方二十七日，造恶三千余条，故霍光告太庙而废之。今上虽幼，聪明仁\n智，并无分毫过失。公乃外郡刺史，素未参与国政，又无伊、霍之大才，何可强主废立之\n事？圣人云：有伊尹之志则可，无伊尹之志则篡也。”卓大怒，拔剑向前欲杀植。侍中蔡\n邕、议郎彭伯谏曰：“卢尚书海内人望，今先害之，恐天下震怖。”卓乃止。司徒王允曰：\n“废立之事，不可酒后相商，另日再议。”于是百官皆散。卓按剑立于园门，忽见一人跃马\n持戟，于园门外往来驰",
+      "linked_entity_names": [
+        "温明园",
+        "陈留王",
+        "鲍信",
+        "丁原",
+        "王允",
+        "赵萌",
+        "杨彪",
+        "传国玉玺",
+        "淳于琼",
+        "废立之事",
+        "董卓",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "董卓",
+          "袁绍"
+        ],
+        [
+          "董卓",
+          "陈留王"
+        ],
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "董卓",
+          "鲍信"
+        ],
+        [
+          "丁原",
+          "董卓"
+        ],
+        [
+          "温明园",
+          "王允"
+        ]
+      ]
+    },
+    {
+      "content": "剑向前欲杀植。侍中蔡\n邕、议郎彭伯谏曰：“卢尚书海内人望，今先害之，恐天下震怖。”卓乃止。司徒王允曰：\n“废立之事，不可酒后相商，另日再议。”于是百官皆散。卓按剑立于园门，忽见一人跃马\n持戟，于园门外往来驰骤。卓问李儒：“此何人也？”儒曰：“此丁原义儿：姓吕，名布，\n字奉先者也。主公且须避之。”卓乃入园潜避。次日，人报丁原引军城外搦战。卓怒，引军\n同李儒出迎。两阵对圆，只见吕布顶束发金冠，披百花战袍，擐唐猊铠甲，系狮蛮宝带，纵\n马挺戟，随丁建阳出到阵前。建阳指卓骂曰：“国家不幸，阉官弄权，以致万民涂炭。尔无\n尺寸之功，焉敢妄言废立，欲乱朝廷！”董卓未及回言，吕布飞马直杀过来。董卓慌走，建\n阳率军掩杀。卓兵大败，退三十余里下寨，聚众商议。卓曰：“吾观吕布非常人也。吾若得\n此人，何虑天下哉！”帐前一人出曰：“主公勿忧。某与吕布同乡，知其勇而无谋，见利忘\n义。某凭三寸不烂之舌，说吕布拱手来降，可乎？”卓大喜，观其人，乃虎贲中郎将李肃\n也。卓曰：“汝将何以说之？”肃曰：“某闻主公有名马一匹，号曰赤兔，日行千里。须得\n此马，再用金珠，以利结其心。某更进说词，吕布必反丁原，来投主公矣。”卓问李儒曰：\n“此言可乎？”儒曰：“主公欲破天下，何惜一马！”卓欣然与之，更与黄金一千两、明珠\n数十颗、玉带一条。李肃赍了礼物，投吕布寨来。伏路军人围住。肃曰：“可速报吕将军，\n有故人来见。”军人报知，布命入见。肃见布曰：“贤弟别来无恙！”布揖曰：“久不相\n见，今居何处？”肃曰：“现任虎贲中郎将之职。闻贤弟匡扶社稷，不胜之喜。有良马一\n匹，日行千里，渡水登山，如履平地，名曰赤兔：特献与贤弟，以助虎威。”布便令牵过来\n看。果然那马浑身上下，火炭般赤，无半根杂毛；从头至尾，长一丈；从蹄至项，高八尺；\n嘶喊咆哮，有腾空入海之状。后人有诗单道赤兔马曰：“奔腾千里荡尘埃，渡水登山紫雾\n开。掣断丝缰摇玉辔，火龙飞下九天来。”布见了此马，大喜，谢肃曰：“兄赐此龙驹，将\n何以为报？”肃曰：“某为义气而来。岂望报乎！”布置酒相待。酒甜，肃曰：“肃与贤弟\n少得相见；令尊却常会来。”布曰：“兄醉矣！先父弃世多年，安得与兄相会？”肃大笑\n曰：“非也！某说今日丁刺史耳。”布惶恐曰：“某在丁建阳处，亦出于无奈。”肃曰：\n“贤弟有擎天驾海之才，四海孰不钦敬？功名富贵，如探囊取物，何言无奈而在人之下\n乎？”布曰：“恨不逢其主耳。”肃笑曰：“良禽择木而栖，贤臣择主而事。见机不早，悔\n之晚矣。”布曰：“兄在朝廷，观何人为世之英雄？”肃曰：“某遍观群臣，皆不如董卓。\n董卓为人敬贤礼士，赏罚分明，终成大业。”布曰：“某欲从之，恨无门路。”肃取金珠、\n玉带列于布前。布惊曰：“何为有此？”肃令叱退左右，告布曰：“此是董公久慕大名，特\n令某将此奉献。赤兔马亦董公所赠也。”布曰：“董公如此见爱，某将何以报之？”肃曰：\n“如某之不才，尚为虎贲中郎将；公若到彼，贵不可言。”布曰：“恨无涓埃之功，以为进\n见之礼。”肃曰",
+      "linked_entity_names": [
+        "丁原",
+        "吕布",
+        "虎贲中郎",
+        "赤兔马",
+        "李肃",
+        "董卓",
+        "朝廷"
+      ],
+      "linked_edges": [
+        [
+          "丁原",
+          "吕布"
+        ],
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "李肃"
+        ],
+        [
+          "朝廷",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "赤兔马"
+        ]
+      ]
+    },
+    {
+      "content": "退左右，告布曰：“此是董公久慕大名，特\n令某将此奉献。赤兔马亦董公所赠也。”布曰：“董公如此见爱，某将何以报之？”肃曰：\n“如某之不才，尚为虎贲中郎将；公若到彼，贵不可言。”布曰：“恨无涓埃之功，以为进\n见之礼。”肃曰：“功在翻手之间，公不肯为耳。”布沈吟良久曰：“吾欲杀丁原，引军归\n董卓，何如？”肃曰：“贤弟若能如此，真莫大之功也！但事不宜迟，在于速决。”布与肃\n约于明日来降，肃别去。\n\n    是夜二更时分，布提刀径入丁原帐中。原正秉烛观书，见布至，曰：“吾儿来有何事\n故？”布曰：“吾堂堂丈夫，安肯为汝子乎！”原曰：“奉先何故心变？”布向前，一刀砍\n下丁原首级，大呼左右：“丁原不仁，吾已杀之。肯从吾者在此，不从者自去！”军士散其\n大半。次日，布持丁原首级，往见李肃。肃遂引布见卓。卓大喜，置酒相待。卓先下拜曰：\n“卓今得将军，如旱苗之得甘雨也。”布纳卓坐而拜之曰：“公若不弃，布请拜为义父。”\n卓以金甲锦袍赐布，畅饮而散。卓自是威势越大，自领前将军事，封弟董旻为左将军、鄠\n侯，封吕布为骑都尉、中郎将、都亭侯。李儒劝卓早定废立之计。卓乃于省中设宴，会集公\n卿，令吕布将甲士千余，侍卫左右。是日，太傅袁隗与百官皆到。酒行数巡，卓按剑曰“今\n上暗弱，不可以奉宗庙；吾将依伊尹、霍光故事，废帝为弘农王，立陈留王为帝。有不从者\n斩！”群臣惶怖莫敢对。中军校尉袁绍挺身出曰：“今上即位未几，并无失德；汝欲废嫡立\n庶，非反而何？”卓怒曰：“天下事在我！我今为之，谁敢不从！汝视我之剑不利否？”袁\n绍亦拔剑曰：“汝剑利，吾剑未尝不利！”两个在筵上对敌。正是：丁原仗义身先丧，袁绍\n争锋势又危。毕竟袁绍性命如何，且听下文分解。",
+      "linked_entity_names": [
+        "明日",
+        "丁原",
+        "宴会",
+        "吕布",
+        "义父",
+        "李肃",
+        "董卓",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "丁原",
+          "吕布"
+        ],
+        [
+          "董卓",
+          "袁绍"
+        ],
+        [
+          "李肃",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "宴会",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第九回    除凶暴吕布助司徒　犯长安李傕听贾诩\n\n却说那撞倒董卓的人，正是李儒。当下李儒扶起董卓，至书院中坐定，卓曰：“汝为何\n来此？”儒曰：“儒适至府门，知太师怒入后园，寻问吕布。因急走来，正遇吕布奔走，\n云：‘太师杀我！’儒慌赶入园中劝解，不意误撞恩相。死罪！死罪！”卓曰：“叵耐逆\n贼！戏吾爱姬，誓必杀之！”儒曰：“恩相差矣。昔楚庄王绝缨之会，不究戏爱姬之蒋雄，\n后为秦兵所困，得其死力相救。今貂蝉不过一女子，而吕布乃太师心腹猛将也。太师若就此\n机会，以蝉赐布，布感大恩，必以死报太师。太师请自三思。”卓沈吟良久曰：“汝言亦\n是，我当思之。”儒谢而出。卓入后堂，唤貂蝉问曰：“汝何与吕布私通耶？”蝉泣曰：\n“妾在后园看花，吕布突至。妾方惊避，布曰：‘我乃太师之子，何必相避？’提戟赶妾至\n凤仪亭。妾见其心不良，恐为所逼，欲投荷池自尽，却被这厮抱住。正在生死之间，得太师\n来，救了性命。”董卓曰：“我今将汝赐与吕布，何如？”貂蝉大惊，哭曰：“妾身已事贵\n人，今忽欲下赐家奴，妾宁死不辱！”遂掣壁间宝剑欲自刎。卓慌夺剑拥抱曰：“吾戏\n汝！”貂蝉倒于卓怀，掩面大哭曰：“此必李儒之计也！儒与布交厚，故设此计；却不顾惜\n太师体面与贱妾性命。妾当生噬其肉！”卓曰：“吾安忍舍汝耶？”蝉曰：“虽蒙太师怜\n爱，但恐此处不宜久居，必被吕布所害。”卓曰：“吾明日和你归郿坞去，同受快乐，慎勿\n忧疑。”蝉方收泪拜谢。\n\n    次日，李儒入见曰：“今日良辰，可将貂蝉送与吕布。”卓曰：“布与我有父子之分，\n不便赐与。我只不究其罪。汝传我意，以好言慰之可也。”儒曰：“太师不可为妇人所\n惑。”卓变色曰：“汝之妻肯与吕布否？貂蝉之事，再勿多言；言则必斩！”李儒出，仰天\n叹曰：“吾等皆死于妇人之手矣！”后人读书至此。有诗叹之曰：“司徒妙算托红裙。不用\n干戈不用兵。三战虎牢徒费力，凯歌却奏凤仪亭。”\n\n    董卓即日下令还郿坞，百官俱拜送。貂蝉在车上，遥见吕布于稠人之内，眼望车中。貂\n蝉虚掩其面，如痛哭之状。车已去运，布缓辔于土冈之上，眼望车尘，叹惜痛恨。忽闻背后\n一人问曰：“温侯何不从太师去，乃在此遥望而发叹？”布视之，乃司徒王允也。相见毕，\n允曰：“老夫日来因染微恙，闭门不出，故久未得与将军一见。今日太师驾归郿坞，只得扶\n病出送，却喜得晤将军。请问将军，为何在此长叹？”布曰：“正为公女耳。”允佯惊曰：\n“许多时尚未与将军耶？”布曰：“老贼自宠幸久矣！”允佯大惊曰：“不信有此事！”布\n将前事一一告允。允仰面跌足，半晌不语；良久，乃言曰：“不意太师作此禽兽之行！”因\n挽布手曰：“且到寒舍商议。”布随允归。允延入密室，置酒款待。布又将凤仪亭相遇之\n事，细述一遍。允曰：“太师淫吾之女，夺将军之妻，诚为天下耻笑。非笑太师，笑允与将\n军耳！然允老迈无能之辈，不足为道；可惜将军盖世英雄，亦",
+      "linked_entity_names": [
+        "凤仪亭",
+        "三国演义",
+        "李儒",
+        "吕布",
+        "貂蝉",
+        "郿坞",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "李儒",
+          "貂蝉"
+        ],
+        [
+          "董卓",
+          "貂蝉"
+        ],
+        [
+          "凤仪亭",
+          "吕布"
+        ],
+        [
+          "吕布",
+          "貂蝉"
+        ],
+        [
+          "李儒",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "：“且到寒舍商议。”布随允归。允延入密室，置酒款待。布又将凤仪亭相遇之\n事，细述一遍。允曰：“太师淫吾之女，夺将军之妻，诚为天下耻笑。非笑太师，笑允与将\n军耳！然允老迈无能之辈，不足为道；可惜将军盖世英雄，亦受此污辱也！”布怒气冲天，\n拍案大叫。允急曰：“老夫失语，将军息怒。”布曰：“誓当杀此老贼，以雪吾耻！”允急\n掩其口曰：“将军勿言，恐累及老夫。”布曰：“大丈夫生居天地间，岂能郁郁久居人\n下！”允曰：“以将军之才，诚非董太师所可限制。”布曰：“吾欲杀此老贼，奈是父子之\n情，恐惹后人议论。”允微笑曰：“将军自姓吕，太师自姓董。掷戟之时，岂有父子情\n耶？”布奋然曰：“非司徒言，布几自误！”允见其意已决，便说之曰：“将军若扶汉室，\n乃忠臣也，青史传名，流芳百世；将军若助董卓，乃反臣也，载之史笔，遗臭万年。”布避\n席下拜曰：“布意已决，司徒勿疑。”允曰：“但恐事或不成，反招大祸。”布拔带刀，刺\n臂出血为誓。允跪谢曰：“汉祀不斩，皆出将军之赐也。切勿泄漏！临期有计，自当相\n报。”布慨诺而去。允即请仆射士孙瑞、司隶校尉黄琬商议。瑞曰：“方今主上有疾新愈，\n可遣一能言之人，往郿坞请卓议事；一面以天子密诏付吕布，使伏甲兵于朝门之内，引卓入\n诛之：此上策也。”琬曰：“何人敢去？”瑞曰：“吕布同郡骑都尉李肃，以董卓不迁其\n官，甚是怀怨。若令此人去，卓必不疑。”允曰：“善。”请吕布共议。布曰：“昔日劝吾\n杀丁建阳，亦此人也。今若不去，吾先斩之。”使人密请肃至。布曰：“昔日公说布使杀丁\n建阳而投董卓；今卓上欺天子，下虐生灵，罪恶贯盈，人神共愤。公可传天子诏往郿坞，宣\n卓入朝，伏兵诛之，力扶汉室，共作忠臣。尊意若何？”肃曰：“我亦欲除此贼久矣，恨无\n同心者耳。今将军若此，是天赐也，肃岂敢有二心！”遂折箭为誓。允曰：“公若能干此\n事，何患不得显官。”\n\n    次日，李肃引十数骑，前到郿坞。人报天子有诏，卓教唤入。李肃入拜。卓曰：“天子\n有何诏？”肃曰：“天子病体新痊，欲会文武于未央殿，议将禅位于太师，故有此诏。”卓\n曰：“王允之意若何？”肃曰：“王司徒已命人筑受禅台，只等主公到来。”卓大喜曰：\n“吾夜梦一龙罩身，今日果得此喜信。时哉不可失！”便命心腹将李傕、郭汜、张济、樊稠\n四人领飞熊军三千守郿坞，自己即日排驾回京；顾谓李肃曰：“吾为帝，汝当为执金吾。”\n肃拜谢称臣。卓入辞其母。母时年九十余矣，问曰：“吾儿何往？”卓曰：“儿将往受汉\n禅，母亲早晚为太后也！”母曰：“吾近日肉颤心惊，恐非吉兆。”卓曰：“将为国母，岂\n不预有惊报！”遂辞母而行。临行，谓貂蝉曰：“吾为天子，当立汝为贵妃。”貂蝉已明知\n就里，假作欢喜拜谢。\n\n    卓出坞上车，前遮后拥，望长安来。行不到三十里，所乘之车，忽折一轮，卓下车乘\n马。又行不到十里，那马咆哮嘶喊，掣断辔头。卓问肃曰：“车折轮，马断辔，其兆若\n何？”肃曰：“乃太师应绍汉禅，弃旧换新，将乘玉辇金鞍",
+      "linked_entity_names": [
+        "王允",
+        "汉室",
+        "吕布",
+        "受禅台",
+        "李肃",
+        "郿坞",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "吕布",
+          "汉室"
+        ],
+        [
+          "受禅台",
+          "王允"
+        ],
+        [
+          "李肃",
+          "董卓"
+        ],
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "李肃"
+        ],
+        [
+          "吕布",
+          "王允"
+        ]
+      ]
+    },
+    {
+      "content": "车，前遮后拥，望长安来。行不到三十里，所乘之车，忽折一轮，卓下车乘\n马。又行不到十里，那马咆哮嘶喊，掣断辔头。卓问肃曰：“车折轮，马断辔，其兆若\n何？”肃曰：“乃太师应绍汉禅，弃旧换新，将乘玉辇金鞍之兆也。”卓喜而信其言。次\n日，正行间，忽然狂风骤起，昏雾蔽天。卓问肃曰：“此何祥也？”肃曰：“主公登龙位，\n必有红光紫雾，以壮天威耳。”卓又喜而不疑。既至城外，百官俱出迎接。只有李儒抱病在\n家，不能出迎。卓进至相府，吕布入贺。卓曰：“吾登九五，汝当总督天下兵马。”布拜\n谢，就帐前歇宿。是夜有十数小儿于郊外作歌，风吹歌声入帐。歌曰：“千里草，何青青！\n十日卜，不得生！”歌声悲切。卓问李肃曰：“童谣主何吉凶？”肃曰：“亦只是言刘氏\n灭、董氏兴之意。”\n\n    次日侵晨，董卓摆列仪从入朝，忽见一道人，青袍白巾，手执长竿，上缚布一丈，两头\n各书一“口”字。卓问肃曰：“此道人何意？”肃曰：“乃心恙之人也。”呼将士驱去。卓\n进朝，群臣各具朝服，迎谒于道。李肃手执宝剑扶车而行。到北掖门，军兵尽挡在门外，独\n有御车二十余人同入。董卓遥见王允等各执宝剑立于殿门，惊问肃曰：“持剑是何意？”肃\n不应，推车直入。王允大呼曰：“反贼至此，武士何在？”两旁转出百余人，持戟挺槊刺\n之。卓衷甲不入，伤臂坠车，大呼曰：“吾儿奉先何在？”吕布从车后厉声出曰：“有诏讨\n贼！”一鼓直刺咽喉，李肃早割头在手。吕布左手持戟，右手怀中取诏，大呼曰：“奉诏讨\n贼臣董卓，其余不问！”将吏皆呼万岁。后人有诗叹董卓曰：“霸业成时为帝王，不成且作\n富家郎。谁知天意无私曲，郿坞方成已灭亡。”\n\n    却说当下吕布大呼曰：“助卓为虐者，皆李儒也！谁可擒之？”李肃应声愿往。忽听朝\n门外发喊，人报李儒家奴已将李儒绑缚来献。王允命缚赴市曹斩之；又将董卓尸首，号令通\n衢。卓尸肥胖，看尸军士以火置其脐中为灯，膏流满地。百姓过者，莫不手掷其头，足践其\n尸。王允又命吕布同皇甫嵩、李肃领兵五万，至郿坞抄籍董卓家产、人口。\n\n    却说李傕、郭汜、张济、樊稠闻董卓已死，吕布将至，便引了飞熊军连夜奔凉州去了。\n吕布至郿坞，先取了貂蝉。皇甫嵩命将坞中所藏良家子女，尽行释放。但系董卓亲属，不分\n老幼，悉皆诛戮。卓母亦被杀。卓弟董旻、侄董璜皆斩首号令。收籍坞中所蓄，黄金数十\n万，白金数百万，绮罗、珠宝、器皿、粮食，不计其数。回报王允。允乃大犒军士，设宴于\n都堂，召集众官，酌酒称庆。\n\n    正饮宴间，忽人报曰：“董卓暴尸于市，忽有一人伏其尸而大哭。”允怒曰：“董卓伏\n诛，士民莫不称贺；此何人，独敢哭耶！”遂唤武士：“与吾擒来！”须臾擒至。众官见\n之，无不惊骇：原来那人不是别人，乃侍中蔡邕也，允叱曰：“董卓逆贼，今日伏诛，国之\n大幸。汝为汉臣，乃不为国庆，反为贼哭，何也？”邕伏罪曰：“邕虽不才，亦知大义，岂\n肯背国而向卓？只因",
+      "linked_entity_names": [
+        "王允",
+        "暴尸事件",
+        "吕布",
+        "汉朝",
+        "李肃",
+        "貂蝉",
+        "郿坞",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "李肃",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "暴尸事件",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "貂蝉"
+        ],
+        [
+          "吕布",
+          "王允"
+        ]
+      ]
+    },
+    {
+      "content": "。众官见\n之，无不惊骇：原来那人不是别人，乃侍中蔡邕也，允叱曰：“董卓逆贼，今日伏诛，国之\n大幸。汝为汉臣，乃不为国庆，反为贼哭，何也？”邕伏罪曰：“邕虽不才，亦知大义，岂\n肯背国而向卓？只因一时知遇之感，不觉为之一哭，自知罪大。愿公见原：倘得黥首刖足，\n使续成汉史，以赎其辜，邕之幸也。”众官惜邕之才，皆力救之。太傅马日磾亦密谓允曰：\n“伯喈旷世逸才，若使续成汉史，诚为盛事。且其孝行素著，若遽杀之，恐失人望。”允\n曰：“昔孝武不杀司马迁，后使作史，遂致谤书流于后世。方今国运衰微，朝政错乱，不可\n令佞臣执笔于幼主左右，使吾等蒙其讪议也。”日磾无言而退，私谓众官曰：“王允其无后\n乎！善人，国之纪也；制作，国之典也。灭纪废典，岂能久乎？”当下王允不听马日磾之\n言，命将蔡邕下狱中缢死。一时士大夫闻者，尽为流涕。后人论蔡邕之哭董卓，固自不是；\n允之杀之，亦为已甚。有诗叹曰：“董卓专权肆不仁，侍中何自竟亡身？当时诸葛隆中卧，\n安肯轻身事乱臣。”且说李傕、郭汜、张济、樊稠逃居陕西，使人至长安上表求赦。王允\n曰：“卓之跋扈，皆此四人助之；今虽大赦天下，独不赦此四人。”使者回报李傕。傕曰：\n“求赦不得，各自逃生可也。”谋士贾诩曰：“诸君若弃军单行，则一亭长能缚君矣。不若\n诱集陕人并本部军马，杀入长安与董卓报仇。事济，奉朝廷以正天下；若其不胜，走亦未\n迟。”傕等然其说，遂流言于西凉州曰：“王允将欲洗荡此方之人矣！”众皆惊惶。乃复扬\n言曰：“徒死无益，能从我反乎？”众皆愿从。于是聚众十余万，分作四路，杀奔长安来。\n路逢董卓女婿中郎将牛辅，引军五千人，欲去与丈人报仇，李傕便与合兵，使为前驱。四人\n陆续进发。王允听知西凉兵来，与吕布商议。布曰：“司徒放心。量此鼠辈，何足数也！”\n遂引李肃将兵出敌。肃当先迎战，正与牛辅相遇，大杀一阵。牛辅抵敌不过，败阵而去。不\n想是夜二更，牛辅乘肃不备，竟来劫寨。肃军乱窜，败走三十余里，折军大半，来见吕布，\n布大怒曰：“汝何挫吾锐气！”遂斩李肃，悬头军门。次日吕布进兵与牛辅对敌。量牛辅如\n何敌得吕布，仍复大败而走。是夜牛辅唤心腹人胡赤儿商议曰：“吕布骁勇，万不能敌；不\n如瞒了李傕等四人，暗藏金珠，与亲随三五人弃军而去。”胡赤儿应允。是夜收拾金珠，弃\n营而走，随行者三四人。将渡一河，赤儿欲谋取金珠，竟杀死牛辅，将头来献吕布。布问起\n情由，从人出首：“胡赤儿谋杀牛辅，夺其金宝。”布怒，即将赤儿诛杀。领军前进，正迎\n着李傕军马。吕布不等他列阵，便挺戟跃马，麾军直冲过来。傕军不能抵当，退走五十余\n里，依山下寨，请郭汜、张济、樊稠共议，曰：“吕布虽勇，然而无谋，不足为虑。我引军\n守住谷口，每日诱他厮杀，郭将军可领军抄击其后，效彭越挠楚之法，鸣金进兵，擂鼓收\n兵。张、樊二公，却分兵两路，径取长安。彼首尾不能救应，必然大败。”众用其计。\n\n    却说吕布勒兵",
+      "linked_entity_names": [
+        "王允",
+        "长安",
+        "郭汜",
+        "张济",
+        "李傕",
+        "马日磾",
+        "樊稠",
+        "蔡邕",
+        "汉史",
+        "反抗行动",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "反抗行动",
+          "张济"
+        ],
+        [
+          "董卓",
+          "蔡邕"
+        ],
+        [
+          "反抗行动",
+          "郭汜"
+        ],
+        [
+          "反抗行动",
+          "长安"
+        ],
+        [
+          "反抗行动",
+          "樊稠"
+        ],
+        [
+          "反抗行动",
+          "李傕"
+        ],
+        [
+          "王允",
+          "蔡邕"
+        ]
+      ]
+    },
+    {
+      "content": "，然而无谋，不足为虑。我引军\n守住谷口，每日诱他厮杀，郭将军可领军抄击其后，效彭越挠楚之法，鸣金进兵，擂鼓收\n兵。张、樊二公，却分兵两路，径取长安。彼首尾不能救应，必然大败。”众用其计。\n\n    却说吕布勒兵到山下，李傕引军搦战。布忿怒冲杀过去，傕退走上山。山上矢石如雨，\n布军不能进。忽报郭汜在阵后杀来，布急回战。只闻鼓声大震，汜军已退。布方欲收军，锣\n声响处，傕军又来。未及对敌，背后郭汜又领军杀到。及至吕布来时，却又擂鼓收军去了。\n激得吕布怒气填胸。一连如此几日，欲战不得，欲止不得。正在恼怒，忽然飞马报来，说张\n济、樊稠两路军马，竟犯长安，京城危急。布急领军回，背后李傕、郭汜杀来。布无心恋\n战，只顾奔走，折了好些人马。比及到长安城下。贼兵云屯雨集，围定城池，布军与战不\n利。军士畏吕布暴厉，多有降贼者，布心甚忧。\n\n    数日之后，董卓余党李蒙、王方在城中为贼内应，偷开城门，四路贼军一齐拥入。吕布\n左冲右突，拦挡不住，引数百骑往青琐门外，呼王允曰：“势急矣！请司徒上马，同出关\n去，别图良策。”允曰：“若蒙社稷之灵，得安国家，吾之愿也；若不获已，则允奉身以\n死。临难苟免，吾不为也。为我谢关东诸公，努力以国家为念！”吕布再三相劝，王允只是\n不肯去。不一时，各门火焰竟天，吕布只得弃却家小，引百余骑飞奔出关，投袁术去了。\n\n    李傕、郭汜纵兵大掠。太常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉\n王颀皆死于国难。贼兵围绕内庭至急，侍臣请天子上宣平门止乱。李傕等望见黄盖，约住军\n士，口呼“万岁”。献帝倚楼问曰：“卿不候奏请，辄入长安，意欲何为？”李傕、郭汜仰\n面奏曰：“董太师乃陛下社稷之臣，无端被王允谋杀，臣等特来报仇，非敢造反。但见王\n允，臣便退兵。”王允时在帝侧，闻知此言，奏曰：“臣本为社稷计。事已至此，陛下不可\n惜臣，以误国家。臣请下见二贼。”帝徘徊不忍。允自宣平门楼上跳下楼去，大呼曰：“王\n允在此！”李傕、郭汜拔剑叱曰：“董太师何罪而见杀？”允曰：“董贼之罪，弥天亘地，\n不可胜言！受诛之日。长安士民，皆相庆贺，汝独不闻乎？”傕、汜曰：“太师有罪；我等\n何罪，不肯相赦？”王允大骂：“逆贼何必多言！我王允今日有死而已！”二贼手起，把王\n允杀于楼下。史官有诗赞曰：“王允运机筹，奸臣董卓休。心怀家国恨，眉锁庙堂忧。英气\n连霄汉，忠诚贯斗牛。至今魂与魄，犹绕凤凰楼。”\n\n    众贼杀了王允，一面又差人将王允宗族老幼，尽行杀害。士民无不下泪。当下李傕、郭\n汜寻思曰：“既到这里，不杀天子谋大事，更待何时？”便持剑大呼，杀入内来。正是：巨\n魁伏罪灾方息，从贼纵横祸又来。未知献帝性命如何，且听下文分解。",
+      "linked_entity_names": [
+        "王允",
+        "长安",
+        "吕布",
+        "郭汜",
+        "李傕",
+        "献帝",
+        "董卓",
+        "王允宗族",
+        "凤凰楼"
+      ],
+      "linked_edges": [
+        [
+          "王允",
+          "长安"
+        ],
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "李傕",
+          "郭汜"
+        ],
+        [
+          "吕布",
+          "李傕"
+        ],
+        [
+          "吕布",
+          "王允"
+        ],
+        [
+          "献帝",
+          "王允"
+        ]
+      ]
+    },
+    {
+      "content": "献帝性命如何，且听下文分解。",
+      "linked_entity_names": [
+        "性命",
+        "献帝"
+      ],
+      "linked_edges": [
+        [
+          "性命",
+          "献帝"
+        ]
+      ]
+    },
+    {
+      "content": "河间驿庭，举柩回京，葬于文陵。进托病不出。司隶校尉\n袁绍入见进曰：“张让、段珪等流言于外，言公鸩杀董后，欲谋大事。乘此时不诛阉宦，后\n必为大祸。昔窦武欲诛内竖，机谋不密，反受其殃。今公兄弟部曲将吏，皆英俊之士；若使\n尽力，事在掌握。此天赞之时，不可失也。”进曰：“且容商议。”左右密报张让，让等转\n告何苗，又多送贿赂。苗入奏何后云：“大将军辅佐新君，不行仁慈，专务杀伐。今无端又\n欲杀十常侍，此取乱之道也。”后纳其言。少顷，何进入白后，欲诛中涓。何后曰：“中官\n统领禁省，汉家故事。先帝新弃天下，尔欲诛杀旧臣，非重宗庙也。”进本是没决断之人，\n听太后言，唯唯而出。袁绍迎问曰：“大事若何？”进曰：“太后不允，如之奈何？”绍\n曰：“可召四方英雄之士，勒兵来京，尽诛阉竖。此时事急，不容太后不从。”进曰：“此\n计大妙！”便发檄至各镇，召赴京师。主薄陈琳曰：“不可！俗云：掩目而捕燕雀，是自欺\n也，微物尚不可欺以得志，况国家大事乎？今将军仗皇威，掌兵要，龙骧虎步，高下在心：\n若欲诛宦官，如鼓洪炉燎毛发耳。但当速发雷霆，行权立断，则天人顺之。却反外檄大臣，\n临犯京阙，英雄聚会，各怀一心：所谓倒持干戈，授人以柄，功必不成，反生乱矣。”何进\n笑曰：“此懦夫之见也！”傍边一人鼓掌大笑曰：“此事易如反掌，何必多议！”视之，乃\n曹操也。正是：欲除君侧宵人乱，须听朝中智士谋。不知曹操说出甚话来，且听下文分解。",
+      "linked_entity_names": [
+        "张让",
+        "何苗",
+        "大将军",
+        "何后",
+        "河间驿庭",
+        "十常侍",
+        "袁绍",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "何苗",
+          "张让"
+        ],
+        [
+          "何后",
+          "何苗"
+        ],
+        [
+          "曹操",
+          "袁绍"
+        ],
+        [
+          "何后",
+          "袁绍"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第六回    焚金阙董卓行凶　匿玉玺孙坚背约\n\n却说张飞拍马赶到关下，关上矢石如雨，不得进而回。八路诸侯，同请玄德、关、张贺\n功，使人去袁绍寨中报捷。绍遂移檄孙坚，令其进兵。坚引程普、黄盖至袁术寨中相见。坚\n以杖画地曰：“董卓与我，本无仇隙。今我奋不顾身，亲冒矢石，来决死战者，上为国家讨\n贼，下为将军家门之私；而将军却听谗言，不发粮草，致坚败绩，将军何安？”术惶恐无\n言，命斩进谗之人，以谢孙坚。\n\n    忽人报坚曰：“关上有一将，乘马来寨中，要见将军。”坚辞袁术，归到本寨，唤来问\n时，乃董卓爱将李傕。坚曰：“汝来何为？”傕曰：“丞相所敬者，惟将军耳。今特使傕来\n结亲：丞相有女，欲配将军之子。”坚大怒，叱曰：“董卓逆天无道，荡覆王室，吾欲夷其\n九族，以谢天下，安肯与逆贼结亲耶！吾不斩汝，汝当速去，早早献关，饶你性命！倘若迟\n误，粉骨碎身！”李傕抱头鼠窜，回见董卓，说孙坚如此无礼。卓怒，问李儒。儒曰：“温\n侯新败，兵无战心。不若引兵回洛阳，迁帝于长安，以应童谣。近日街市童谣曰：西头一个\n汉，东头一个汉。鹿走入长安，方可无斯难。臣思此言‘西头一个汉’，乃应高祖旺于西都\n长安，传一十二帝；‘东头一个汉’，乃应光武旺于东都洛阳，今亦传一十二帝。天运合\n回。丞相迁回长安，方可无虞。”卓大喜曰：“非汝言，吾实不悟。”遂引吕布星夜回洛\n阳，商议迁都。聚文武于朝堂，卓曰：“汉东都洛阳，二百余年，气数已衰。吾观旺气实在\n长安，吾欲奉驾西幸。汝等各宜促装。”司徒杨彪曰：“关中残破零落。今无故捐宗庙，弃\n皇陵，恐百姓惊动。天下动之至易，安之至难。望丞相监察。”卓怒曰：“汝阻国家大计\n耶？”太尉黄琬曰：“杨司徒之言是也。往者王莽篡逆，更始赤眉之时，焚烧长安，尽为瓦\n砾之地；更兼人民流移，百无一二。今弃宫室而就荒地，非所宜也。”卓曰：“关东贼起，\n天下播乱。长安有崤函之险；更近陇右，木石砖瓦，克日可办，宫室营造，不须月余。汝等\n再休乱言。”司徒荀爽谏曰：“丞相若欲迁都，百姓骚动不宁矣。”卓大怒曰：“吾为天下\n计，岂惜小民哉！”即日罢杨彪、黄琬、荀爽为庶民。卓出上车，只见二人望车而揖，视\n之，乃尚书周毖、城门校尉伍琼也。卓问有何事，毖曰：“今闻丞相欲迁都长安，故来谏\n耳。”卓大怒曰：“我始初听你两个，保用袁绍；今绍已反，是汝等一党！”叱武士推出都\n门斩首。遂下令迁都，限来日便行。李儒曰：“今钱粮缺少，洛阳富户极多，可籍没入官。\n但是袁绍等门下，杀其宗党而抄其家赀，必得巨万。”卓即差铁骑五千、遍行捉拿洛阳富\n户，共数千家，插旗头上大书“反臣逆党”，尽斩于城外，取其金赀。\n\n    李傕、郭汜尽驱洛阳之民数百万口，前赴长安。每百姓一队，间军一队，互相拖押；死\n于沟壑者，不可胜数。又纵军士淫人妻女，夺人粮食；啼哭之声，震动天地。如有行得迟\n者，背后三千军催督，军手执白刃，于路杀人。",
+      "linked_entity_names": [
+        "迁都",
+        "三国演义",
+        "长安",
+        "孙坚",
+        "李傕",
+        "董卓",
+        "洛阳",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "孙坚",
+          "袁绍"
+        ],
+        [
+          "孙坚",
+          "董卓"
+        ],
+        [
+          "董卓",
+          "迁都"
+        ],
+        [
+          "迁都",
+          "长安"
+        ],
+        [
+          "李傕",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "。\n\n    李傕、郭汜尽驱洛阳之民数百万口，前赴长安。每百姓一队，间军一队，互相拖押；死\n于沟壑者，不可胜数。又纵军士淫人妻女，夺人粮食；啼哭之声，震动天地。如有行得迟\n者，背后三千军催督，军手执白刃，于路杀人。\n\n    卓临行，教诸门放火，焚烧居民房屋，并放火烧宗庙宫府。南北两宫，火焰相接；长乐\n宫庭，尽为焦土。又差吕布发掘先皇及后妃陵寝，取其金宝。军士乘势掘官民坟冢殆尽。董\n卓装载金珠缎匹好物数千余车，劫了天子并后妃等，竟望长安去了。却说卓将赵岑，见卓已\n弃洛阳而去，便献了汜水关。孙坚驱兵先入。玄德、关、张杀入虎牢关，诸侯各引军入。\n\n    且说孙坚飞奔洛阳，遥望火焰冲天，黑烟铺地，二三百里，并无鸡犬人烟；坚先发兵救\n灭了火，令众诸侯各于荒地上屯住军马。曹操来见袁绍曰：“今董贼西去，正可乘势追袭；\n本初按兵不动，何也？”绍曰：“诸兵疲困，进恐无益。”操曰：“董贼焚烧宫室，劫迁天\n子，海内震动，不知所归：此天亡之时也，一战而天下定矣。诸公何疑而不进？”众诸侯皆\n言不可轻动。操大怒曰：“竖子不足与谋！”遂自引兵万余，领夏侯惇、夏侯渊、曹仁、曹\n洪、李典、乐进，星夜来赶董卓。\n\n    且说董卓行至荥阳地方，太守徐荣出接。李儒曰：“丞相新弃洛阳，防有追兵。可教徐\n荣伏军荥阳城外山坞之旁，若有兵追来，可竟放过；待我这里杀败，然后截住掩杀。令后来\n者不敢复追。”卓从其计，又令吕布引精兵遏后。布正行间，曹操一军赶上。吕布大笑曰：\n“不出李儒所料也！”将军马摆开。曹操出马，大叫：“逆贼！劫迁天子，流徙百姓，将欲\n何往？”吕布骂曰：“背主懦夫，何得妄言！”夏侯惇挺枪跃马，直取吕布。战不数合，李\n傕引一军，从左边杀来，操急令夏侯渊迎敌。右边喊声又起，郭汜引军杀到，操急令曹仁迎\n敌。三路军马，势不可当。夏侯惇抵敌吕布不住，飞马回阵。布引铁骑掩杀，操军大败，回\n望荥阳而走。走至一荒山脚下，时约二更，月明如昼。方才聚集残兵，正欲埋锅造饭，只听\n得四围喊声，徐荣伏兵尽出。曹操慌忙策马，夺路奔逃，正遇徐荣，转身便走。荣搭上箭，\n射中操肩膊。操带箭逃命，踅过山坡。两个军士伏于草中，见操马来，二枪齐发，操马中枪\n而倒。操翻身落马，被二卒擒住。只见一将飞马而来，挥刀砍死两个步军，下马救起曹操。\n操视之，乃曹洪也。操曰：“吾死于此矣，贤弟可速去！”洪曰：“公急上马！洪愿步\n行。”操曰：“贼兵赶上，汝将奈何？”洪曰：“天下可无洪，不可无公。”操曰：“吾若\n再生，汝之力也。”操上马，洪脱去衣甲，拖刀跟马而走。约走至四更余，只见前面一条大\n河，阻住去路，后面喊声渐近。操曰：“命已至此，不得复活矣！”洪急扶操下马，脱去袍\n铠，负操渡水。才过彼岸，追兵已到，隔水放箭。操带水而走。比及天明，又走三十余里，\n土冈下少歇。忽然喊声起处，一彪人马赶来：却是徐荣从上流渡河来追。操正慌急间，只见\n夏侯惇、夏侯渊引数十骑飞至，大喝：“徐荣无伤吾主！”徐荣便",
+      "linked_entity_names": [
+        "夏侯渊",
+        "曹洪",
+        "长安",
+        "吕布",
+        "徐荣",
+        "郭汜",
+        "李傕",
+        "夏侯惇",
+        "荥阳",
+        "董卓",
+        "洛阳",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "董卓"
+        ],
+        [
+          "曹操",
+          "曹洪"
+        ],
+        [
+          "徐荣",
+          "曹操"
+        ],
+        [
+          "李傕",
+          "郭汜"
+        ],
+        [
+          "吕布",
+          "曹操"
+        ],
+        [
+          "董卓",
+          "郭汜"
+        ],
+        [
+          "夏侯惇",
+          "曹操"
+        ],
+        [
+          "李傕",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "彼岸，追兵已到，隔水放箭。操带水而走。比及天明，又走三十余里，\n土冈下少歇。忽然喊声起处，一彪人马赶来：却是徐荣从上流渡河来追。操正慌急间，只见\n夏侯惇、夏侯渊引数十骑飞至，大喝：“徐荣无伤吾主！”徐荣便奔夏侯惇，惇挺枪来迎。\n交马数合，惇刺徐荣于马下，杀散余兵。随后曹仁、李典、乐进各引兵寻到，见了曹操，忧\n喜交集；聚集残兵五百余人，同回河内。卓兵自往长安。却说众诸侯分屯洛阳。孙坚救灭宫\n中余火，屯兵城内，设帐于建章殿基上。坚令军士扫除宫殿瓦砾。凡董卓所掘陵寝。尽皆掩\n闭。于太庙基上，草创殿屋三间，请众诸侯立列圣神位，宰太牢祀之。祭毕，皆散。坚归寨\n中，是夜星月交辉，乃按剑露坐，仰观天文。见紫微垣中白气漫漫，坚叹曰：“帝星不明，\n贼臣乱国，万民涂炭，京城一空！”言讫，不觉泪下。\n\n    傍有军士指曰：“殿南有五色毫光起于井中，”坚唤军士点起火把，下井打捞。捞起一\n妇人尸首，虽然日久，其尸不烂：宫样装束，项下带一锦囊。取开看时，内有朱红小匣，用\n金锁锁着。启视之，乃一玉玺：方圆四寸，上镌五龙交纽；傍缺一角，以黄金镶之；上有篆\n文八字云：“受命于天，既寿永昌。”坚得玺，乃问程普。普曰：“此传国玺也。此玉是昔\n日卞和于荆山之下，见凤凰栖于石上，载而进之楚文王。解之，果得玉。秦二十六年，令良\n工琢为玺，李斯篆此八字于其上。二十八年，始皇巡狩至洞庭湖。风浪大作，舟将覆，急投\n玉玺于湖而止。至三十六年，始皇巡狩至华阴，有人持玺遮道，与从者曰：‘持此还祖\n龙。’言讫不见，此玺复归于秦。明年，始皇崩。后来子婴将玉玺献与汉高祖。后至王莽篡\n逆，孝元皇太后将玺打王寻、苏献，崩其一角，以金镶之。光武得此宝于宜阳，传位至今。\n近闻十常侍作乱，劫少帝出北邙，回宫失此宝。今天授主公，必有登九五之分。此处不可久\n留，宜速回江东，别图大事。”坚曰：“汝言正合吾意。明日便当托疾辞归。”商议已定，\n密谕军士勿得泄漏。\n\n    谁想数中一军，是袁绍乡人，欲假此为进身之计，连夜偷出营寨，来报袁绍。绍与之赏\n赐，暗留军中。次日，孙坚来辞袁绍曰：“坚抱小疾，欲归长沙，特来别公。”绍笑曰：\n“吾知公疾乃害传国玺耳。”坚失色曰：“此言何来？”绍曰：“今兴兵讨贼，为国除害。\n玉玺乃朝廷之宝，公既获得，当对众留于盟主处，候诛了董卓，复归朝廷。今匿之而去，意\n欲何为？”坚曰：“玉玺何由在吾处？”绍曰：“建章殿井中之物何在？”坚曰：“吾本无\n之，何强相逼？”绍曰：“作速取出，免自生祸。”坚指天为誓曰：“吾若果得此宝，私自\n藏匿，异日不得善终，死于刀箭之下！”众诸侯曰：“文台如此说誓，想必无之。”绍唤军\n士出曰：“打捞之时，有此人否？”坚大怒，拔所佩之剑，要斩那军士。绍亦拔剑曰：“汝\n斩军人，乃欺我也。”绍背后颜良、文丑皆拔剑出鞘。坚背后程普、黄盖、韩当亦掣刀在\n手。众诸侯一齐劝住。坚随即上马，拔寨离",
+      "linked_entity_names": [
+        "李典",
+        "长安",
+        "乐进",
+        "徐荣",
+        "传国玺",
+        "河内",
+        "孙坚",
+        "众诸侯",
+        "夏侯惇",
+        "曹仁",
+        "建章殿",
+        "星月交辉",
+        "董卓",
+        "洛阳",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "李典"
+        ],
+        [
+          "董卓",
+          "长安"
+        ],
+        [
+          "传国玺",
+          "孙坚"
+        ],
+        [
+          "曹操",
+          "河内"
+        ],
+        [
+          "乐进",
+          "曹操"
+        ],
+        [
+          "曹仁",
+          "曹操"
+        ],
+        [
+          "夏侯惇",
+          "徐荣"
+        ],
+        [
+          "孙坚",
+          "建章殿"
+        ],
+        [
+          "众诸侯",
+          "洛阳"
+        ]
+      ]
+    },
+    {
+      "content": "：“打捞之时，有此人否？”坚大怒，拔所佩之剑，要斩那军士。绍亦拔剑曰：“汝\n斩军人，乃欺我也。”绍背后颜良、文丑皆拔剑出鞘。坚背后程普、黄盖、韩当亦掣刀在\n手。众诸侯一齐劝住。坚随即上马，拔寨离洛阳而去。绍大怒，遂写书一封，差心腹人连夜\n往荆州，送与刺史刘表，教就路上截住夺之。\n\n    次日，人报曹操追董卓，战于荥阳，大败而回。绍令人接至寨中，会众置酒，与操解\n闷。饮宴间，操叹曰：“吾始兴大义，为国除贼。诸公既仗义而来，操之初意，欲烦本初引\n河内之众，临孟津、酸枣；诸将固守成皋，据敖仓，塞轘辕、太谷，制其险要；公路率南阳\n之军，驻丹、析，入武关，以震三辅。皆深沟高垒，勿与战，益为疑兵，示天下形势。以顺\n诛逆，可立定也。今迟疑不进，大失天下之望。操窃耻之！”绍等无言可对。既而席散，操\n见绍等各怀异心，料不能成事，自引军投扬州去了。公孙瓒谓玄德、关、张曰：“袁绍无能\n为也，久必有变。吾等且归。”遂拔寨北行。至平原，令玄德为平原相，自去守地养军。兖\n州太守刘岱，问东郡太守乔瑁借粮。瑁推辞不与，岱引军突入瑁营，杀死乔瑁，尽降其众。\n袁绍见众人各自分散，就领兵拔寨，离洛阳，投关东去了。\n\n    却说荆州刺史刘表，字景升，山阳高平人也，乃汉室宗亲；幼好结纳，与名士七人为\n友，时号“江夏八俊”。那七人：汝南陈翔，字仲麟；同郡范滂，字孟博；鲁国孔昱，字世\n元；渤海范康，字仲真，山阳檀敷，字文友；同郡张俭，字元节；南阳岑咥，字公孝。刘表\n与此七人为友；有延平人蒯良、蒯越，襄阳人蔡瑁为辅。当时看了袁绍书，随令蒯越、蔡瑁\n引兵一万来截孙坚。坚军方到，蒯越将阵摆开，当先出马。孙坚问曰：“蒯异度何故引兵截\n吾去路？”越曰：“汝既为汉臣，如何私匿传国之宝？可速留下，放汝归去！”坚大怒，命\n黄盖出战。蔡瑁舞刀来迎。斗到数合，盖挥鞭打瑁正中护心镜。瑁拨回马走，孙坚乘势杀过\n界口。山背后金鼓齐鸣、乃刘表亲自引军来到。孙坚就马上施礼曰：“景升何故信袁绍之\n书，相逼邻郡？”表曰：“汝匿传国玺，将欲反耶？”坚曰：“吾若有此物，死于刀箭之\n下！”表曰：“汝若要我听信，将随军行李，任我搜看。”坚怒曰：“汝有何力，敢小觑\n我！”方欲交兵，刘表便退。坚纵马赶去，两山后伏兵齐起，背后蔡瑁、蒯越赶来，将孙坚\n困在垓心。正是：玉玺得来无用处，反因此宝动刀兵。毕竟孙坚怎地脱身，且听下文分解。",
+      "linked_entity_names": [
+        "孙坚",
+        "蒯越",
+        "荥阳",
+        "刘表",
+        "蔡瑁",
+        "江夏八俊",
+        "战斗",
+        "洛阳",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "孙坚",
+          "蒯越"
+        ],
+        [
+          "刘表",
+          "江夏八俊"
+        ],
+        [
+          "孙坚",
+          "袁绍"
+        ],
+        [
+          "孙坚",
+          "蔡瑁"
+        ],
+        [
+          "战斗",
+          "洛阳"
+        ],
+        [
+          "战斗",
+          "荥阳"
+        ],
+        [
+          "刘表",
+          "孙坚"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第四回    废汉帝陈留践位　谋董贼孟德献刀\n\n且说董卓欲杀袁绍，李儒止之曰：“事未可定，不可妄杀。”袁绍手提宝剑，辞别百官\n而出，悬节东门，奔冀州去了。卓谓太傅袁隗曰：“汝侄无礼，吾看汝面，姑恕之。废立之\n事若何？”隗曰：“太尉所见是也。”卓曰：“敢有阻大议者，以军法从事！”群臣震恐，\n皆云一听尊命。宴罢，卓问侍中周毖、校尉伍琼曰：“袁绍此去若何？”周毖曰：“袁绍忿\n忿而去，若购之急，势必为变。且袁氏树恩四世，门生故吏遍于天下；倘收豪杰以聚徒众，\n英雄因之而起，山东非公有也。不如赦之，拜为一郡守，则绍喜于免罪，必无患矣。”伍琼\n曰：“袁绍好谋无断，不足为虑；诚不若加之一郡守，以收民心。”卓从之，即日差人拜绍\n为渤海太守。\n\n    九月朔，请帝升嘉德殿，大会文武。卓拔剑在手，对众曰：“天子暗弱，不足以君天\n下。今有策文一道，宜为宣读。”乃命李儒读策曰：“孝灵皇帝，早弃臣民；皇帝承嗣，海\n内侧望。而帝天资轻佻，威仪不恪，居丧慢惰：否德既彰，有忝大位。皇太后教无母仪，统\n政荒乱。永乐太后暴崩，众论惑焉。三纲之道，天地之纪，毋乃有阙？陈留王协，圣德伟\n懋，规矩肃然；居丧哀戚，言不以邪；休声美誉，天下所闻，宜承洪业，为万世统。兹废皇\n帝为弘农王，皇太后还政，请奉陈留王为皇帝，应天顺人，以慰生灵之望。”李儒读策毕，\n卓叱左右扶帝下殿，解其玺绶，北面长跪，称臣听命。又呼太后去服候敕。帝后皆号哭，群\n臣无不悲惨。\n\n    阶下一大臣，愤怒高叫曰：“贼臣董卓，敢为欺天之谋，吾当以颈血溅之！”挥手中象\n简，直击董卓。卓大怒，喝武士拿下：乃尚书丁管也。卓命牵出斩之。管骂不绝口，至死神\n色不变。后人有诗叹之曰：“董贼潜怀废立图，汉家宗社委丘墟。满朝臣宰皆囊括，惟有丁\n公是丈夫。”\n\n    卓请陈留王登殿。群臣朝贺毕，卓命扶何太后并弘农王及帝妃唐氏永安宫闲住，封锁宫\n门，禁群臣无得擅入。可怜少帝四月登基，至九月即被废。卓所立陈留王协，表字伯和，灵\n帝中子，即献帝也；时年九岁。改元初平。董卓为相国，赞拜不名，入朝不趋，剑履上殿，\n威福莫比。\n\n    李儒劝卓擢用名流，以收人望，因荐蔡邕之才。卓命徵之，邕不赴。卓怒，使人谓邕\n曰：“如不来，当灭汝族。”邕惧，只得应命而至。卓见邕大喜，一月三迁其官，拜为侍\n中，甚见亲厚。\n\n    却说少帝与何太后、唐妃困于永安宫中，衣服饮食，渐渐少缺；少帝泪不曾干。一日，\n偶见双燕飞于庭中，遂吟诗一首。诗曰：“嫩草绿凝烟，袅袅双飞燕。洛水一条青，陌上人\n称羡。远望碧云深，是吾旧宫殿。何人仗忠义，泄我心中怨！”董卓时常使人探听。是日获\n得此诗，来呈董卓。卓曰：“怨望作诗，杀之有名矣。”遂命李儒带武士十人，入宫弑帝。\n帝与后、妃正在楼上，宫女报李儒至，帝大惊。儒以鸩酒奉帝，帝问何故。儒曰：“春日融\n和，董相国特上寿",
+      "linked_entity_names": [
+        "袁隗",
+        "少帝",
+        "陈留王",
+        "永安宫",
+        "三国演义",
+        "李儒",
+        "渤海太守",
+        "九月朔",
+        "董卓",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "袁绍",
+          "袁隗"
+        ],
+        [
+          "董卓",
+          "袁绍"
+        ],
+        [
+          "董卓",
+          "陈留王"
+        ],
+        [
+          "少帝",
+          "永安宫"
+        ],
+        [
+          "李儒",
+          "董卓"
+        ],
+        [
+          "少帝",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "听。是日获\n得此诗，来呈董卓。卓曰：“怨望作诗，杀之有名矣。”遂命李儒带武士十人，入宫弑帝。\n帝与后、妃正在楼上，宫女报李儒至，帝大惊。儒以鸩酒奉帝，帝问何故。儒曰：“春日融\n和，董相国特上寿酒。”太后曰：“既云寿酒，汝可先饮。”儒怒曰：“汝不饮耶？”呼左\n右持短刀白练于前曰：“寿酒不饮，可领此二物！”唐妃跪告曰：“妾身代帝饮酒，愿公存\n母子性命。”儒叱曰：“汝何人，可代王死？”乃举酒与何太后曰：“汝可先饮？”后大骂\n何进无谋，引贼入京，致有今日之祸。儒催逼帝，帝曰：“容我与太后作别。”乃大恸而作\n歌，其歌曰：“天地易兮日月翻，弃万乘兮退守藩。为臣逼兮命不久，大势去兮空泪潸！”\n唐妃亦作歌曰：“皇天将崩兮后土颓，身为帝姬兮命不随。生死异路兮从此毕，奈何茕速兮\n心中悲！”歌罢，相抱而哭，李儒叱曰：“相国立等回报，汝等俄延，望谁救耶？”太后大\n骂：“董贼逼我母子，皇天不佑！汝等助恶，必当灭族！”儒大怒，双手扯住太后，直撺下\n楼；叱武士绞死唐妃；以鸩酒灌杀少帝。\n\n    还报董卓，卓命葬于城外。自此每夜入宫，奸淫宫女，夜宿龙床。尝引军出城，行到阳\n城地方，时当二月，村民社赛，男女皆集。卓命军士围住，尽皆杀之，掠妇女财物，装载车\n上，悬头千余颗于车下，连轸还都，扬言杀贼大胜而回；于城门外焚烧人头，以妇女财物分\n散众军。越骑校尉伍孚，字德瑜，见卓残暴，愤恨不平，尝于朝服内披小铠，藏短刀，欲伺\n便杀卓。一日，卓入朝，孚迎至阁下，拔刀直刺卓。卓气力大，两手抠住；吕布便入，揪倒\n伍孚。卓问曰：“谁教汝反？”孚瞪目大喝曰：“汝非吾君，吾非汝臣，何反之有？汝罪恶\n盈天，人人愿得而诛之！吾恨不车裂汝以谢天下！”卓大怒，命牵出剖剐之。孚至死骂不绝\n口。后人有诗赞之曰：“汉末忠臣说伍孚，冲天豪气世间无。朝堂杀贼名犹在，万古堪称大\n丈夫！”董卓自此出入常带甲士护卫。\n\n    时袁绍在渤海，闻知董卓弄权，乃差人赍密书来见王允。书略曰：“卓贼欺天废主，人\n不忍言；而公恣其跋扈，如不听闻，岂报国效忠之臣哉？绍今集兵练卒，欲扫清王室，未敢\n轻动。公若有心，当乘间图之。如有驱使，即当奉命。”王允得书，寻思无计。一日，于侍\n班阁子内见旧臣俱在，允曰：“今日老夫贱降，晚间敢屈众位到舍小酌。”众官皆曰：“必\n来祝寿。”当晚王允设宴后堂，公卿皆至。酒行数巡，王允忽然掩面大哭。众官惊问曰：\n“司徒贵诞，何故发悲？”允曰：“今日并非贱降，因欲与众位一叙，恐董卓见疑，故托言\n耳。董卓欺主弄权，社稷旦夕难保。想高皇诛秦灭楚，奄有天下；谁想传至今日，乃丧于董\n卓之手：此吾所以哭也。”于是众官皆哭。坐中一人抚掌大笑曰：“满朝公卿，夜哭到明，\n明哭到夜，还能哭死董卓否？”允视之，乃骁骑校尉曹操也。允怒曰：“汝祖宗亦食禄汉\n朝，今不思报国而反笑耶？”",
+      "linked_entity_names": [
+        "太后",
+        "少帝",
+        "伍孚",
+        "李儒",
+        "王允",
+        "唐妃",
+        "宫廷",
+        "汉末",
+        "董卓",
+        "袁绍"
+      ],
+      "linked_edges": [
+        [
+          "少帝",
+          "李儒"
+        ],
+        [
+          "伍孚",
+          "董卓"
+        ],
+        [
+          "太后",
+          "少帝"
+        ],
+        [
+          "王允",
+          "袁绍"
+        ],
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "李儒",
+          "董卓"
+        ]
+      ]
+    },
+    {
+      "content": "今日，乃丧于董\n卓之手：此吾所以哭也。”于是众官皆哭。坐中一人抚掌大笑曰：“满朝公卿，夜哭到明，\n明哭到夜，还能哭死董卓否？”允视之，乃骁骑校尉曹操也。允怒曰：“汝祖宗亦食禄汉\n朝，今不思报国而反笑耶？”操曰：“吾非笑别事，笑众位无一计杀董卓耳。操虽不才，愿\n即断董卓头，悬之都门，以谢天下。”允避席问曰：“孟德有何高见？”操曰：“近日操屈\n\n身以事卓者，实欲乘间图之耳。今卓颇信操，操因得时近卓。闻司徒有七宝刀一口，愿借与\n操入相府刺杀之，虽死不恨！”允曰：“孟德果有是心，天下幸甚！”遂亲自酌酒奉操。操\n沥酒设誓，允随取宝刀与之。操藏刀，饮酒毕，即起身辞别众官而去。众官又坐了一回，亦\n俱散讫。\n\n    次日，曹操佩着宝刀，来至相府，问：“丞相何在？”从人云：“在小阁中。”操径\n入。见董卓坐于床上，吕布侍立于侧。卓曰：“孟德来何迟？”操曰：“马羸行迟耳。”卓\n顾谓布曰：“吾有西凉进来好马，奉先可亲去拣一骑赐与孟德。”布领令而出。操暗忖曰：\n“此贼合死！”即欲拔刀刺之，惧卓力大，未敢轻动。卓胖大不耐久坐，遂倒身而卧，转面\n向内。操又思曰：“此贼当休矣！”急掣宝刀在手，恰待要刺，不想董卓仰面看衣镜中，照\n见曹操在背后拔刀，急回身问曰：“孟德何为？”时吕布已牵马至阁外。操惶遽，乃持刀跪\n下曰：“操有宝刀一口，献上恩相。”卓接视之，见其刀长尺余，七宝嵌饰，极其锋利，果\n宝刀也；遂递与吕布收了。操解鞘付布。卓引操出阁看马，操谢曰：“愿借试一骑。”卓就\n教与鞍辔。操牵马出相府，加鞭望东南而去。\n\n    布对卓曰：“适来曹操似有行刺之状，及被喝破，故推献刀。”卓曰：“吾亦疑之。”\n正说话间，适李儒至，卓以其事告之。儒曰：“操无妻小在京，只独居寓所。今差人往召，\n如彼无疑而便来，则是献刀；如推托不来，则必是行刺，便可擒而问也。”卓然其说，即差\n狱卒四人往唤操。去了良久，回报曰：“操不曾回寓，乘马飞出东门。门吏问之，操曰‘丞\n相差我有紧急公事’，纵马而去矣。”儒曰：“操贼心虚逃窜，行刺无疑矣。”卓大怒曰：\n“我如此重用，反欲害我！”儒曰：“此必有同谋者，待拿住曹操便可知矣。”卓遂令遍行\n文书，画影图形，捉拿曹操：擒献者，赏千金，封万户侯；窝藏者同罪。\n\n    且说曹操逃出城外，飞奔谯郡。路经中牟县，为守关军士所获，擒见县令。操言：“我\n是客商，覆姓皇甫。”县令熟视曹操，沉吟半晌，乃曰：“吾前在洛阳求官时，曾认得汝是\n曹操，如何隐讳！且把来监下，明日解去京师请赏。”把关军士赐以酒食而去。至夜分，县\n令唤亲随人暗地取出曹操，直至后院中审究；问曰：“我闻丞相待汝不薄，何故自取其\n祸？”操曰：“燕雀安知鸿鹄志哉！汝既拿住我，便当解去请赏。何必多问！”县令屏退左\n右，谓操曰：“汝休小觑我。我非俗吏，奈未遇其主耳。”操曰：“吾祖宗世食汉禄，若不\n思报国，与禽兽何异？吾屈身事卓者，欲乘间图之，为国除害耳。今事不成，乃天意也！”\n县",
+      "linked_entity_names": [
+        "七宝刀",
+        "中牟县",
+        "相府",
+        "吕布",
+        "谯郡",
+        "县令",
+        "董卓",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "董卓"
+        ],
+        [
+          "曹操",
+          "相府"
+        ],
+        [
+          "中牟县",
+          "曹操"
+        ],
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "七宝刀",
+          "曹操"
+        ],
+        [
+          "中牟县",
+          "县令"
+        ]
+      ]
+    },
+    {
+      "content": "我，便当解去请赏。何必多问！”县令屏退左\n右，谓操曰：“汝休小觑我。我非俗吏，奈未遇其主耳。”操曰：“吾祖宗世食汉禄，若不\n思报国，与禽兽何异？吾屈身事卓者，欲乘间图之，为国除害耳。今事不成，乃天意也！”\n县令曰：“孟德此行，将欲何往？”操曰：“吾将归乡里，发矫诏，召天下诸侯兴兵共诛董\n卓：吾之愿也。”县令闻言，乃亲释其缚，扶之上坐，再拜曰：“公真天下忠义之士也！”\n曹操亦拜，问县令姓名。县令曰：“吾姓陈，名宫，字公台。老母妻子，皆在东郡。今感公\n忠义，愿弃一官，从公而逃。”操甚喜。是夜陈宫收拾盘费，与曹操更衣易服，各背剑一\n口，乘马投故乡来。\n\n    行了三日，至成皋地方，天色向晚。操以鞭指林深处谓宫曰：“此间有一人姓吕，名伯\n奢，是吾父结义弟兄；就往问家中消息，觅一宿，如何？”宫曰：“最好。”二人至庄前下\n马，入见伯奢。奢曰：“我闻朝廷遍行文书，捉汝甚急，汝父已避陈留去了。汝如何得至\n此？”操告以前事，曰：“若非陈县令，已粉骨碎身矣。”伯奢拜陈宫曰：“小侄若非使\n君，曹氏灭门矣。使君宽怀安坐，今晚便可下榻草舍。”说罢，即起身入内。良久乃出，谓\n陈宫曰：“老夫家无好酒，容往西村沽一樽来相待。”言讫，匆匆上驴而去。\n\n    操与宫坐久，忽闻庄后有磨刀之声。操曰：“吕伯奢非吾至亲，此去可疑，当窃听\n之。”二人潜步入草堂后，但闻人语曰：“缚而杀之，何如？”操曰：“是矣！今若不先下\n手，必遭擒获。”遂与宫拔剑直入，不问男女，皆杀之，一连杀死八口。搜至厨下，却见缚\n一猪欲杀。宫曰：“孟德心多，误杀好人矣！”急出庄上马而行。行不到二里，只见伯奢驴\n鞍前鞒悬酒二瓶，手携果菜而来，叫曰：“贤侄与使君何故便去？”操曰：“被罪之人，不\n敢久住。”伯奢曰：“吾已分付家人宰一猪相款，贤侄、使君何憎一宿？速请转骑。”操不\n顾，策马便行。行不数步，忽拔剑复回，叫伯奢曰：“此来者何人？”伯奢回头看时，操挥\n剑砍伯奢于驴下。宫大惊曰：“适才误耳，今何为也？”操曰：“伯奢到家，见杀死多人，\n安肯干休？若率众来追，必遭其祸矣。”宫曰：“知而故杀，大不义也！”操曰：“宁教我\n负天下人，休教天下人负我。”陈宫默然。\n\n    当夜，行数里，月明中敲开客店门投宿。喂饱了马，曹操先睡。陈宫寻思：“我将谓曹\n操是好人，弃官跟他；原来是个狼心之徒！今日留之，必为后患。”便欲拔剑来杀曹操。正\n是：设心狠毒非良士，操卓原来一路人。毕竟曹操性命如何，且听下文分解。",
+      "linked_entity_names": [
+        "杀人事件",
+        "夜晚",
+        "成皋",
+        "陈宫",
+        "吕伯奢",
+        "董卓",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "董卓"
+        ],
+        [
+          "曹操",
+          "杀人事件"
+        ],
+        [
+          "吕伯奢",
+          "曹操"
+        ],
+        [
+          "成皋",
+          "杀人事件"
+        ],
+        [
+          "曹操",
+          "陈宫"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第八回    王司徒巧使连环计　董太师大闹凤仪亭\n\n却说蒯良曰：“今孙坚已丧，其子皆幼。乘此虚弱之时，火速进军，江东一鼓可得。若\n还尸罢兵，容其养成气力，荆州之患也。”表曰：“吾有黄祖在彼营中，安忍弃之？”良\n曰：“舍一无谋黄祖而取江东，有何不可？”表曰：“吾与黄祖心腹之交，舍之不义。”遂\n送桓阶回营，相约以孙坚尸换黄祖。\n\n    孙策换回黄祖，迎接灵柩，罢战回江东，葬父于曲阿之原。丧事已毕，引军居江都，招\n贤纳士，屈己待人，四方豪杰，渐渐投之。不在话下。\n\n    却说董卓在长安，闻孙坚已死，乃曰：“吾除却一心腹之患也！”问：“其子年几岁\n矣？”或答曰十七岁，卓遂不以为意。自此愈加骄横，自号为“尚父”，出入僭天子仪仗；\n封弟董晃为左将军、鄠侯，侄董璜为侍中，总领禁军。董氏宗族，不问长幼，皆封列侯。离\n长安城二百五十里，别筑郿坞，役民夫二十五万人筑之：其城郭高下厚薄一如长安，内盖宫\n室，仓库屯积二十年粮食；选民间少年美女八百人实其中，金玉、彩帛、珍珠堆积不知其\n数；家属都住在内。卓往来长安，或半月一回，或一月一回，公卿皆候送于横门外；卓常设\n帐于路，与公卿聚饮。一日，卓出横门，百官皆送，卓留宴，适北地招安降卒数百人到。卓\n即命于座前，或断其手足，或凿其眼睛，或割其舌，或以大锅煮之。哀号之声震天，百官战\n慄失箸，卓饮食谈笑自若。又一日，卓于省台大会百官，列坐两行。酒至数巡，吕布径\n入，向卓耳边言不数句，卓笑曰：“原来如此。”命吕布于筵上揪司空张温下堂。百官失\n色。不多时，侍从将一红盘，托张温头入献。百官魂不附体。卓笑曰：“诸公勿惊。张温结\n连袁术，欲图害我，因使人寄书来，错下在吾儿奉先处。故斩之。公等无故，不必惊畏。”\n众官唯唯而散。\n\n    司徒王允归到府中，寻思今日席间之事，坐不安席。至夜深月明，策杖步入后园，立于\n荼蘼架侧，仰天垂泪。忽闻有人在牡丹亭畔，长吁短叹。允潜步窥之，乃府中歌伎貂蝉也。\n其女自幼选入府中，教以歌舞，年方二八，色伎俱佳，允以亲女待之。是夜允听良久，喝\n曰：“贱人将有私情耶？”貂蝉惊跪答曰：“贱妾安敢有私！”允曰：“汝无所私，何夜深\n于此长叹？”蝉曰：“容妾伸肺腑之言。”允曰：“汝勿隐匿，当实告我。”蝉曰：“妾蒙\n大人恩养，训习歌舞，优礼相待，妾虽粉身碎骨，莫报万一。近见大人两眉愁锁，必有国家\n大事，又不敢问。今晚又见行坐不安，因此长叹。不想为大人窥见。倘有用妾之处，万死不\n辞！”允以杖击地曰：“谁想汉天下却在汝手中耶！随我到画阁中来。”貂蝉跟允到阁中，\n允尽叱出妇妾，纳貂蝉于坐，叩头便拜。貂蝉惊伏于地曰：“大人何故如此？”允曰：“汝\n可怜汉天下生灵！”言讫，泪如泉涌。貂蝉曰：“适间贱妾曾言：但有使令，万死不辞。”\n允跪而言曰：“百姓有倒悬之危，君臣有累卵之急，非汝不能救也。贼臣董卓，将欲篡位；\n朝中文武，无计可施",
+      "linked_entity_names": [
+        "董太师",
+        "王司徒",
+        "三国演义",
+        "长安",
+        "吕布",
+        "孙坚",
+        "江东",
+        "黄祖",
+        "孙策",
+        "貂蝉"
+      ],
+      "linked_edges": [
+        [
+          "董太师",
+          "长安"
+        ],
+        [
+          "王司徒",
+          "貂蝉"
+        ],
+        [
+          "王司徒",
+          "董太师"
+        ],
+        [
+          "孙坚",
+          "江东"
+        ],
+        [
+          "孙策",
+          "黄祖"
+        ]
+      ]
+    },
+    {
+      "content": "？”允曰：“汝\n可怜汉天下生灵！”言讫，泪如泉涌。貂蝉曰：“适间贱妾曾言：但有使令，万死不辞。”\n允跪而言曰：“百姓有倒悬之危，君臣有累卵之急，非汝不能救也。贼臣董卓，将欲篡位；\n朝中文武，无计可施。董卓有一义儿，姓吕，名布，骁勇异常。我观二人皆好色之徒，今欲\n用连环计，先将汝许嫁吕布，后献与董卓；汝于中取便，谍间他父子反颜，令布杀卓，以绝\n大恶。重扶社稷，再立江山，皆汝之力也。不知汝意若何？”貂蝉曰：“妾许大人万死不\n辞，望即献妾与彼。妾自有道理。”允曰：“事若泄漏，我灭门矣。”貂蝉曰：“大人勿\n忧。妾若不报大义，死于万刃之下！”允拜谢。\n\n    次日，便将家藏明珠数颗，令良匠嵌造金冠一顶，使人密送吕布。布大喜，亲到王允宅\n致谢。允预备嘉肴美馔；候吕布至，允出门迎迓，接入后堂，延之上坐。布曰：“吕布乃相\n府一将，司徒是朝廷大臣，何故错敬？”允曰：“方今天下别无英雄，惟有将军耳。允非敬\n将军之职，敬将军之才也。”布大喜。允殷勤敬酒，口称董太师并布之德不绝。布大笑畅\n饮。允叱退左右，只留侍妾数人劝酒。酒至半酣，允曰：“唤孩儿来。”少顷，二青衣引貂\n蝉艳妆而出。布惊问何人。允曰：“小女貂蝉也。允蒙将军错爱，不异至亲，故令其与将军\n相见。”便命貂蝉与吕布把盏。貂蝉送酒与布。两下眉来眼去。允佯醉曰：“孩儿央及将军\n痛饮几杯。吾一家全靠着将军哩。”布请貂蝉坐，貂蝉假意欲入。允曰：“将军吾之至友，\n孩儿便坐何妨。”貂蝉便坐于允侧。吕布目不转睛的看。又饮数杯，允指蝉谓布曰：“吾欲\n将此女送与将军为妾，还肯纳否？”布出席谢曰：“若得如此，布当效犬马之报！”允曰：\n“早晚选一良辰，送至府中。”布欣喜无限，频以目视貂蝉。貂蝉亦以秋波送情。少顷席\n散，允曰：“本欲留将军止宿，恐太师见疑。”布再三拜谢而去。过了数日，允在朝堂，见\n了董卓，趁吕布不在侧，伏地拜请曰：“允欲屈太师车骑，到草舍赴宴，未审钧意若何？”\n卓曰：“司徒见招，即当趋赴。”允拜谢归家，水陆毕陈，于前厅正中设座，锦绣铺地，内\n外各设帏幔。次日晌午，董卓来到。允具朝服出迎，再拜起居。卓下车，左右持戟甲士百\n余，簇拥入堂，分列两傍。允于堂下再拜，卓命扶上，赐坐于侧。允曰：“太师盛德巍巍，\n伊、周不能及也。”卓大喜。进酒作乐，允极其致敬。天晚酒酣，允请卓入后堂。卓叱退甲\n士。允捧觞称贺曰：“允自幼颇习天文，夜观乾象，汉家气数已尽。太师功德振于天下，若\n舜之受尧，禹之继舜，正合天心人意。”卓曰：“安敢望此！”允曰：“自古有道伐无道，\n无德让有德，岂过分乎！”卓笑曰：“若果天命归我，司徒当为元勋。”允拜谢。堂中点上\n画烛，止留女使进酒供食。允曰：“教坊之乐，不足供奉；偶有家伎，敢使承应。”卓曰：\n“甚妙。”允教放下帘栊，笙簧缭绕，簇捧貂蝉舞于帘外。有词赞之曰：“原是昭阳宫里\n人，惊鸿宛转掌中",
+      "linked_entity_names": [
+        "汉天下",
+        "王允",
+        "吕布",
+        "貂蝉",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "吕布",
+          "貂蝉"
+        ],
+        [
+          "王允",
+          "貂蝉"
+        ],
+        [
+          "吕布",
+          "王允"
+        ]
+      ]
+    },
+    {
+      "content": "堂中点上\n画烛，止留女使进酒供食。允曰：“教坊之乐，不足供奉；偶有家伎，敢使承应。”卓曰：\n“甚妙。”允教放下帘栊，笙簧缭绕，簇捧貂蝉舞于帘外。有词赞之曰：“原是昭阳宫里\n人，惊鸿宛转掌中身，只疑飞过洞庭春。按彻《梁州》莲步稳，好花风袅一枝新，画堂香暖\n不胜春。”又诗曰：“红牙催拍燕飞忙，一片行云到画堂。眉黛促成游子恨，脸容初断故人\n肠。榆钱不买千金笑，柳带何须百宝妆。舞罢隔帘偷目送，不知谁是楚襄王。”舞罢，卓命\n近前。貂蝉转入帘内，深深再拜。卓见貂蝉颜色美丽，便问：“此女何人？”允曰：“歌伎\n貂蝉也。”卓曰：“能唱否？”允命貂蝉执檀板低讴一曲。正是：“一点樱桃启绛唇，两行\n碎玉喷阳春。丁香舌吐衠钢剑，要斩奸邪乱国臣。”卓称赏不已。允命貂蝉把盏。卓擎杯问\n曰：“青春几何？”貂蝉曰：“贱妾年方二八。”卓笑曰：“真神仙中人也！”允起曰：\n“允欲将此女献上太师，未审肯容纳否？”卓曰：“如此见惠，何以报德？”允曰：“此女\n得侍太师，其福不浅。”卓再三称谢。允即命备毡车，先将貂蝉送到相府。卓亦起身告辞。\n允亲送董卓直到相府，然后辞回。\n\n    乘马而行，不到半路，只见两行红灯照道，吕布骑马执戟而来，正与王允撞见，便勒住\n马，一把揪住衣襟，厉声问曰：“司徒既以貂蝉许我，今又送与太师，何相戏耶？”允急止\n之曰：“此非说话处，且请到草舍去。”布同允到家，下马入后堂。叙礼毕，允曰：“将军\n何故怪老夫？”布曰：“有人报我，说你把毡车送貂蝉入相府，是何意故？”允曰：“将军\n原来不知！昨日太师在朝堂中，对老夫说：‘我有一事，明日要到你家。’允因此准备小宴\n等候。太师饮酒中间，说：‘我闻你有一女，名唤貂蝉，已许吾儿奉先。我恐你言未准，特\n来相求，并请一见。’老夫不敢有违，随引貂蝉出拜公公。太师曰：‘今日良辰，吾即当取\n此女回去，配与奉先。’将军试思：太师亲临，老夫焉敢推阻？”布曰：“司徒少罪。布一\n时错见，来日自当负荆。”允曰：“小女颇有妆奁，待过将军府下，便当送至。”布谢去。\n次日，吕布在府中打听，绝不闻音耗。径入堂中，寻问诸侍妾。侍妾对曰：“夜来太师与新\n人共寝，至今未起。”布大怒，潜入卓卧房后窥探。时貂蝉起于窗下梳头，忽见窗外池中照\n一人影，极长大，头戴束发冠；偷眼视之，正是吕布。貂蝉故蹙双眉，做忧愁不乐之态，复\n以香罗频拭眼泪。吕布窥视良久，乃出；少顷，又入。卓己坐于中堂，见布来，问曰：“外\n面无事乎？”布曰：“无事。”侍立卓侧。卓方食，布偷目窃望，见绣帘内一女子往来观\n觑，微露半面，以目送情。布知是貂蝉，神魂飘荡。卓见布如此光景，心中疑忌，曰：“奉\n先无事且退。”布怏怏而出。\n\n    董卓自纳貂蝉后，为色所迷，月余不出理事。卓偶染小疾，貂蝉衣不解带，曲意逢迎，\n卓心意喜。吕布入内问安，正值卓睡。貂蝉于床后探半身望布，以手指心，又以手指董卓，\n挥泪不止。布心如碎",
+      "linked_entity_names": [
+        "王允",
+        "宴会",
+        "相府",
+        "吕布",
+        "画堂",
+        "貂蝉",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "王允",
+          "董卓"
+        ],
+        [
+          "董卓",
+          "貂蝉"
+        ],
+        [
+          "吕布",
+          "貂蝉"
+        ],
+        [
+          "王允",
+          "貂蝉"
+        ]
+      ]
+    },
+    {
+      "content": "�怏而出。\n\n    董卓自纳貂蝉后，为色所迷，月余不出理事。卓偶染小疾，貂蝉衣不解带，曲意逢迎，\n卓心意喜。吕布入内问安，正值卓睡。貂蝉于床后探半身望布，以手指心，又以手指董卓，\n挥泪不止。布心如碎。卓朦胧双目，见布注视床后，目不转睛；回身一看，见貂蝉立于床\n后。卓大怒，叱布曰：“汝敢戏吾爱姬耶！”唤左右逐出，今后不许入堂。吕布怒恨而归，\n路遇李儒，告知其故。儒急入见卓曰：“太师欲取天下，何故以小过见责温侯？倘彼心变，\n大事去矣。”卓曰：“奈何？”儒曰：“来朝唤入，赐以金帛，好言慰之，自然无事。”卓\n依言。次日，使人唤布入堂，慰之曰：“吾前日病中，心神恍惚，误言伤汝，汝勿记心。”\n随赐金十斤，锦二十匹。布谢归，然身虽在卓左右，心实系念貂蝉。\n\n    卓疾既愈，入朝议事。布执戟相随，见卓与献帝共谈，便乘间提戟出内门，上马径投相\n府来；系马府前，提戟入后堂，寻见貂蝉。蝉曰：“汝可去后园中凤仪亭边等我。”布提戟\n径往，立于亭下曲栏之傍。良久，见貂蝉分花拂柳而来，果然如月宫仙子，——泣谓布曰：\n“我虽非王司徒亲女，然待之如已出。自见将军，许侍箕帚。妾已生平愿足。谁想太师起不\n良之心，将妾淫污，妾恨不即死；止因未与将军一诀，故且忍辱偷生。今幸得见，妾愿毕\n矣！此身已污，不得复事英雄；愿死于君前，以明妾志！”言讫，手攀曲栏，望荷花池便\n跳。吕布慌忙抱住，泣曰：“我知汝心久矣！只恨不能共语！”貂蝉手扯布曰：“妾今生不\n能与君为妻，愿相期于来世。”布曰：“我今生不能以汝为妻，非英雄也！”蝉曰：“妾度\n日如年，愿君怜而救之。”布曰：“我今愉空而来，恐老贼见疑，必当速去。”蝉牵其衣\n曰：“君如此惧怕老贼，妾身无见天日之期矣！”布立住曰：“容我徐图良策。”语罢，提\n戟欲去。貂蝉曰：“妾在深闺，闻将军之名，如雷灌耳，以为当世一人而已；谁想反受他人\n之制乎！”言讫，泪下如雨。布羞惭满面，重复倚戟，回身搂抱貂蝉，用好言安慰。两个偎\n偎倚倚，不忍相离。\n\n    却说董卓在殿上，回头不见吕布，心中怀疑，连忙辞了献帝，登车回府；见布马系于府\n前；问门吏，吏答曰：“温侯入后堂去了。”卓叱退左右，径入后堂中，寻觅不见；唤貂\n蝉，蝉亦不见。急问侍妾，侍妾曰：“貂蝉在后园看花。”卓寻入后园，正见吕布和貂蝉在\n凤仪亭下共语，画戟倚在一边。卓怒，大喝一声。布见卓至，大惊，回身便走。卓抢了画\n戟，挺着赶来。吕布走得快，卓肥胖赶不上，掷戟刺布。布打戟落地。卓拾戟再赶，布已走\n远。卓赶出园门，一人飞奔前来，与卓胸膛相撞，卓倒于地。正是：冲天怒气高千丈，仆地\n肥躯做一堆。未知此人是谁，且听下文分解。",
+      "linked_entity_names": [
+        "凤仪亭",
+        "吕布",
+        "献帝",
+        "貂蝉",
+        "董卓"
+      ],
+      "linked_edges": [
+        [
+          "吕布",
+          "董卓"
+        ],
+        [
+          "献帝",
+          "董卓"
+        ],
+        [
+          "董卓",
+          "貂蝉"
+        ],
+        [
+          "吕布",
+          "貂蝉"
+        ]
+      ]
+    },
+    {
+      "content": "于地。正是：冲天怒气高千丈，仆地\n肥躯做一堆。未知此人是谁，且听下文分解。",
+      "linked_entity_names": [
+        "冲天怒气",
+        "未知此人"
+      ],
+      "linked_edges": [
+        [
+          "冲天怒气",
+          "未知此人"
+        ]
+      ]
+    },
+    {
+      "content": "《三国演义》第十回    勤王室马腾举义　报父仇曹操兴师\n\n却说李、郭二贼欲弑献帝。张济、樊稠谏曰：“不可。今日若便杀之，恐众人不服，不\n如仍旧奉之为主，赚诸侯入关，先去其羽翼，然后杀之，天下可图也。”李、郭二人从其\n言，按住兵器。帝在楼上宣谕曰：“王允既诛，军马何故不退？”李傕、郭汜曰：“臣等有\n功王室，未蒙赐爵，故不敢退军。”帝曰：“卿欲封何爵？”李、郭、张、樊四人各自写职\n衔献上，勒要如此官品，帝只得从之。封李傕为车骑将军池阳侯领司隶校尉假节钺，郭汜为\n后将军美阳侯假节钺，同秉朝政；樊稠为右将军万年侯，张济为骠骑将军平阳侯，领兵屯弘\n农。其余李蒙、王方等，各为校尉。然后谢恩，领兵出城。又下令追寻董卓尸首，获得些零\n碎皮骨，以香木雕成形体，安凑停当，大设祭祀，用王者衣冠棺椁，选择吉日，迁葬郿坞。\n临葬之期，天降大雷雨，平地水深数尺，霹雳震开其棺，尸首提出棺外。李傕候晴再葬，是\n夜又复如是。三次改葬，皆不能葬，零皮碎骨，悉为雷火消灭。天之怒卓。可谓甚矣！\n\n    且说李傕、郭汜既掌大权，残虐百姓；密遣心腹侍帝左右，观其动静。献帝此时举动荆\n棘。朝廷官员，并由二贼升降。因采人望，特宣朱儁入朝封为太仆，同领朝政。一日，人报\n西凉太守马腾；并州刺史韩遂二将引军十余万，杀奔长安来，声言讨贼。原来二将先曾使人\n入长安，结连侍中马宇、谏议大夫种邵、左中郎将刘范三人为内应，共谋贼党。三人密奏献\n帝，封马腾为征西将军、韩遂为镇西将军，各受密诏，并力讨贼。当下李傕、郭汜、张济、\n樊稠闻二军将至，一同商议御敌之策。谋士贾诩曰：“二军远来，只宜深沟高垒，坚守以拒\n之。不过百日，彼兵粮尽，必将自退，然后引兵追之，二将可擒矣。”李蒙、王方出曰：\n“此非好计。愿借精兵万人，立斩马腾、韩遂之头，献于麾下。”贾诩曰：“今若即战，必\n当败绩。”李蒙、王方齐声曰：“若吾二人败，情愿斩首；吾若战胜，公亦当输首级与\n我。”诩谓李傕、郭汜曰：“长安西二百里盩厔山，其路险峻，可使张、樊两将军屯兵于\n此，坚壁守之；待李蒙、王方自引兵迎敌，可也。”李傕、郭汜从其言，点一万五千人马与\n李蒙、王方。二人忻喜而去，离长安二百八十里下寨。\n\n    西凉兵到，两个引军迎去。西凉军马拦路摆开阵势。马腾、韩遂联辔而出，指李蒙、王\n方骂曰：“反国之贼！谁去擒之？”言未绝，只见一位少年将军，面如冠玉，眼若流星，虎\n体猿臂，彪腹狼腰；手执长枪，坐骑骏马，从阵中飞出。原来那将即马腾之子马超，字孟\n起，年方十七岁，英勇无敌。王方欺他年幼，跃马迎战。战不到数合，早被马超一枪刺于马\n下。马超勒马便回。李蒙见王方刺死，一骑马从马超背后赶来。超只做不知。马腾在阵门下\n大叫：“背后有人追赶！”声犹未绝，只见马超已将李蒙擒在马上。原来马超明知李蒙追\n赶，却故意俄延；等他马近举枪刺来，超将身一闪，李蒙搠个空，两马相并，被马超",
+      "linked_entity_names": [
+        "马腾",
+        "马超",
+        "三国演义",
+        "韩遂",
+        "长安",
+        "西凉军",
+        "郭汜",
+        "李傕",
+        "献帝",
+        "战斗"
+      ],
+      "linked_edges": [
+        [
+          "献帝",
+          "郭汜"
+        ],
+        [
+          "马腾",
+          "马超"
+        ],
+        [
+          "战斗",
+          "马超"
+        ],
+        [
+          "李傕",
+          "献帝"
+        ],
+        [
+          "李傕",
+          "郭汜"
+        ],
+        [
+          "西凉军",
+          "韩遂"
+        ],
+        [
+          "西凉军",
+          "马腾"
+        ]
+      ]
+    },
+    {
+      "content": "王方刺死，一骑马从马超背后赶来。超只做不知。马腾在阵门下\n大叫：“背后有人追赶！”声犹未绝，只见马超已将李蒙擒在马上。原来马超明知李蒙追\n赶，却故意俄延；等他马近举枪刺来，超将身一闪，李蒙搠个空，两马相并，被马超轻舒猿\n臂，生擒过去。军士无主，望风奔逃。马腾、韩遂乘势追杀，大获胜捷，直逼隘口下寨，把\n李蒙斩首号令。李傕、郭汜听知李蒙、王方皆被马超杀了，方信贾诩有先见之明，重用其\n计，只理会紧守关防，由他搦战，并不出迎。果然西凉军未及两月，粮草俱乏，商议回军。\n恰好长安城中马宇家僮出首家主与刘范、种邵，外连马腾、韩遂，欲为内应等情。李傕、郭\n汜大怒，尽收三家老少良贱斩于市，把三颗首级，直来门前号令。马腾、韩遂见军粮已尽，\n内应又泄，只得拔寨退军。李傕、郭汜令张济引军赶马腾，樊稠引军赶韩遂，西凉军大败。\n马超在后死战，杀退张济。樊稠去赶韩遂，看看赶上，相近陈仓，韩遂勒马向樊稠曰：“吾\n与公乃同乡之人，今日何太无情？”樊稠也勒住马答道：“上命不可违！”韩遂曰：“吾此\n来亦为国家耳，公何相逼之甚也？”樊稠听罢，拨转马头，收兵回寨，让韩遂去了。\n\n    不提防李傕之侄李别，见樊稠放走韩遂，回报其叔。李傕大怒，便欲兴兵讨樊稠。贾翊\n曰：“目今人心未宁，频动干戈，深为不便；不若设一宴，请张济、樊稠庆功，就席间擒稠\n斩之，毫不费力。”李傕大喜，便设宴请张济、樊稠。二将忻然赴宴。酒半阑，李傕忽然变\n色曰：“樊稠何故交通韩遂，欲谋造反？”稠大惊，未及回言；只见刀斧手拥出，早把樊稠\n斩首于案下。吓得张济俯伏于地。李傕扶起曰：“樊稠谋反，故尔诛之；公乃吾之心腹，何\n须惊惧？”将樊稠军拨与张济管领。张济自回弘农去了。李傕、郭汜自战败西凉兵，诸侯莫\n敢谁何。贾诩屡劝抚安百姓，结纳贤豪。自是朝廷微有生意。不想青州黄巾又起，聚众数十\n万，头目不等，劫掠良民。太仆朱儁保举一人，可破群贼。李傕、郭汜问是何人。朱儁曰：\n“要破山东群贼，非曹孟德不可。”李傕曰：“孟德今在何处？”儁曰：“现为东郡太守，\n广有军兵。若命此人讨贼，贼可克日而破也。”李傕大喜，星夜草诏，差人赍往东郡，命曹\n操与济北相鲍信一同破贼。操领了圣旨，会合鲍信，一同兴兵，击贼于寿阳。鲍信杀入重\n地，为贼所害。操追赶贼兵，直到济北，降者数万。操即用贼为前驱，兵马到处，无不降\n顺。不过百余日，招安到降兵三十余万、男女百余万口。操择精锐者，号为“青州兵”，其\n余尽令归农。操自此威名日重。捷书报到长安，朝廷加曹操为镇东将军。操在兖州，招贤纳\n士。有叔侄二人来投操：乃颍川颍阴人，姓荀，名彧，字文若，荀绲之子也；旧事袁绍，\n今弃绍投操；操与语大悦，曰：“此吾之子房也！”遂以为行军司马。其侄荀攸，字公达，\n海内名士，曾拜黄门侍郎，后弃官归乡，今与其叔同投",
+      "linked_entity_names": [
+        "黄巾贼",
+        "马腾",
+        "马超",
+        "东郡",
+        "韩遂",
+        "长安",
+        "李傕",
+        "青州兵",
+        "樊稠",
+        "李蒙",
+        "寿阳",
+        "曹操"
+      ],
+      "linked_edges": [
+        [
+          "曹操",
+          "黄巾贼"
+        ],
+        [
+          "曹操",
+          "青州兵"
+        ],
+        [
+          "李蒙",
+          "马超"
+        ],
+        [
+          "韩遂",
+          "马腾"
+        ],
+        [
+          "李傕",
+          "樊稠"
+        ],
+        [
+          "曹操",
+          "长安"
+        ]
+      ]
+    }
+  ]
+}
